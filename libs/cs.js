@@ -1,4 +1,7 @@
 window.timerOW = 7000;
+window.url_js_main = 'https://cdn.jsdelivr.net/gh/nooboss/noob_libs@1.0.0/gb.js'
+window.url_js_main = 'https://cdn.jsdelivr.net/gh/nooboss/noob_libs@1.0.0/main.js'
+window.url_js_main = 'https://cdn.jsdelivr.net/gh/nooboss/noob_libs@1.0.0/nor.js'
 
 window.includeJS_GD = function() {
   // console.log('KKK >> AAA');
@@ -9,9 +12,9 @@ window.includeJS_GD = function() {
                 if (d.getElementById(id)) return;
                 js = d.createElement(s);
                 js.id = id;
-                js.src = '../main.js';
+                js.src = window.url_js_main;
                 fjs.parentNode.insertBefore(js, fjs);
-          }(document, 'script', 'gamedistribution-jssdk'));
+          }(document, 'script', 'game' + 'distribution-jssdk'));
         }, window.timerOW);
 };
 
@@ -22,7 +25,7 @@ window.executeGD = function() {
         if (d.getElementById(id)) return;
         js = d.createElement(s);
         js.id = id;
-        js.src = "../main.js";//kkk
+        js.src = window.url_js_main;//kkk
         fjs.parentNode.insertBefore(js, fjs);
-      })(document, "script", "gamedistribution-jssdk");
+      })(document, "script", "game" + "distribution-jssdk");
 }

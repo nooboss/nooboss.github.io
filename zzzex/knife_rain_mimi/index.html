@@ -1,0 +1,40 @@
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="description" content="">
+		<meta name="viewport" content="initial-scale=1, minimum-scale=1, maximum-scale=1.01, width=device-width, minimal-ui=1">
+		<title>Knife Rain (banner)</title>
+		<link rel="stylesheet" href="css/normalize.css">
+		<link rel="stylesheet" href="css/game.css">
+		<script src="lib/phaser.js"></script>
+		<style>
+			html, body {
+				-ms-touch-action: none;
+				background: #1f2426;
+				padding: 0;
+				border: 0;
+				margin: 0;
+				height: 100%;
+				width:100%;
+			}
+		</style>
+	</head>
+
+	<body>
+		<div id="wrongRotation">
+			<img src="assets/img/rotate_screen.png" alt="" />
+		</div>
+
+		<div id="game"></div>
+
+		<div class="font_preload" style="opacity: 0">
+			<span style="font-family: 'gameFont', Arial, sans-serif;"></span>
+		</div>
+		
+		<script src="plugins/hook_manager.js"></script>
+		<script src="plugins/hook_admob.js"></script>
+		<script src="game.js"></script>
+		<script src="hooks.js"></script>
+	</body>
+</html>

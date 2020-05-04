@@ -1,0 +1,268 @@
+{
+  "ID": "d1fd822b-5ca7-4c62-827d-afbab32ccba4",
+  "Version": "3.10.0.0",
+  "Name": "victoryconditionlayer",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 87,
+        "Children": [
+          {
+            "FileData": {
+              "Type": "MarkedSubImage",
+              "Path": "publicimg/scalesprite1.png",
+              "Plist": "imglist/scaleplist.plist"
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 54,
+            "Scale9OriginY": 56,
+            "Scale9Width": 58,
+            "Scale9Height": 59,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 320.0,
+              "Y": 557.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.4903
+            },
+            "PreSize": {
+              "X": 0.9344,
+              "Y": 0.3283
+            },
+            "LeftMargin": 21.0,
+            "RightMargin": 21.0,
+            "TopMargin": 392.5,
+            "BottomMargin": 370.5,
+            "Tag": 521,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "publicimg/scalesprite5.png",
+                  "Plist": "imglist/scaleplist.plist"
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 29,
+                "Scale9OriginY": 29,
+                "Scale9Width": 32,
+                "Scale9Height": 32,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 299.0,
+                  "Y": 152.43
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.4087
+                },
+                "PreSize": {
+                  "X": 0.8562,
+                  "Y": 0.4236
+                },
+                "LeftMargin": 43.0,
+                "RightMargin": 43.0,
+                "TopMargin": 141.57,
+                "BottomMargin": 73.43,
+                "Tag": 31,
+                "ActionTag": -1009631848,
+                "Size": {
+                  "X": 512.0,
+                  "Y": 158.0
+                },
+                "Name": "sbg3_2",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "gameplaylayer/title.png",
+                  "Plist": "imglist/gameplaylayer1.plist"
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 299.0493,
+                  "Y": 302.0957
+                },
+                "Scale": {
+                  "ScaleX": 0.94,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5001,
+                  "Y": 0.8099
+                },
+                "PreSize": {
+                  "X": 1.0368,
+                  "Y": 0.252
+                },
+                "LeftMargin": -10.9507,
+                "RightMargin": -11.0493,
+                "TopMargin": 23.9043,
+                "BottomMargin": 255.0957,
+                "Tag": 115,
+                "ActionTag": 1890853640,
+                "Size": {
+                  "X": 620.0,
+                  "Y": 94.0
+                },
+                "Name": "sbg2_3",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "gameplaylayer/icon.png",
+                  "Plist": "imglist/publicimg1.plist"
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 297.9999,
+                  "Y": 309.7221
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.4983,
+                  "Y": 0.8304
+                },
+                "PreSize": {
+                  "X": 0.0769,
+                  "Y": 0.1233
+                },
+                "LeftMargin": 274.9999,
+                "RightMargin": 277.0001,
+                "TopMargin": 40.2779,
+                "BottomMargin": 286.7221,
+                "Tag": 116,
+                "ActionTag": -1757909639,
+                "Size": {
+                  "X": 221.0,
+                  "Y": 195.0
+                },
+                "Name": "levelicon",
+                "ctype": "SpriteObjectData"
+              }
+            ],
+            "ActionTag": 445142180,
+            "Size": {
+              "X": 598.0,
+              "Y": 373.0
+            },
+            "Name": "uiinfo",
+            "ctype": "ImageViewObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "MarkedSubImage",
+              "Path": "gameselectlayer/level.png",
+              "Plist": "imglist/gameplaylayer2.plist"
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 320.9999,
+              "Y": 759.054
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5016,
+              "Y": 0.6682
+            },
+            "PreSize": {
+              "X": 0.2516,
+              "Y": 0.0502
+            },
+            "LeftMargin": 240.4999,
+            "RightMargin": 238.5001,
+            "TopMargin": 348.446,
+            "BottomMargin": 730.554,
+            "Tag": 117,
+            "ActionTag": -12729766,
+            "Size": {
+              "X": 161.0,
+              "Y": 57.0
+            },
+            "Name": "level_5",
+            "ctype": "SpriteObjectData"
+          }
+        ],
+        "Size": {
+          "X": 640.0,
+          "Y": 1136.0
+        },
+        "Name": "Layer",
+        "ctype": "LayerObjectData"
+      },
+      "UsedResources": [
+        "imglist/gameplaylayer1.plist",
+        "imglist/gameplaylayer1.png",
+        "imglist/gameplaylayer2.plist",
+        "imglist/gameplaylayer2.png",
+        "imglist/publicimg1.plist",
+        "imglist/publicimg1.png",
+        "imglist/scaleplist.plist",
+        "imglist/scaleplist.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Layer"
+}

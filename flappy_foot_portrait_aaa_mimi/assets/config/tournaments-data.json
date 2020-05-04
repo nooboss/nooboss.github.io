@@ -1,0 +1,121 @@
+[
+	{
+		"id": 0,
+		"name": "OCEANIA CUP",
+		"player_team": "NEW ZEALAND",
+		"matches": [ 
+			{"id": 0, "adversary": "VANUATU"}, 
+			{"id": 1, "adversary": "TAHITI"}, 
+			{"id": 2, "adversary": "FIJI"},
+			{"id": 3, "adversary": "SAMOA"},
+			{"id": 4, "adversary": "TAHITI"},
+			{"id": 5, "adversary": "SOLOMON ISLANDS"},
+			{"id": 6, "adversary": "PAPUA NEW GUINEA"},
+			{"id": 7, "adversary": "VANUATU"},
+			{"id": 8, "adversary": "SAMOA"},
+			{"id": 9, "adversary": "FIJI"}
+		]
+	},
+	{
+		"id": 1,
+		"name": "AFRICA CUP",
+		"player_team": "NAMIBIA",
+		"matches": [ 
+			{"id": 0, "adversary": "GHANA"}, 
+			{"id": 1, "adversary": "TUNISIA"}, 
+			{"id": 2, "adversary": "MOROCCO"},
+			{"id": 3, "adversary": "KENYA"},
+			{"id": 4, "adversary": "GHANA"},
+			{"id": 5, "adversary": "ALGERIA"},
+			{"id": 6, "adversary": "IVORY COAST"},
+			{"id": 7, "adversary": "TUNISIA"},
+			{"id": 8, "adversary": "MOROCCO"},
+			{"id": 9, "adversary": "KENYA"}
+		]
+	},
+	{
+		"id": 2,
+		"name": "ASIAN CUP",
+		"player_team": "AUSTRALIA",
+		"matches": [ 
+			{"id": 0, "adversary": "JAPAN"}, 
+			{"id": 1, "adversary": "SOUTH KOREA"}, 
+			{"id": 2, "adversary": "CHINA"},
+			{"id": 3, "adversary": "SAUDI ARABIA"},
+			{"id": 4, "adversary": "INDIA"},
+			{"id": 5, "adversary": "IRAN"},
+			{"id": 6, "adversary": "SOUTH KOREA"},
+			{"id": 7, "adversary": "INDIA"},
+			{"id": 8, "adversary": "CHINA"},
+			{"id": 9, "adversary": "JAPAN"}
+		]
+	},
+	{
+		"id": 3,
+		"name": "GOLD CUP",
+		"player_team": "U.S.A.",
+		"matches": [ 
+			{"id": 0, "adversary": "COSTA RICA"}, 
+			{"id": 1, "adversary": "JAMAICA"}, 
+			{"id": 2, "adversary": "MEXICO"},
+			{"id": 3, "adversary": "PANAMA"},
+			{"id": 4, "adversary": "COSTA RICA"},
+			{"id": 5, "adversary": "HONDURAS"},
+			{"id": 6, "adversary": "PANAMA"},
+			{"id": 7, "adversary": "JAMAICA"},
+			{"id": 8, "adversary": "CANADA"},
+			{"id": 9, "adversary": "MEXICO"}
+		]
+	},
+	{
+		"id": 4,
+		"name": "AMERICA CUP",
+		"player_team": "CHILE",
+		"matches": [ 
+			{"id": 0, "adversary": "BOLIVIA"}, 
+			{"id": 1, "adversary": "PERU"}, 
+			{"id": 2, "adversary": "VENEZUELA"},
+			{"id": 3, "adversary": "COLOMBIA"},
+			{"id": 4, "adversary": "ARGENTINA"},
+			{"id": 5, "adversary": "BOLIVIA"},
+			{"id": 6, "adversary": "PERU"},
+			{"id": 7, "adversary": "VENEZUELA"},
+			{"id": 8, "adversary": "BRAZIL"},
+			{"id": 9, "adversary": "ARGENTINA"}
+		]
+	},
+	{
+		"id": 5,
+		"name": "EURO CUP",
+		"player_team": "PORTUGAL",
+		"matches": [ 
+			{"id": 0, "adversary": "SPAIN"}, 
+			{"id": 1, "adversary": "FRANCE"}, 
+			{"id": 2, "adversary": "RUSSIA"},
+			{"id": 3, "adversary": "GERMANY"},
+			{"id": 4, "adversary": "ITALY"},
+			{"id": 5, "adversary": "SPAIN"},
+			{"id": 6, "adversary": "RUSSIA"},
+			{"id": 7, "adversary": "ITALY"},
+			{"id": 8, "adversary": "FRANCE"},
+			{"id": 9, "adversary": "GERMANY"}
+		]
+	},
+	{
+		"id": 6,
+		"name": "WORLD CUP",
+		"player_team": "FRANCE",
+		"matches": [ 
+			{"id": 0, "adversary": "CROATIA"}, 
+			{"id": 1, "adversary": "BELGIUM"}, 
+			{"id": 2, "adversary": "ENGLAND"},
+			{"id": 3, "adversary": "URUGUAY"},
+			{"id": 4, "adversary": "RUSSIA"},
+			{"id": 5, "adversary": "SWEDEN"},
+			{"id": 6, "adversary": "ARGENTINA"},
+			{"id": 7, "adversary": "COLOMBIA"},
+			{"id": 8, "adversary": "DENMARK"},
+			{"id": 9, "adversary": "BRAZIL"}
+		]
+	}
+]

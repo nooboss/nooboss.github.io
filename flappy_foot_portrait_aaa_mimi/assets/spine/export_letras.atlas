@@ -1,0 +1,90 @@
+
+assets/spine/export_letras.png
+size: 1024,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+GAMEOVER/A
+  rotate: false
+  xy: 617, 2
+  size: 76, 118
+  orig: 76, 118
+  offset: 0, 0
+  index: -1
+GAMEOVER/E
+  rotate: false
+  xy: 695, 6
+  size: 75, 114
+  orig: 75, 114
+  offset: 0, 0
+  index: -1
+GAMEOVER/G
+  rotate: true
+  xy: 2, 21
+  size: 99, 136
+  orig: 99, 136
+  offset: 0, 0
+  index: -1
+GAMEOVER/M
+  rotate: false
+  xy: 439, 8
+  size: 91, 112
+  orig: 91, 112
+  offset: 0, 0
+  index: -1
+GAMEOVER/O
+  rotate: false
+  xy: 342, 11
+  size: 95, 109
+  orig: 95, 109
+  offset: 0, 0
+  index: -1
+GAMEOVER/R
+  rotate: false
+  xy: 140, 9
+  size: 104, 111
+  orig: 104, 111
+  offset: 0, 0
+  index: -1
+GAMEOVER/V
+  rotate: false
+  xy: 532, 9
+  size: 83, 111
+  orig: 83, 111
+  offset: 0, 0
+  index: -1
+GOAL/a
+  rotate: false
+  xy: 859, 36
+  size: 64, 84
+  orig: 64, 84
+  offset: 0, 0
+  index: -1
+GOAL/exclamation
+  rotate: true
+  xy: 925, 22
+  size: 43, 76
+  orig: 43, 76
+  offset: 0, 0
+  index: -1
+GOAL/g
+  rotate: false
+  xy: 246, 3
+  size: 94, 117
+  orig: 94, 117
+  offset: 0, 0
+  index: -1
+GOAL/l
+  rotate: true
+  xy: 925, 67
+  size: 53, 76
+  orig: 53, 76
+  offset: 0, 0
+  index: -1
+GOAL/o
+  rotate: false
+  xy: 772, 27
+  size: 85, 93
+  orig: 85, 93
+  offset: 0, 0
+  index: -1

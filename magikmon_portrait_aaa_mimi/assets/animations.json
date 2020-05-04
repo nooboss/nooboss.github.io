@@ -1,0 +1,22 @@
+[
+    {
+        "tile" : 1261,
+        "length": 16,
+        "name": "wisp2"
+    },
+    {
+        "tile" : 1201,
+        "length": 26,
+        "name": "chispas"
+    },
+    {
+        "tile" : 754,
+        "length": 26,
+        "name": "water_up"
+    },
+    {
+        "tile" : 1141,
+        "length": 16,
+        "name": "statue_wisp"
+    }
+]

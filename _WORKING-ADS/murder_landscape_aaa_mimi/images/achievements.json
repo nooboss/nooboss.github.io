@@ -1,0 +1,135 @@
+{
+"frames": {
+	"achievements_lock1.png": {
+		"frame": {"x":563, "y":807, "w":562, "h":98},
+		"spriteSourceSize": {"x":4,"y":2,"w":570,"h":102},
+		"sourceSize": {"w":570,"h":102}
+	},
+	"achievements_lock10.png": {
+		"frame": {"x":563, "y":906, "w":562, "h":98},
+		"spriteSourceSize": {"x":4,"y":2,"w":570,"h":102},
+		"sourceSize": {"w":570,"h":102}
+	},
+	"achievements_lock2.png": {
+		"frame": {"x":563, "y":708, "w":562, "h":98},
+		"spriteSourceSize": {"x":4,"y":2,"w":570,"h":102},
+		"sourceSize": {"w":570,"h":102}
+	},
+	"achievements_lock3.png": {
+		"frame": {"x":563, "y":609, "w":562, "h":98},
+		"spriteSourceSize": {"x":4,"y":2,"w":570,"h":102},
+		"sourceSize": {"w":570,"h":102}
+	},
+	"achievements_lock4.png": {
+		"frame": {"x":563, "y":510, "w":562, "h":98},
+		"spriteSourceSize": {"x":4,"y":2,"w":570,"h":102},
+		"sourceSize": {"w":570,"h":102}
+	},
+	"achievements_lock5.png": {
+		"frame": {"x":563, "y":411, "w":562, "h":98},
+		"spriteSourceSize": {"x":4,"y":2,"w":570,"h":102},
+		"sourceSize": {"w":570,"h":102}
+	},
+	"achievements_lock6.png": {
+		"frame": {"x":563, "y":312, "w":562, "h":98},
+		"spriteSourceSize": {"x":4,"y":2,"w":570,"h":102},
+		"sourceSize": {"w":570,"h":102}
+	},
+	"achievements_lock7.png": {
+		"frame": {"x":563, "y":1005, "w":562, "h":98},
+		"spriteSourceSize": {"x":4,"y":2,"w":570,"h":102},
+		"sourceSize": {"w":570,"h":102}
+	},
+	"achievements_lock8.png": {
+		"frame": {"x":563, "y":114, "w":562, "h":98},
+		"spriteSourceSize": {"x":4,"y":2,"w":570,"h":102},
+		"sourceSize": {"w":570,"h":102}
+	},
+	"achievements_lock9.png": {
+		"frame": {"x":0, "y":1005, "w":562, "h":98},
+		"spriteSourceSize": {"x":4,"y":2,"w":570,"h":102},
+		"sourceSize": {"w":570,"h":102}
+	},
+	"achievements_unlock1.png": {
+		"frame": {"x":0, "y":807, "w":562, "h":98},
+		"spriteSourceSize": {"x":4,"y":2,"w":570,"h":102},
+		"sourceSize": {"w":570,"h":102}
+	},
+	"achievements_unlock10.png": {
+		"frame": {"x":563, "y":213, "w":562, "h":98},
+		"spriteSourceSize": {"x":4,"y":2,"w":570,"h":102},
+		"sourceSize": {"w":570,"h":102}
+	},
+	"achievements_unlock2.png": {
+		"frame": {"x":0, "y":708, "w":562, "h":98},
+		"spriteSourceSize": {"x":4,"y":2,"w":570,"h":102},
+		"sourceSize": {"w":570,"h":102}
+	},
+	"achievements_unlock3.png": {
+		"frame": {"x":0, "y":609, "w":562, "h":98},
+		"spriteSourceSize": {"x":4,"y":2,"w":570,"h":102},
+		"sourceSize": {"w":570,"h":102}
+	},
+	"achievements_unlock4.png": {
+		"frame": {"x":0, "y":510, "w":562, "h":98},
+		"spriteSourceSize": {"x":4,"y":2,"w":570,"h":102},
+		"sourceSize": {"w":570,"h":102}
+	},
+	"achievements_unlock5.png": {
+		"frame": {"x":0, "y":906, "w":562, "h":98},
+		"spriteSourceSize": {"x":4,"y":2,"w":570,"h":102},
+		"sourceSize": {"w":570,"h":102}
+	},
+	"achievements_unlock6.png": {
+		"frame": {"x":0, "y":312, "w":562, "h":98},
+		"spriteSourceSize": {"x":4,"y":2,"w":570,"h":102},
+		"sourceSize": {"w":570,"h":102}
+	},
+	"achievements_unlock7.png": {
+		"frame": {"x":0, "y":411, "w":562, "h":98},
+		"spriteSourceSize": {"x":4,"y":2,"w":570,"h":102},
+		"sourceSize": {"w":570,"h":102}
+	},
+	"achievements_unlock8.png": {
+		"frame": {"x":0, "y":213, "w":562, "h":98},
+		"spriteSourceSize": {"x":4,"y":2,"w":570,"h":102},
+		"sourceSize": {"w":570,"h":102}
+	},
+	"achievements_unlock9.png": {
+		"frame": {"x":0, "y":114, "w":562, "h":98},
+		"spriteSourceSize": {"x":4,"y":2,"w":570,"h":102},
+		"sourceSize": {"w":570,"h":102}
+	},
+	"bg_achievements.png": {
+		"frame": {"x":0, "y":0, "w":859, "h":113},
+		"spriteSourceSize": {"x":0,"y":0,"w":859,"h":113},
+		"sourceSize": {"w":859,"h":113}
+	},
+	"button_close1.png": {
+		"frame": {"x":83, "y":1104, "w":82, "h":88},
+		"spriteSourceSize": {"x":3,"y":3,"w":88,"h":94},
+		"sourceSize": {"w":88,"h":94}
+	},
+	"button_close2.png": {
+		"frame": {"x":860, "y":0, "w":88, "h":94},
+		"spriteSourceSize": {"x":0,"y":0,"w":88,"h":94},
+		"sourceSize": {"w":88,"h":94}
+	},
+	"button_achievements1.png": {
+		"frame": {"x":0, "y":1104, "w":82, "h":88},
+		"spriteSourceSize": {"x":3,"y":3,"w":88,"h":94},
+		"sourceSize": {"w":88,"h":94}
+	},
+	"button_achievements2.png": {
+		"frame": {"x":949, "y":0, "w":88, "h":94},
+		"spriteSourceSize": {"x":0,"y":0,"w":88,"h":94},
+		"sourceSize": {"w":88,"h":94}
+	}
+
+},
+"meta": {
+	"image": "achievements.png",
+	"size": {"w": 1126, "h": 1193},
+	"scale": "1"
+}
+}

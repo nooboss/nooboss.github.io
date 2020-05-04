@@ -1,0 +1,252 @@
+{"frames": [
+
+{
+	"filename": "btn_cancel.png",
+	"frame": {"x":865,"y":308,"w":120,"h":50},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":120,"h":50},
+	"sourceSize": {"w":120,"h":50}
+},
+{
+	"filename": "btn_capture.png",
+	"frame": {"x":922,"y":412,"w":72,"h":78},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":72,"h":78},
+	"sourceSize": {"w":72,"h":78}
+},
+{
+	"filename": "btn_capture_crit.png",
+	"frame": {"x":922,"y":492,"w":69,"h":71},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":7,"w":69,"h":71},
+	"sourceSize": {"w":72,"h":78}
+},
+{
+	"filename": "btn_continue.png",
+	"frame": {"x":581,"y":168,"w":148,"h":62},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":148,"h":62},
+	"sourceSize": {"w":148,"h":62}
+},
+{
+	"filename": "btn_continue_over.png",
+	"frame": {"x":731,"y":230,"w":144,"h":59},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":2,"y":2,"w":144,"h":59},
+	"sourceSize": {"w":148,"h":62}
+},
+{
+	"filename": "btn_erase_.png",
+	"frame": {"x":865,"y":360,"w":120,"h":50},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":120,"h":50},
+	"sourceSize": {"w":120,"h":50}
+},
+{
+	"filename": "btn_escape.png",
+	"frame": {"x":577,"y":232,"w":142,"h":71},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":142,"h":71},
+	"sourceSize": {"w":142,"h":71}
+},
+{
+	"filename": "btn_healing_boost.png",
+	"frame": {"x":425,"y":240,"w":142,"h":71},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":142,"h":71},
+	"sourceSize": {"w":142,"h":71}
+},
+{
+	"filename": "btn_instant_heal.png",
+	"frame": {"x":721,"y":291,"w":142,"h":71},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":142,"h":71},
+	"sourceSize": {"w":142,"h":71}
+},
+{
+	"filename": "btn_item_aim.png",
+	"frame": {"x":760,"y":85,"w":150,"h":81},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":4,"w":150,"h":81},
+	"sourceSize": {"w":150,"h":90}
+},
+{
+	"filename": "btn_item_antidote.png",
+	"frame": {"x":760,"y":1,"w":150,"h":82},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":3,"w":150,"h":82},
+	"sourceSize": {"w":150,"h":90}
+},
+{
+	"filename": "btn_item_attack.png",
+	"frame": {"x":608,"y":87,"w":150,"h":79},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":6,"w":150,"h":79},
+	"sourceSize": {"w":150,"h":90}
+},
+{
+	"filename": "btn_item_capture.png",
+	"frame": {"x":608,"y":1,"w":150,"h":84},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":1,"w":150,"h":84},
+	"sourceSize": {"w":150,"h":90}
+},
+{
+	"filename": "btn_item_defense.png",
+	"frame": {"x":429,"y":97,"w":150,"h":79},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":6,"w":150,"h":79},
+	"sourceSize": {"w":150,"h":90}
+},
+{
+	"filename": "btn_item_focus.png",
+	"frame": {"x":277,"y":138,"w":150,"h":79},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":6,"w":150,"h":79},
+	"sourceSize": {"w":150,"h":90}
+},
+{
+	"filename": "btn_item_heal.png",
+	"frame": {"x":277,"y":51,"w":150,"h":85},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":150,"h":85},
+	"sourceSize": {"w":150,"h":90}
+},
+{
+	"filename": "btn_ok_wisps.png",
+	"frame": {"x":429,"y":178,"w":146,"h":60},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":146,"h":60},
+	"sourceSize": {"w":146,"h":60}
+},
+{
+	"filename": "btn_ok_wisps_over.png",
+	"frame": {"x":731,"y":168,"w":144,"h":60},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":2,"y":0,"w":144,"h":60},
+	"sourceSize": {"w":146,"h":60}
+},
+{
+	"filename": "btn_ready.png",
+	"frame": {"x":277,"y":219,"w":146,"h":60},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":146,"h":60},
+	"sourceSize": {"w":146,"h":60}
+},
+{
+	"filename": "btn_ready_over.png",
+	"frame": {"x":877,"y":248,"w":144,"h":58},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":2,"y":2,"w":144,"h":58},
+	"sourceSize": {"w":146,"h":60}
+},
+{
+	"filename": "btn_use_aim.png",
+	"frame": {"x":912,"y":84,"w":108,"h":80},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":2,"y":2,"w":108,"h":80},
+	"sourceSize": {"w":112,"h":82}
+},
+{
+	"filename": "btn_use_antidote.png",
+	"frame": {"x":912,"y":166,"w":108,"h":80},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":2,"y":2,"w":108,"h":80},
+	"sourceSize": {"w":112,"h":82}
+},
+{
+	"filename": "btn_use_attack.png",
+	"frame": {"x":702,"y":364,"w":108,"h":80},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":2,"y":2,"w":108,"h":80},
+	"sourceSize": {"w":112,"h":82}
+},
+{
+	"filename": "btn_use_defense.png",
+	"frame": {"x":812,"y":412,"w":108,"h":80},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":2,"y":2,"w":108,"h":80},
+	"sourceSize": {"w":112,"h":82}
+},
+{
+	"filename": "btn_use_focus.png",
+	"frame": {"x":1,"y":278,"w":108,"h":80},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":2,"y":2,"w":108,"h":80},
+	"sourceSize": {"w":112,"h":82}
+},
+{
+	"filename": "btn_use_heal.png",
+	"frame": {"x":912,"y":1,"w":108,"h":81},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":2,"y":1,"w":108,"h":81},
+	"sourceSize": {"w":112,"h":82}
+},
+{
+	"filename": "current_turn_ander.png",
+	"frame": {"x":1,"y":1,"w":274,"h":275},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":2,"y":2,"w":274,"h":275},
+	"sourceSize": {"w":278,"h":278}
+},
+{
+	"filename": "hacked_text.png",
+	"frame": {"x":569,"y":305,"w":131,"h":94},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":17,"y":17,"w":131,"h":94},
+	"sourceSize": {"w":168,"h":112}
+},
+{
+	"filename": "poisoned_text.png",
+	"frame": {"x":445,"y":1,"w":161,"h":94},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":2,"y":15,"w":161,"h":94},
+	"sourceSize": {"w":168,"h":112}
+},
+{
+	"filename": "self_attack_text.png",
+	"frame": {"x":277,"y":1,"w":166,"h":48},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":2,"y":46,"w":166,"h":48},
+	"sourceSize": {"w":168,"h":112}
+}],
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "texture_atlas_en.png",
+	"format": "RGBA8888",
+	"size": {"w":1024,"h":1024},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:d81151cfae0c81405740c02be9a5ea75:aeba6103bbee3776b5ed4d78e05dd257:0bfc00c9dd0c3961507faa8ca3a04ad8$"
+}
+}

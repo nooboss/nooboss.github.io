@@ -1,0 +1,30 @@
+{
+"frames": {
+	"button_soundoff1.png": {
+		"frame": {"x":123, "y":0, "w":122, "h":130},
+		"spriteSourceSize": {"x":0,"y":0,"w":122,"h":130},
+		"sourceSize": {"w":122,"h":130}
+	},
+	"button_soundoff2.png": {
+		"frame": {"x":246, "y":0, "w":122, "h":130},
+		"spriteSourceSize": {"x":0,"y":0,"w":122,"h":130},
+		"sourceSize": {"w":122,"h":130}
+	},
+	"button_soundon1.png": {
+		"frame": {"x":369, "y":0, "w":122, "h":130},
+		"spriteSourceSize": {"x":0,"y":0,"w":122,"h":130},
+		"sourceSize": {"w":122,"h":130}
+	},
+	"button_soundon2.png": {
+		"frame": {"x":0, "y":0, "w":122, "h":130},
+		"spriteSourceSize": {"x":0,"y":0,"w":122,"h":130},
+		"sourceSize": {"w":122,"h":130}
+	}
+
+},
+"meta": {
+	"image": "sound2.png",
+	"size": {"w": 512, "h": 256},
+	"scale": "1"
+}
+}

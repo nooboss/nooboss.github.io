@@ -1,0 +1,11 @@
+ 
+* Title: Master Chess
+
+
+* Categories: Board Game  
+
+* Description: Master Chess is a HTML5 Board Game 
+Enjoy this stylish version of the classic Chess Game.
+Two Game’s Mode:
+Play against the pc
+Challenge a friend playing locally

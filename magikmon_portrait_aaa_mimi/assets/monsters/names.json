@@ -1,0 +1,62 @@
+{
+    "001": {
+        "name": "Yemanja",
+        "class": "classic"
+    },
+    "002": {
+        "name": "Cernunnos",
+        "class": "classic"
+    },
+    "003": {
+        "name": "Belona",
+        "class": "classic"
+    },
+    "004": {
+        "name": "Leprechaun",
+        "class": "classic"
+    },
+    "005": {
+        "name": "Polenitsa",
+        "class": "classic"
+    },
+    "006": {
+        "name": "Fotamecus",
+        "class": "tech"
+    },
+    "007": {
+        "name": "Selfaholic",
+        "class": "tech"
+    },
+    "008": {
+        "name": "FlamerGamer",
+        "class": "tech"
+    },
+    "009": {
+        "name": "Lord Volt",
+        "class": "tech"
+    },
+    "010": {
+        "name": "Urban Rider",
+        "class": "tech"
+    },
+    "011": {
+        "name": "Trapptor",
+        "class": "spectre"
+    },
+    "012": {
+        "name": "Jawkolomah",
+        "class": "spectre"
+    },
+    "013": {
+        "name": "Yog-Moloch",
+        "class": "spectre"
+    },
+    "014": {
+        "name": "Disformio",
+        "class": "spectre"
+    },
+    "015": {
+        "name": "Rotton",
+        "class": "spectre"
+    }
+}

@@ -1,0 +1,316 @@
+{
+  "ID": "451ff61b-f2a6-46a2-96f6-ea7819909386",
+  "Version": "3.10.0.0",
+  "Name": "pauselayer",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 23,
+        "Children": [
+          {
+            "FileData": {
+              "Type": "MarkedSubImage",
+              "Path": "publicimg/btnmenu.png",
+              "Plist": "imglist/publicimg1.plist"
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 124.0,
+              "Y": 560.0002
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.1937,
+              "Y": 0.493
+            },
+            "PreSize": {
+              "X": 0.2297,
+              "Y": 0.1391
+            },
+            "LeftMargin": 50.5,
+            "RightMargin": 442.5,
+            "TopMargin": 496.9998,
+            "BottomMargin": 481.0002,
+            "Tag": 24,
+            "ActionTag": 1499882243,
+            "Size": {
+              "X": 147.0,
+              "Y": 158.0
+            },
+            "Name": "btnMenu",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "MarkedSubImage",
+              "Path": "publicimg/btnreplay.png",
+              "Plist": "imglist/publicimg1.plist"
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 324.0,
+              "Y": 560.0002
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5063,
+              "Y": 0.493
+            },
+            "PreSize": {
+              "X": 0.2297,
+              "Y": 0.1391
+            },
+            "LeftMargin": 250.5,
+            "RightMargin": 242.5,
+            "TopMargin": 496.9998,
+            "BottomMargin": 481.0002,
+            "Tag": 25,
+            "ActionTag": 127624360,
+            "Size": {
+              "X": 147.0,
+              "Y": 158.0
+            },
+            "Name": "btnReplay",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "MarkedSubImage",
+              "Path": "publicimg/returngame.png",
+              "Plist": "imglist/gameplayeffect3.plist"
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 524.0007,
+              "Y": 560.0002
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.8188,
+              "Y": 0.493
+            },
+            "PreSize": {
+              "X": 0.2297,
+              "Y": 0.1391
+            },
+            "LeftMargin": 450.5007,
+            "RightMargin": 42.4993,
+            "TopMargin": 496.9998,
+            "BottomMargin": 481.0002,
+            "Tag": 26,
+            "ActionTag": 991169754,
+            "Size": {
+              "X": 147.0,
+              "Y": 158.0
+            },
+            "Name": "btnClose",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "ClipAble": false,
+            "BackColorAlpha": 102,
+            "SingleColor": {
+              "R": 150,
+              "G": 200
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "Scale9Width": 1,
+            "Scale9Height": 1,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 323.9172,
+              "Y": 391.5429
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5061,
+              "Y": 0.3447
+            },
+            "PreSize": {
+              "X": 0.1875,
+              "Y": 0.1056
+            },
+            "LeftMargin": 263.9172,
+            "RightMargin": 256.0828,
+            "TopMargin": 684.4571,
+            "BottomMargin": 331.5429,
+            "Tag": 298,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "publicimg/opensound.png",
+                  "Plist": "imglist/publicimg1.plist"
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 60.0,
+                  "Y": 32.9996
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.275
+                },
+                "PreSize": {
+                  "X": 0.9833,
+                  "Y": 0.9333
+                },
+                "LeftMargin": -13.5,
+                "RightMargin": -13.5,
+                "TopMargin": 8.0004,
+                "BottomMargin": -46.0004,
+                "Tag": 299,
+                "ActionTag": 2079088535,
+                "Size": {
+                  "X": 147.0,
+                  "Y": 158.0
+                },
+                "Name": "opensound",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "publicimg/closesound.png",
+                  "Plist": "imglist/publicimg1.plist"
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 60.0,
+                  "Y": 33.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.275
+                },
+                "PreSize": {
+                  "X": 0.9833,
+                  "Y": 0.9333
+                },
+                "LeftMargin": -13.5,
+                "RightMargin": -13.5,
+                "TopMargin": 8.0,
+                "BottomMargin": -46.0,
+                "Tag": 300,
+                "ActionTag": -576052524,
+                "Size": {
+                  "X": 147.0,
+                  "Y": 158.0
+                },
+                "VisibleForFrame": false,
+                "Name": "closesound",
+                "ctype": "SpriteObjectData"
+              }
+            ],
+            "ActionTag": 1074496438,
+            "Size": {
+              "X": 120.0,
+              "Y": 120.0
+            },
+            "Name": "btn_sound",
+            "ctype": "PanelObjectData"
+          }
+        ],
+        "Size": {
+          "X": 640.0,
+          "Y": 1136.0
+        },
+        "Name": "Layer",
+        "ctype": "LayerObjectData"
+      },
+      "UsedResources": [
+        "imglist/gameplayeffect3.plist",
+        "imglist/gameplayeffect3.png",
+        "imglist/publicimg1.plist",
+        "imglist/publicimg1.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Layer"
+}

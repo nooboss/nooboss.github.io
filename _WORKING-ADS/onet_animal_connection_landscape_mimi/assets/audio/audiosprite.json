@@ -1,0 +1,122 @@
+{
+  "resources": [
+    "../assets/audio/audiosprite.mp3"
+  ],
+  "spritemap": {
+    "Happy Kids": {
+      "start": 0,
+      "end": 64.73142857142857,
+      "loop": true
+    },
+    "Happy_Kids_-_Logo": {
+      "start": 66,
+      "end": 76.94530612244898,
+      "loop": false
+    },
+    "Rising Combo Hit 01": {
+      "start": 78,
+      "end": 79.48897959183674,
+      "loop": false
+    },
+    "Rising Combo Hit 02": {
+      "start": 81,
+      "end": 82.56734693877551,
+      "loop": false
+    },
+    "Rising Combo Hit 03": {
+      "start": 84,
+      "end": 85.54122448979592,
+      "loop": false
+    },
+    "Rising Combo Hit 04": {
+      "start": 87,
+      "end": 88.51510204081633,
+      "loop": false
+    },
+    "Rising Combo Hit 05": {
+      "start": 90,
+      "end": 91.51510204081633,
+      "loop": false
+    },
+    "Rising Combo Hit 06": {
+      "start": 93,
+      "end": 94.46285714285715,
+      "loop": false
+    },
+    "Rising Combo Hit 07": {
+      "start": 96,
+      "end": 97.51510204081633,
+      "loop": false
+    },
+    "Rising Combo Hit 08": {
+      "start": 99,
+      "end": 100.5934693877551,
+      "loop": false
+    },
+    "Rising Combo Hit 09": {
+      "start": 102,
+      "end": 104.03755102040816,
+      "loop": false
+    },
+    "click_buttons": {
+      "start": 106,
+      "end": 106.07836734693878,
+      "loop": false
+    },
+    "click_piece": {
+      "start": 108,
+      "end": 108.16276643990929,
+      "loop": false
+    },
+    "hint": {
+      "start": 110,
+      "end": 111.11598639455782,
+      "loop": false
+    },
+    "lose": {
+      "start": 113,
+      "end": 116.21306122448979,
+      "loop": false
+    },
+    "matched_pieces_correct": {
+      "start": 118,
+      "end": 118.71675736961451,
+      "loop": false
+    },
+    "matched_pieces_error": {
+      "start": 120,
+      "end": 121.33224489795919,
+      "loop": false
+    },
+    "menu_soundtrack": {
+      "start": 123,
+      "end": 153.31578231292517,
+      "loop": true
+    },
+    "points_1": {
+      "start": 155,
+      "end": 156.07102040816326,
+      "loop": false
+    },
+    "points_2": {
+      "start": 158,
+      "end": 159.07102040816326,
+      "loop": false
+    },
+    "points_3": {
+      "start": 161,
+      "end": 162.0448979591837,
+      "loop": false
+    },
+    "re-shuffle": {
+      "start": 164,
+      "end": 165.00931972789115,
+      "loop": false
+    },
+    "win": {
+      "start": 167,
+      "end": 171.72816326530614,
+      "loop": false
+    }
+  }
+}

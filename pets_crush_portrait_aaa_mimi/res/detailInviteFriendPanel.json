@@ -1,0 +1,927 @@
+{
+  "ID": "9b7384db-dcd3-4f4f-b0e0-313a1909e9fc",
+  "Version": "3.10.0.0",
+  "Name": "detailInviteFriendPanel",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 48,
+        "Children": [
+          {
+            "AnchorPoint": {},
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": true,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "RightMargin": 640.0,
+            "TopMargin": 1136.0,
+            "Tag": 356,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "sooninvite/qieye_.png",
+                  "Plist": "imglist/csi1.plist"
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 100.8895,
+                  "Y": 134.1623
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": -5.1105,
+                "RightMargin": -206.8895,
+                "TopMargin": -190.1623,
+                "BottomMargin": 78.1623,
+                "Tag": 357,
+                "Children": [
+                  {
+                    "FileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "sooninvite/sooninviteFriends_.png",
+                      "Plist": "imglist/gameplaylayer1.plist"
+                    },
+                    "BlendFunc": {
+                      "Src": 1,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5467,
+                      "ScaleY": 0.4808
+                    },
+                    "Position": {
+                      "X": 109.9256,
+                      "Y": 75.0956
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.5185,
+                      "Y": 0.6705
+                    },
+                    "PreSize": {
+                      "X": 0.5943,
+                      "Y": 0.2321
+                    },
+                    "LeftMargin": 41.0414,
+                    "RightMargin": 44.9586,
+                    "TopMargin": 23.4052,
+                    "BottomMargin": 62.5948,
+                    "Tag": 361,
+                    "ActionTag": 2064009502,
+                    "Size": {
+                      "X": 126.0,
+                      "Y": 26.0
+                    },
+                    "Name": "sooninviteFriends__2",
+                    "ctype": "SpriteObjectData"
+                  }
+                ],
+                "ActionTag": 998348535,
+                "Size": {
+                  "X": 212.0,
+                  "Y": 112.0
+                },
+                "Name": "unselect1",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "sooninvite/qieye.png",
+                  "Plist": "imglist/csi1.plist"
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 100.0123,
+                  "Y": 134.5262
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": -4.9877,
+                "RightMargin": -205.0123,
+                "TopMargin": -189.5262,
+                "BottomMargin": 79.5262,
+                "Tag": 358,
+                "Children": [
+                  {
+                    "FileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "sooninvite/Friends.png",
+                      "Plist": "imglist/gameplaylayer2.plist"
+                    },
+                    "BlendFunc": {
+                      "Src": 1,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 106.3259,
+                      "Y": 72.6348
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.5063,
+                      "Y": 0.6603
+                    },
+                    "PreSize": {
+                      "X": 0.7429,
+                      "Y": 0.4818
+                    },
+                    "LeftMargin": 28.3259,
+                    "RightMargin": 25.6741,
+                    "TopMargin": 10.8652,
+                    "BottomMargin": 46.1348,
+                    "Tag": 363,
+                    "ActionTag": 1269711651,
+                    "Size": {
+                      "X": 156.0,
+                      "Y": 53.0
+                    },
+                    "Name": "Friends_4",
+                    "ctype": "SpriteObjectData"
+                  }
+                ],
+                "ActionTag": -1222616419,
+                "Size": {
+                  "X": 210.0,
+                  "Y": 110.0
+                },
+                "Name": "select1",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "sooninvite/qieye_.png",
+                  "Plist": "imglist/csi1.plist"
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 308.7289,
+                  "Y": 136.1492
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 202.7289,
+                "RightMargin": -414.7289,
+                "TopMargin": -192.1492,
+                "BottomMargin": 80.1492,
+                "Tag": 359,
+                "Children": [
+                  {
+                    "FileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "sooninvite/sooninviteLives_.png",
+                      "Plist": "imglist/gameplaylayer1.plist"
+                    },
+                    "BlendFunc": {
+                      "Src": 1,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 105.2212,
+                      "Y": 73.8802
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.4963,
+                      "Y": 0.6596
+                    },
+                    "PreSize": {
+                      "X": 0.4057,
+                      "Y": 0.2321
+                    },
+                    "LeftMargin": 62.2212,
+                    "RightMargin": 63.7788,
+                    "TopMargin": 25.1198,
+                    "BottomMargin": 60.8802,
+                    "Tag": 362,
+                    "ActionTag": 1518950222,
+                    "Size": {
+                      "X": 86.0,
+                      "Y": 26.0
+                    },
+                    "Name": "sooninviteLives__3",
+                    "ctype": "SpriteObjectData"
+                  }
+                ],
+                "ActionTag": 1080156488,
+                "Size": {
+                  "X": 212.0,
+                  "Y": 112.0
+                },
+                "Name": "unselect2",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "sooninvite/qieye.png",
+                  "Plist": "imglist/csi1.plist"
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 308.839,
+                  "Y": 134.948
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 203.839,
+                "RightMargin": -413.839,
+                "TopMargin": -189.948,
+                "BottomMargin": 79.948,
+                "Tag": 360,
+                "Children": [
+                  {
+                    "FileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "sooninvite/Lives.png",
+                      "Plist": "imglist/gameplaylayer1.plist"
+                    },
+                    "BlendFunc": {
+                      "Src": 1,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 103.1537,
+                      "Y": 72.63
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.4912,
+                      "Y": 0.6603
+                    },
+                    "PreSize": {
+                      "X": 0.5429,
+                      "Y": 0.4818
+                    },
+                    "LeftMargin": 46.1537,
+                    "RightMargin": 49.8463,
+                    "TopMargin": 10.87,
+                    "BottomMargin": 46.13,
+                    "Tag": 364,
+                    "ActionTag": 1241122037,
+                    "Size": {
+                      "X": 114.0,
+                      "Y": 53.0
+                    },
+                    "Name": "Lives_5",
+                    "ctype": "SpriteObjectData"
+                  }
+                ],
+                "ActionTag": -1463974056,
+                "Size": {
+                  "X": 210.0,
+                  "Y": 110.0
+                },
+                "Name": "select2",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "sooninvite/diban_9gg.png",
+                  "Plist": "imglist/gameplaylayer2.plist"
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 39,
+                "Scale9OriginY": 39,
+                "Scale9Width": 42,
+                "Scale9Height": 81,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 320.0573,
+                  "Y": -285.5028
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 0.0573,
+                "RightMargin": -640.0573,
+                "TopMargin": -124.4972,
+                "BottomMargin": -695.5028,
+                "Tag": 365,
+                "ActionTag": -1800253268,
+                "Size": {
+                  "X": 640.0,
+                  "Y": 820.0
+                },
+                "Name": "Image_1",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "sooninvite/diban2_9gg.png",
+                  "Plist": "imglist/scaleplist.plist"
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 39,
+                "Scale9OriginY": 39,
+                "Scale9Width": 42,
+                "Scale9Height": 42,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 320.759,
+                  "Y": -224.273
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 10.759,
+                "RightMargin": -630.759,
+                "TopMargin": -115.727,
+                "BottomMargin": -564.273,
+                "Tag": 366,
+                "ActionTag": 552084966,
+                "Size": {
+                  "X": 620.0,
+                  "Y": 680.0
+                },
+                "Name": "Image_2",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": true,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Tag": 381,
+                "ActionTag": -2096958959,
+                "Size": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Name": "showItem",
+                "ctype": "SingleNodeObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "sooninvite/qieye_.png",
+                  "Plist": "imglist/csi1.plist"
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 99.6062,
+                  "Y": 154.5634
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 0.6019
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": -6.3938,
+                "RightMargin": -205.6062,
+                "TopMargin": -210.5634,
+                "BottomMargin": 98.5634,
+                "Tag": 62,
+                "ActionTag": -1965266154,
+                "Size": {
+                  "X": 212.0,
+                  "Y": 112.0
+                },
+                "Alpha": 0,
+                "Name": "selectindexbtn1",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "sooninvite/qieye_.png",
+                  "Plist": "imglist/csi1.plist"
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 310.2398,
+                  "Y": 155.7083
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 0.6019
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 204.2398,
+                "RightMargin": -416.2398,
+                "TopMargin": -211.7083,
+                "BottomMargin": 99.7083,
+                "Tag": 63,
+                "ActionTag": 642338853,
+                "Size": {
+                  "X": 212.0,
+                  "Y": 112.0
+                },
+                "Alpha": 0,
+                "Name": "selectindexbtn2",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "sooninvite/anniu2.png",
+                  "Plist": "imglist/gameplaylayer2.plist"
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 522.5911,
+                  "Y": 158.3802
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 413.5911,
+                "RightMargin": -631.5911,
+                "TopMargin": -191.3802,
+                "BottomMargin": 125.3802,
+                "Tag": 361,
+                "Children": [
+                  {
+                    "FileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "sooninvite/Show-more.png",
+                      "Plist": "imglist/gameplaylayer1.plist"
+                    },
+                    "BlendFunc": {
+                      "Src": 1,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 95.5883,
+                      "Y": 35.1075
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.4385,
+                      "Y": 0.5319
+                    },
+                    "PreSize": {
+                      "X": 0.6835,
+                      "Y": 0.4242
+                    },
+                    "LeftMargin": 21.0883,
+                    "RightMargin": 47.9117,
+                    "TopMargin": 16.8925,
+                    "BottomMargin": 21.1075,
+                    "Tag": 360,
+                    "ActionTag": -1900656251,
+                    "Size": {
+                      "X": 149.0,
+                      "Y": 28.0
+                    },
+                    "Name": "Sprite_1",
+                    "ctype": "SpriteObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "sooninvite/jiantou_x.png",
+                      "Plist": "imglist/gameplaylayer2.plist"
+                    },
+                    "BlendFunc": {
+                      "Src": 1,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 186.5342,
+                      "Y": 35.3904
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.8557,
+                      "Y": 0.5362
+                    },
+                    "PreSize": {
+                      "X": 0.1422,
+                      "Y": 0.4394
+                    },
+                    "LeftMargin": 171.0342,
+                    "RightMargin": 15.9658,
+                    "TopMargin": 16.1096,
+                    "BottomMargin": 20.8904,
+                    "Tag": 367,
+                    "ActionTag": 2067412650,
+                    "Size": {
+                      "X": 31.0,
+                      "Y": 29.0
+                    },
+                    "Name": "jiantou_s_6",
+                    "ctype": "SpriteObjectData"
+                  }
+                ],
+                "ActionTag": 1879820284,
+                "Size": {
+                  "X": 218.0,
+                  "Y": 66.0
+                },
+                "Name": "detailbtn",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "sooninvite/petcat.png",
+                  "Plist": "imglist/csi1.plist"
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 67.6909,
+                  "Y": -620.1417
+                },
+                "Scale": {
+                  "ScaleX": 1.3,
+                  "ScaleY": 1.3
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 32.6909,
+                "RightMargin": -102.6909,
+                "TopMargin": 579.1417,
+                "BottomMargin": -661.1417,
+                "Tag": 110,
+                "ActionTag": -187201500,
+                "Size": {
+                  "X": 70.0,
+                  "Y": 82.0
+                },
+                "Name": "petcat_1",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "sooninvite/anniu_b.png",
+                  "Plist": "imglist/gameplaylayer2.plist"
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 318.1012,
+                  "Y": -632.4173
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 135.1012,
+                "RightMargin": -501.1012,
+                "TopMargin": 573.4173,
+                "BottomMargin": -691.4173,
+                "Tag": 368,
+                "Children": [
+                  {
+                    "FileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "sooninvite/Invite-more-friends.png",
+                      "Plist": "imglist/gameplaylayer2.plist"
+                    },
+                    "BlendFunc": {
+                      "Src": 1,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 186.5884,
+                      "Y": 64.7093
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.5098,
+                      "Y": 0.5484
+                    },
+                    "PreSize": {
+                      "X": 0.8689,
+                      "Y": 0.339
+                    },
+                    "LeftMargin": 27.5884,
+                    "RightMargin": 20.4116,
+                    "TopMargin": 33.2907,
+                    "BottomMargin": 44.7093,
+                    "Tag": 369,
+                    "ActionTag": 1388341446,
+                    "Size": {
+                      "X": 318.0,
+                      "Y": 40.0
+                    },
+                    "Name": "Invite_blue_8",
+                    "ctype": "SpriteObjectData"
+                  }
+                ],
+                "ActionTag": 1410328215,
+                "Size": {
+                  "X": 366.0,
+                  "Y": 118.0
+                },
+                "Name": "invitebtn",
+                "ctype": "SpriteObjectData"
+              }
+            ],
+            "ActionTag": 1484916824,
+            "Size": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Name": "invitefriends",
+            "ctype": "SingleNodeObjectData"
+          }
+        ],
+        "Size": {
+          "X": 640.0,
+          "Y": 1136.0
+        },
+        "Name": "Layer",
+        "ctype": "LayerObjectData"
+      },
+      "UsedResources": [
+        "imglist/csi1.plist",
+        "imglist/csi1.png",
+        "imglist/gameplaylayer1.plist",
+        "imglist/gameplaylayer1.png",
+        "imglist/gameplaylayer2.plist",
+        "imglist/gameplaylayer2.png",
+        "imglist/scaleplist.plist",
+        "imglist/scaleplist.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Layer"
+}

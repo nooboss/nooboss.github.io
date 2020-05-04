@@ -1,0 +1,92 @@
+{
+    "001": {
+        "attack": 14,
+        "defense": 30,
+        "hp": 16,
+        "aiming": 90
+    },
+    "002": {
+        "attack": 17,
+        "defense": 16,
+        "hp": 27,
+        "aiming": 90
+    },
+    "003": {
+        "attack": 19,
+        "defense": 26,
+        "hp": 15,
+        "aiming": 90
+    },
+    "004": {
+        "attack": 22,
+        "defense": 12,
+        "hp": 26,
+        "aiming": 90
+    },
+    "005": {
+        "attack": 13,
+        "defense": 23,
+        "hp": 24,
+        "aiming": 90
+    },
+    "006": {
+        "attack": 21,
+        "defense": 18,
+        "hp": 21,
+        "aiming": 90
+    },
+    "007": {
+        "attack": 16,
+        "defense": 24,
+        "hp": 20,
+        "aiming": 90
+    },
+    "008": {
+        "attack": 18,
+        "defense": 19,
+        "hp": 23,
+        "aiming": 90
+    },
+    "009": {
+        "attack": 24,
+        "defense": 19,
+        "hp": 17,
+        "aiming": 90
+    },
+    "010": {
+        "attack": 18,
+        "defense": 23,
+        "hp": 19,
+        "aiming": 90
+    },
+    "011": {
+        "attack": 25,
+        "defense": 15,
+        "hp": 20,
+        "aiming": 90
+    },
+    "012": {
+        "attack": 28,
+        "defense": 17,
+        "hp": 15,
+        "aiming": 90
+    },
+    "013": {
+        "attack": 27,
+        "defense": 14,
+        "hp": 19,
+        "aiming": 90
+    },
+    "014": {
+        "attack": 23,
+        "defense": 21,
+        "hp": 16,
+        "aiming": 90
+    },
+    "015": {
+        "attack": 22,
+        "defense": 13,
+        "hp": 25,
+        "aiming": 90
+    }
+}

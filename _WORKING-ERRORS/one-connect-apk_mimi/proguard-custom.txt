@@ -1,0 +1,484 @@
+# To enable ProGuard in your project, edit project.properties
+# to define the proguard.config property as described in that file.
+# Add project specific ProGuard rules here.
+# By default, the flags in this file are appended to flags specified
+# in ${sdk.dir}/tools/proguard/proguard-android.txt
+# You can edit the include path and order by changing the ProGuard
+# include property in project.properties.
+#
+# For more details, see
+#   http://developer.android.com/guide/developing/tools/proguard.html
+
+# Add any project specific keep options here:
+#-dontshrink
+#-dontoptimize
+#-dontobfuscate
+
+# If your project uses WebView with JS, uncomment the following
+# and specify the fully qualified class name to the JavaScript interface
+# class:
+#-keepclassmembers class android.webkit.WebView {
+#   public *;
+#}
+
+#-injars      bin/classes
+#-injars      libs
+#-outjars     bin/classes-processed.jar
+
+-printmapping Application.map
+
+# Android common:
+-keep public class * extends android.app.Activity
+-keep public class * extends android.app.Application
+-keep public class * extends android.app.Service
+-keep public class * extends android.content.BroadcastReceiver
+-keep public class * extends android.content.ContentProvider
+
+-keepclassmembers class * {
+    static final %                *;
+    static final java.lang.String *;
+}
+
+-keep public class * extends android.view.View {
+    public <init>(android.content.Context);
+    public <init>(android.content.Context, android.util.AttributeSet);
+    public <init>(android.content.Context, android.util.AttributeSet, int);
+    public void set*(...);
+}
+
+-keepclasseswithmembers class * {
+    public <init>(android.content.Context, android.util.AttributeSet);
+}
+
+-keepclasseswithmembers class * {
+    public <init>(android.content.Context, android.util.AttributeSet, int);
+}
+
+-keepclassmembers class * extends android.content.Context {
+   public void *(android.view.View);
+   public void *(android.view.MenuItem);
+}
+
+# https://lab.getbase.com/proguard-for-android/
+#-keepclassmembers class * implements android.os.Parcelable {
+#    static ** CREATOR;
+#}
+-keepnames class * implements android.os.Parcelable {
+  public static final ** CREATOR;
+}
+
+-keep class **.R
+-keep class **.R$* {
+    <fields>;
+}
+
+-adaptresourcefilenames    **.properties,**.gif,**.jpg
+-adaptresourcefilecontents **.properties,META-INF/MANIFEST.MF
+
+# Keep native & callbacks
+-keepclasseswithmembernames class *{
+    native <methods>;
+}
+
+# Using Google's License Verification Library
+-keep class com.android.vending.licensing.ILicensingService
+
+# Specifies to write out some more information during processing.
+# If the program terminates with an exception, this option will print out the entire stack trace, instead of just the exception message.
+-verbose
+
+-keepclassmembers enum * {
+    public static **[] values();
+    public static ** valueOf(java.lang.String);
+}
+
+# Enable proguard with Cordova
+-keep class org.apache.cordova.** { *; }
+-keep public class * extends org.apache.cordova.CordovaPlugin
+
+-keep class com.google.android.gms.dynamite.DynamiteModule$DynamiteLoaderClassLoader { java.lang.ClassLoader sClassLoader; }
+-keep class com.google.android.gms.dynamite.descriptors.com.google.android.gms.flags.ModuleDescriptor { int MODULE_VERSION; }
+-keep class com.google.android.gms.dynamite.descriptors.com.google.android.gms.flags.ModuleDescriptor { java.lang.String MODULE_ID; }
+
+-keep class org.apache.cordova.CordovaBridge { org.apache.cordova.PluginManager pluginManager; }
+-keep class org.apache.cordova.CordovaInterfaceImpl { org.apache.cordova.PluginManager pluginManager; }
+-keep class org.apache.cordova.CordovaResourceApi { org.apache.cordova.PluginManager pluginManager; }
+-keep class org.apache.cordova.CordovaWebViewImpl { org.apache.cordova.PluginManager pluginManager; }
+-keep class org.apache.cordova.ResumeCallback { org.apache.cordova.PluginManager pluginManager; }
+-keep class org.apache.cordova.engine.SystemWebViewEngine { org.apache.cordova.PluginManager pluginManager; }
+
+-keep class com.google.gson.internal.UnsafeAllocator { ** theUnsafe; }
+-keep class me.leolin.shortcutbadger.ShortcutBadger { ** extraNotification; }
+-keep class me.leolin.shortcutbadger.impl.XiaomiHomeBadger { ** messageCount; }
+-keep class me.leolin.shortcutbadger.impl.XiaomiHomeBadger { ** extraNotification; }
+
+-dontnote org.apache.harmony.xnet.provider.jsse.NativeCrypto
+-dontnote sun.misc.Unsafe
+
+-keep class com.worklight.androidgap.push.** { *; }
+-keep class com.worklight.wlclient.push.** { *; }
+
+# Enable proguard with Google gms libs
+
+# this generates to many methods
+# -keep ,includedescriptorclasses public class com.google.android.gms.**{ public protected *; }
+
+
+# apache.http
+-optimizations !class/merging/vertical*,!class/merging/horizontal*,!code/simplification/arithmetic,!field/*,!code/allocation/variable
+
+-keep class net.sqlcipher.** { *; }
+-dontwarn net.sqlcipher.**
+
+-keep class org.codehaus.** { *; }
+
+# Remove debug logs in release build
+-assumenosideeffects class android.util.Log {
+    public static *** d(...);
+}
+
+# These classes contain references to external jars which are not included in the default MobileFirst project.
+-dontwarn com.worklight.common.internal.WLTrusteerInternal*
+-dontwarn com.worklight.jsonstore.**
+-dontwarn org.codehaus.jackson.map.ext.*
+-dontwarn com.worklight.androidgap.push.GCMIntentService
+-dontwarn com.worklight.androidgap.plugin.WLInitializationPlugin
+
+-keepnames class android.support.v4.**
+-keep ,includedescriptorclasses public class android.support.v4.** {
+	public protected *;
+}
+-dontwarn android.support.v4.**
+
+-dontwarn android.net.SSLCertificateSocketFactory
+-dontwarn android.net.http.*
+
+## FA Custom stuff
+-keepnames class com.famobi.sdk.**
+-keepclassmembers enum com.famobi.sdk.** { *; }
+
+-keepnames class com.famobi.cordova.android.plugin.**
+-keep ,includedescriptorclasses public class com.famobi.cordova.android.plugin.** {
+	public protected *;
+}
+
+-keep ,includedescriptorclasses public class com.famobi.sdk.FamobiGameServices {
+	public protected *;
+}
+
+-keepclassmembers class com.famobi.sdk.firebase.models.** {
+    <fields>;
+}
+
+-keepclassmembers class com.famobi.sdk.geo.GeoApi {
+	<fields>;
+}
+
+-keepclassmembers class com.famobi.sdk.affiliate.Campaign {
+	<fields>;
+}
+
+-keepclassmembers class com.famobi.sdk.geo.CountryCode {
+	<fields>;
+}
+
+-keepclassmembers class com.famobi.sdk.geo.GeoApi {
+	<fields>;
+}
+
+## Cocoon
+-keep ,includedescriptorclasses public class javax.annotation.** {
+	public protected *;
+}
+-dontwarn javax.annotation.**
+
+-keep ,includedescriptorclasses public class net.sf.plist.** {
+	public protected *;
+}
+-dontwarn net.sf.plist.**
+
+-keep ,includedescriptorclasses public class org.odinmobile.android.ODIN {
+	public protected *;
+}
+-dontwarn org.odinmobile.android.ODIN
+
+-keep ,includedescriptorclasses public class org.OpenUDID.OpenUDID_manager {
+	public protected *;
+}
+-dontwarn org.OpenUDID.OpenUDID_manager
+
+-keep ,includedescriptorclasses public class org.chromium.base.BuildConfig {
+	public protected *;
+}
+-dontwarn org.chromium.base.BuildConfig
+
+-keep ,includedescriptorclasses public class org.crosswalk.** {
+	public protected *;
+}
+-dontwarn org.crosswalk.**
+
+
+#Firebase
+
+#-keep ,includedescriptorclasses public class com.google.firebase.** {
+#	public protected *;
+#}
+#-dontwarn com.google.firebase.**
+
+#library stuff
+# Note: com.google.android.gms.internal.zzcem: can't find dynamically referenced class android.os.SystemProperties
+-dontwarn com.google.android.gms.internal.zzcem
+
+## Too many hard code reflections between xwalk wrapper and bridge,so
+## keep all xwalk classes.
+-keep class org.xwalk.**{ *; }
+-keep interface org.xwalk.**{ *; }
+-keep class com.example.extension.**{ *; }
+-keep class org.crosswalkproject.**{ *; }
+
+## Rules for org.chromium classes:
+# Keep annotations used by chromium to keep members referenced by native code
+-keep class org.chromium.base.*Native*
+-keep class org.chromium.base.annotations.JNINamespace
+-keepclasseswithmembers class org.chromium.** {
+    @org.chromium.base.AccessedByNative <fields>;
+}
+-keepclasseswithmembers class org.chromium.** {
+    @org.chromium.base.*Native* <methods>;
+}
+
+-keep class org.chromium.** {
+    native <methods>;
+}
+
+# Keep methods used by reflection and native code
+-keep class org.chromium.base.UsedBy*
+-keep @org.chromium.base.UsedBy* class *
+-keepclassmembers class * {
+    @org.chromium.base.UsedBy* *;
+}
+
+-keep @org.chromium.base.annotations.JNINamespace* class *
+-keepclassmembers class * {
+    @org.chromium.base.annotations.CalledByNative* *;
+}
+
+# Suppress unnecessary warnings.
+-dontnote org.chromium.net.AndroidKeyStore
+# Objects of this type are passed around by native code, but the class
+# is never used directly by native code. Since the class is not loaded, it does
+# not need to be preserved as an entry point.
+-dontnote org.chromium.net.UrlRequest$ResponseHeadersMap
+
+# Generate by aapt. may only need for testing, just add them here.
+-keep class org.chromium.ui.ColorPickerAdvanced { <init>(...); }
+-keep class org.chromium.ui.ColorPickerMoreButton { <init>(...); }
+-keep class org.chromium.ui.ColorPickerSimple { <init>(...); }
+
+# Configuration for Guava 18.0
+#
+# disagrees with instructions provided by Guava project: https://code.google.com/p/guava-libraries/wiki/UsingProGuardWithGuava
+
+-keep class com.google.common.io.Resources {
+    public static <methods>;
+}
+-keep class com.google.common.collect.Lists {
+    public static ** reverse(**);
+}
+-keep class com.google.common.base.Charsets {
+    public static <fields>;
+}
+
+-keep class com.google.common.base.Joiner {
+    public static com.google.common.base.Joiner on(java.lang.String);
+    public ** join(...);
+}
+
+-keep class com.google.common.collect.MapMakerInternalMap$ReferenceEntry
+-keep class com.google.common.cache.LocalCache$ReferenceEntry
+
+## http://stackoverflow.com/questions/9120338/proguard-configuration-for-guava-with-obfuscation-and-optimization
+-dontwarn javax.annotation.**
+-dontwarn javax.inject.**
+-dontwarn sun.misc.Unsafe
+
+## Guava 19.0
+-dontwarn java.lang.ClassValue
+-dontwarn com.google.j2objc.annotations.Weak
+-dontwarn org.codehaus.mojo.animal_sniffer.IgnoreJRERequirement
+
+## Guava 20.0
+-dontwarn com.google.errorprone.annotations.**
+-dontwarn com.google.j2objc.annotations.**
+
+## Volley
+-keep ,includedescriptorclasses public class com.android.volley.** { public protected *; }
+
+## jsonpath 2.3.0
+# Necessary if you don't want to use any of the optional providers
+-dontwarn com.jayway.jsonpath.spi.json.GsonJsonProvider
+-dontwarn com.jayway.jsonpath.spi.json.JacksonJsonNodeJsonProvider
+-dontwarn com.jayway.jsonpath.spi.json.JacksonJsonProvider
+-dontwarn com.jayway.jsonpath.spi.json.TapestryJsdonProvider
+-dontwarn com.jayway.jsonpath.spi.json.JsonOrgJsonProvider
+-dontwarn com.jayway.jsonpath.spi.json.TapestryJsonProvider
+-dontwarn com.jayway.jsonpath.spi.mapper.GsonMappingProvider*
+-dontwarn com.jayway.jsonpath.spi.mapper.JacksonMappingProvider
+-dontwarn com.jayway.jsonpath.spi.mapper.JsonOrgMappingProvider
+-dontwarn com.jayway.jsonpath.spi.json.JettisonProvider*
+
+# Necessary for ignoring json-smart's logging dependencies
+-dontwarn org.slf4j.*
+
+## These options let obfuscated applications or libraries produce stack traces that can still be deciphered later on
+-renamesourcefileattribute SourceFile
+-keepattributes SourceFile,LineNumberTable,*Annotation*,EnclosingMethod,JNINamespace,CalledByNative,InnerClasses,Signature,Exceptions
+
+### NOTES descriptorclasses
+-keep class com.facebook.login.DefaultAudience
+-keep class com.facebook.login.LoginBehavior
+-keep class com.facebook.login.widget.ToolTipPopup$Style
+-keep class com.facebook.login.widget.LoginButton$ToolTipMode
+-keep class com.facebook.login.widget.LoginButton$LoginButtonProperties
+-keep class com.facebook.login.LoginManager
+-keep class com.facebook.login.widget.ProfilePictureView$OnErrorListener
+-keep class com.facebook.share.internal.LikeBoxCountView$LikeBoxCountViewCaretPosition
+-keep class com.facebook.share.widget.LikeView$ObjectType
+-keep class com.facebook.share.widget.LikeView$Style
+-keep class com.facebook.share.widget.LikeView$AuxiliaryViewPosition
+-keep class com.facebook.share.widget.LikeView$HorizontalAlignment
+-keep class com.facebook.share.widget.LikeView$OnErrorListener
+-keep class com.google.android.gms.analytics.Tracker
+-keep class com.google.android.gms.ads.mediation.MediationAdRequest
+-keep class com.google.android.gms.ads.mediation.MediationBannerListener
+-keep class com.google.android.gms.ads.AdSize
+-keep class com.google.android.gms.ads.mediation.MediationAdRequest
+-keep class com.google.android.gms.ads.mediation.MediationInterstitialListener
+-keep class com.google.android.gms.ads.mediation.MediationAdRequest
+-keep class com.google.android.gms.ads.mediation.MediationNativeListener
+-keep class com.google.android.gms.ads.mediation.NativeMediationAdRequest
+-keep class com.google.android.gms.ads.mediation.MediationAdRequest
+-keep class com.google.android.gms.ads.reward.mediation.MediationRewardedVideoAdListener
+-keep class com.google.android.gms.ads.mediation.MediationAdRequest
+-keep class com.google.android.gms.ads.InterstitialAd
+-keep class com.google.ads.mediation.MediationBannerListener
+-keep class com.google.ads.mediation.MediationServerParameters
+-keep class com.google.ads.AdSize
+-keep class com.google.ads.mediation.MediationAdRequest
+-keep class com.google.ads.mediation.NetworkExtras
+-keep class com.google.ads.mediation.MediationInterstitialListener
+-keep class com.google.ads.mediation.MediationServerParameters
+-keep class com.google.ads.mediation.MediationAdRequest
+-keep class com.google.ads.mediation.NetworkExtras
+-keep class com.google.ads.mediation.MediationBannerListener
+-keep class com.google.ads.mediation.customevent.CustomEventServerParameters
+-keep class com.google.ads.AdSize
+-keep class com.google.ads.mediation.MediationAdRequest
+-keep class com.google.android.gms.ads.mediation.customevent.CustomEventExtras
+-keep class com.google.ads.mediation.MediationInterstitialListener
+-keep class com.google.ads.mediation.customevent.CustomEventServerParameters
+-keep class com.google.ads.mediation.MediationAdRequest
+-keep class com.google.android.gms.ads.mediation.customevent.CustomEventExtras
+-keep class com.google.ads.mediation.MediationBannerListener
+-keep class com.google.ads.mediation.MediationServerParameters
+-keep class com.google.ads.AdSize
+-keep class com.google.ads.mediation.MediationAdRequest
+-keep class com.google.ads.mediation.NetworkExtras
+-keep class com.google.ads.mediation.MediationInterstitialListener
+-keep class com.google.ads.mediation.MediationServerParameters
+-keep class com.google.ads.mediation.MediationAdRequest
+-keep class com.google.ads.mediation.NetworkExtras
+-keep class com.google.ads.mediation.customevent.CustomEventBannerListener
+-keep class com.google.ads.AdSize
+-keep class com.google.ads.mediation.MediationAdRequest
+-keep class com.google.ads.mediation.customevent.CustomEventInterstitialListener
+-keep class com.google.ads.mediation.MediationAdRequest
+-keep class com.google.android.gms.ads.AdSize
+-keep class com.google.android.gms.ads.AdListener
+-keep class com.google.android.gms.ads.AdListener
+-keep class com.google.android.gms.ads.AdSize
+-keep class com.google.android.gms.ads.VideoOptions
+-keep class com.google.android.gms.ads.AdSize
+-keep class com.google.android.gms.ads.AdListener
+-keep class com.google.android.gms.ads.VideoOptions
+-keep class com.google.android.gms.ads.AdListener
+-keep class com.google.android.gms.ads.AdSize
+-keep class com.google.android.gms.ads.doubleclick.AppEventListener
+-keep class com.google.android.gms.ads.Correlator
+-keep class com.google.android.gms.ads.doubleclick.OnCustomRenderedAdLoadedListener
+-keep class com.google.android.gms.ads.formats.NativeAd
+-keep class com.google.android.gms.dynamic.IObjectWrapper
+-keep class com.google.android.gms.internal.zzuq
+-keep class com.google.android.gms.dynamic.IObjectWrapper
+-keep class com.google.android.gms.dynamic.IObjectWrapper
+-keep class com.google.android.gms.internal.zzuq
+-keep class com.google.android.gms.dynamic.IObjectWrapper
+-keep class com.google.android.gms.internal.zzuq
+-keep class com.google.android.gms.dynamic.IObjectWrapper
+-keep class com.google.android.gms.dynamic.IObjectWrapper
+-keep class com.google.android.gms.dynamic.IObjectWrapper
+-keep class com.google.android.gms.dynamic.IObjectWrapper
+-keep class com.google.android.gms.dynamic.IObjectWrapper
+-keep class com.google.android.gms.internal.zzuq
+-keep class com.google.android.gms.dynamic.IObjectWrapper
+-keep class com.google.android.gms.dynamic.IObjectWrapper
+-keep class com.google.android.gms.ads.mediation.MediationBannerListener
+-keep class com.google.android.gms.ads.AdSize
+-keep class com.google.android.gms.ads.mediation.MediationAdRequest
+-keep class com.google.android.gms.ads.mediation.MediationInterstitialListener
+-keep class com.google.android.gms.ads.mediation.MediationAdRequest
+-keep class com.google.android.gms.ads.mediation.MediationNativeListener
+-keep class com.google.android.gms.ads.mediation.NativeMediationAdRequest
+-keep class com.google.android.gms.ads.mediation.MediationBannerListener
+-keep class com.google.android.gms.ads.AdSize
+-keep class com.google.android.gms.ads.mediation.MediationAdRequest
+-keep class com.google.android.gms.ads.mediation.MediationInterstitialListener
+-keep class com.google.android.gms.ads.mediation.MediationAdRequest
+-keep class com.google.android.gms.ads.mediation.MediationNativeListener
+-keep class com.google.android.gms.ads.mediation.NativeMediationAdRequest
+-keep class com.google.android.gms.ads.mediation.customevent.CustomEventBannerListener
+-keep class com.google.android.gms.ads.AdSize
+-keep class com.google.android.gms.ads.mediation.MediationAdRequest
+-keep class com.google.android.gms.ads.mediation.customevent.CustomEventInterstitialListener
+-keep class com.google.android.gms.ads.mediation.MediationAdRequest
+-keep class com.google.android.gms.ads.mediation.customevent.CustomEventNativeListener
+-keep class com.google.android.gms.ads.mediation.NativeMediationAdRequest
+-keep class com.google.android.gms.ads.reward.mediation.MediationRewardedVideoAdListener
+-keep class com.google.android.gms.ads.mediation.MediationAdRequest
+-keep class com.google.android.gms.ads.reward.mediation.MediationRewardedVideoAdListener
+-keep class com.google.android.gms.ads.mediation.MediationAdRequest
+-keep class com.google.android.gms.ads.AdListener
+-keep class com.google.android.gms.ads.AdSize
+-keep class com.google.android.gms.dynamic.IObjectWrapper
+-keep class com.google.android.gms.ads.mediation.MediationInterstitialListener
+-keep class com.google.android.gms.ads.mediation.MediationAdRequest
+-keep class com.google.android.gms.internal.zzcgl
+-keep class com.google.android.gms.measurement.AppMeasurement$EventInterceptor
+-keep class com.google.android.gms.measurement.AppMeasurement$OnEventListener
+-keep class com.google.android.gms.measurement.AppMeasurement$OnEventListener
+-keep class com.google.android.gms.measurement.AppMeasurement$zza
+-keep class com.google.android.gms.measurement.AppMeasurement$zza
+-keep class com.google.common.io.LineProcessor
+-keep class com.google.android.gms.internal.zzcgl
+-keep class com.google.firebase.FirebaseApp
+-keep class com.google.android.gms.internal.oh
+-keep class com.google.android.gms.internal.oo
+-keep class com.google.firebase.database.connection.idl.zzk
+-keep class com.google.android.gms.dynamic.IObjectWrapper
+-keep class com.google.firebase.database.connection.idl.zzw
+-keep class com.google.android.gms.dynamic.IObjectWrapper
+-keep class com.google.firebase.database.connection.idl.zzq
+-keep class com.google.firebase.database.connection.idl.zzah
+-keep class com.google.android.gms.dynamic.IObjectWrapper
+-keep class com.google.android.gms.dynamic.IObjectWrapper
+-keep class com.google.firebase.database.connection.idl.zzah
+-keep class com.google.android.gms.dynamic.IObjectWrapper
+-keep class com.google.firebase.database.connection.idl.zzah
+-keep class com.google.android.gms.dynamic.IObjectWrapper
+-keep class com.google.firebase.database.connection.idl.zzah
+-keep class com.google.android.gms.dynamic.IObjectWrapper
+-keep class com.google.firebase.database.connection.idl.zzah
+-keep class com.google.android.gms.dynamic.IObjectWrapper
+-keep class com.google.firebase.database.connection.idl.zzah
+-keep class com.google.firebase.database.connection.idl.zzah
+-keep class com.google.firebase.FirebaseApp

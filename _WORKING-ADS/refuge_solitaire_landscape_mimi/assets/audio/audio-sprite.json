@@ -1,0 +1,72 @@
+{
+  "resources": [
+    "../assets/audio/audio-sprite.mp3"
+  ],
+  "spritemap": {
+    "Impacto_cristal_verde": {
+      "start": 0,
+      "end": 1.0971428571428572,
+      "loop": false
+    },
+    "audio-sprite": {
+      "start": 3,
+      "end": 78.04979591836735,
+      "loop": false
+    },
+    "cardfeed_1": {
+      "start": 80,
+      "end": 80.07943310657596,
+      "loop": false
+    },
+    "cardfeed_2": {
+      "start": 82,
+      "end": 82.07943310657596,
+      "loop": false
+    },
+    "cardfeed_3": {
+      "start": 84,
+      "end": 84.07943310657596,
+      "loop": false
+    },
+    "click": {
+      "start": 86,
+      "end": 86.3134693877551,
+      "loop": false
+    },
+    "coger_carta": {
+      "start": 88,
+      "end": 88.67918367346938,
+      "loop": false
+    },
+    "congratulations": {
+      "start": 90,
+      "end": 99.82310657596372,
+      "loop": false
+    },
+    "gameover": {
+      "start": 101,
+      "end": 106.38229024943311,
+      "loop": false
+    },
+    "move": {
+      "start": 108,
+      "end": 108.47126984126984,
+      "loop": false
+    },
+    "soltar_carta": {
+      "start": 110,
+      "end": 110.49632653061225,
+      "loop": false
+    },
+    "soundtrack": {
+      "start": 112,
+      "end": 148.48099773242632,
+      "loop": true
+    },
+    "startgame": {
+      "start": 150,
+      "end": 150.9926530612245,
+      "loop": false
+    }
+  }
+}

@@ -1,0 +1,95 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<stringresources>
+  <languages>
+    <language>sk</language>
+    <language>en</language>
+    <language>de</language>
+    <language>es</language>
+    <language>fr</language>
+    <language>it</language>
+    <language>br</language>
+    <language>ru</language>
+  </languages>
+  <strings>
+    <string id="GAME OVER">
+      <sk>KONIEC HRY</sk>
+      <en>GAME OVER</en>
+      <de>GAME OVER</de>
+      <es>FIN DEL JUEGO</es>
+      <fr>PARTIE TERMINÉE</fr>
+      <it>GAME OVER</it>
+      <br>FIM DE JOGO</br>
+      <ru>ИГРА ОКОНЧЕНА!</ru>
+    </string>
+    <string id="YOU WIN">
+      <sk>VÝHRA!</sk>
+      <en>YOU WIN</en>
+      <de>GEWONNEN</de>
+      <es>GANAS</es>
+      <fr>VOUS AVEZ GAGNÉ</fr>
+      <it>HAI VINTO</it>
+      <br>VOCÊ VENCE</br>
+      <ru>ТЫ ПОБЕДИЛ!</ru>
+    </string>
+    <string id="TAP TO CONTINUE">
+      <sk>ŤUKNITE PRE POKRAČOVANIE</sk>
+      <en>TAP TO CONTINUE</en>
+      <de>ZUM FORTFAHREN ANTIPPEN</de>
+      <es>TOCA PARA CONTINUAR</es>
+      <fr>TOUCHEZ POUR CONTINUER</fr>
+      <it>TOCCA PER CONTINUARE</it>
+      <br>TOQUE EM PARA CONTINUAR</br>
+      <ru>НАЖМИТЕ, ЧТОБЫ ПРОДОЛЖИТЬ</ru>
+    </string>
+    <string id="QUIT LEVEL.CONFIRM">
+      <sk>STE SI ISTÍ? VÁŠ PROGRES BUDE STRATENÝ.</sk>
+      <en>ARE YOU SURE? CURRENT PROGRESS WILL BE LOST.</en>
+      <de>SICHER? DEIN AKTUELLER FORTSCHRITT WIRD GELÖSCHT.</de>
+      <es>¿SEGURO? PERDERÁS EL PROGRESO ACTUAL.</es>
+      <fr>VOUS ÊTES SÛR(E) ? VOTRE PROGRESSION ACTUELLE SERA PERDUE.</fr>
+      <it>CONFERMI? PERDERAI I PROGRESSI ATTUALI.</it>
+      <br>TEM CERTEZA? O PROGRESSO ATUAL SERÁ PERDIDO.</br>
+      <ru>ВЫ УВЕРЕНЫ? ВАШ ТЕКУЩИЙ ИГРОВОЙ ПРОГРЕСС БУДЕТ ПОТЕРЯН.</ru>
+    </string>
+    <string id="SCORE">
+      <sk>SKÓRE</sk>
+      <en>SCORE</en>
+      <de>PUNKTE</de>
+      <es>PUNTUACIÓN</es>
+      <fr>SCORE</fr>
+      <it>PUNTEGGIO</it>
+      <br>PONTUAÇÃO</br>
+      <ru>СЧЕТ</ru>
+    </string>
+    <string id="BEST">
+      <sk>NAJLEPŠIE</sk>
+      <en>BEST</en>
+      <de>BESTLEISTUNG</de>
+      <es>RÉCORD</es>
+      <fr>MEILLEUR</fr>
+      <it>RECORD</it>
+      <br>MELHOR</br>
+      <ru>ЛУЧШИЙ</ru>
+    </string>
+    <string id="INSTRUCTIONS">
+      <sk>POSÚVAJTE DLAŽDICE DO JEDNEJ ZO ŠTYROCH HLAVNÝCH SMEROV (DOĽAVA, DOPRAVA, NAHOR A NADOL). AK SA DVE ROVNAKÉ ČÍSLA DOTKNÚ, TAK SA SPOČÍTAJÚ. ALE DÁVAJTE POZOR! VŠETKY DLAŽDICE SA POSÚVAJÚ NARAZ! BUDETE MUSIEŤ POUŽIŤ STRATÉGIU, ABY STE SA EŠTE MOHLI POHNÚŤ!</sk>
+      <en>MOVE THE TILES IN ONE OF THE CARDINAL DIRECTIONS (LEFT, RIGHT, UP AND DOWN). IF TWO SAME NUMBERS TOUCH, THEY ADD UP. BUT BEWARE! ALL THE TILES MOVE AT THE SAME TIME, SO YOU'LL HAVE TO USE STRATEGY TO NOT RUN OUT OF MOVES!</en>
+      <de>BEWEGE DIE STEINE IN EINE DER VIER HAUPTRICHTUNGEN (LINKS, RECHTS, HOCH UND RUNTER). WENN SICH ZWEI ZAHLEN BERÜHREN, WERDEN SIE ADDIERT. ABER PASS AUF! ALLE STEINE BEWEGEN SICH ZUSAMMEN, DAHER MUSST DU STRATEGISCH VORGEHEN, DAMIT DIR NICHT DIE ZÜGE AUSGEHEN!</de>
+      <es>MUEVE LAS FICHAS EN UNA DE LAS CUATRO DIRECCIONES (ARRIBA, ABAJO, IZQUIERDA O DERECHA). SI DOS NÚMEROS IGUALES SE TOCAN, SE SUMARÁN. ¡PERO TEN CUIDADO! TODAS LAS FICHAS SE MUEVEN A LA VEZ, ASÍ QUE TENDRÁS QUE PLANIFICAR TU ESTRATEGIA PARA NO QUEDARTE SIN MOVIMIENTOS.</es>
+      <fr>DÉPLACEZ LES TUILES VERS L'UN DES POINTS CARDINAUX (GAUCHE, DROITE, HAUT ET BAS). SI DEUX NOMBRES IDENTIQUES SE TOUCHENT, ILS S'ADDITIONNENT. MAIS ATTENTION ! TOUTES LES TUILES BOUGENT EN MÊME TEMPS, VOUS DEVREZ DONC METTRE EN PLACE UNE STRATÉGIE POUR NE PAS ÊTRE À COURT DE COUPS !</fr>
+      <it>SPOSTA LE TESSERE NUMERATE VERSO SINISTRA, DESTRA, SU E GIÙ. QUANDO DUE TESSERE CON LO STESSO NUMERO SI TOCCANO, SI FONDONO IN UNA E IL NUMERO ORIGINALE RADDOPPIA. MA FAI ATTENZIONE! TUTTE LE TESSERE SI MUOVONO CONTEMPORANEAMENTE, QUINDI DOVRAI USARE LA STRATEGIA PER NON ESAURIRE LE MOSSE!</it>
+      <br>MOVA AS PEÇAS EM UMA DAS DIREÇÕES CARDEAIS (ESQUERDA, DIREITA, PARA CIMA E PARA BAIXO). SE DOIS NÚMEROS IGUAIS SE TOCAM, ELES SE SOMAM. MAS, CUIDADO! TODAS AS PEÇAS SE MOVEM AO MESMO TEMPO, ENTÃO VOCÊ TERÁ QUE USAR A ESTRATÉGIA PARA NÃO FICAR SEM MOVIMENTOS!</br>
+      <ru>ПЕРЕМЕЩАЙТЕ ПЛИТКИ В ОДНО ИЗ ЧЕТЫРЕХ ОСНОВНЫХ НАПРАВЛЕНИЙ (ВЛЕВО, ВПРАВО, ВВЕРХ И ВНИЗ). ЕСЛИ ДВА ИДЕНТИЧНЫХ ЧИСЛА СОПРИКАСАЮТСЯ, ОНИ СЧИТАЮТСЯ. НО БУДЬТЕ ОСТОРОЖНЫ! ВСЕ ПЛИТКИ ДВИЖУТСЯ ОДНОВРЕМЕННО, ПОЭТОМУ ВАМ ПРИДЕТСЯ ИСПОЛЬЗОВАТЬ СТРАТЕГИЮ, ЧТОБЫ НЕ ЗАГНАТЬ СЕБЯ В ТУПИК!</ru>
+    </string>
+    <string id="MORE GAMES">
+      <sk>VIAC HIER</sk>
+      <en>MORE GAMES</en>
+      <de>MEHR SPIELE</de>
+      <es>MÁS JUEGOS</es>
+      <fr>PLUS DE JEUX</fr>
+      <it>ALTRI GIOCHI</it>
+      <br>MAIS JOGOS</br>
+      <ru>MORE GAMES</ru>
+    </string>
+  </strings>
+</stringresources>

@@ -1,0 +1,46 @@
+<?xml version='1.0' ?>
+	<!-- ||| Instructions halloween slot |||-->
+
+<config>
+	<!-- ||| START GENERAL CONFIG ||| -->
+	<start_credit>10000</start_credit> <!-- setting starting credit, if you want to override it, just type the number between <start_credit> and </start_credit>  -->
+	<disable_add_credit>no</disable_add_credit> <!-- disable add credit button, if you want to disable it, just type yes between <disable_add_credit> and </disable_add_credit>  -->
+	<add_per_click>100</add_per_click> <!-- add credit when click add credit button, if you want to override it, just type the number between <add_per_click> and </add_per_click>  -->
+	<url_click>http://codecanyon.net/user/nhandsig</url_click> <!-- go to url when click add credit button, if you want to override it, just type the url between <url_click> and </url_click>  -->
+	<level_rank>3000</level_rank> <!-- total bet amount, player will be level up when reach it , calculator:LV*3000, if you want to override it, just type the number between <level_rank> and </level_rank>  -->
+	<prize_level_up>300</prize_level_up> <!-- add credit when level up, calculator: LV*300, if you want to override it, just type the number between <prize_level_up> and </prize_level_up>   -->
+	<cost_per_line>5</cost_per_line> <!-- cost of line, if you want to override it, just type the number between <cost_per_line> and </cost_per_line>  -->
+	<max_bet_per_line>25</max_bet_per_line> <!-- maximum bet per line, if you want to override it, just type the number between <max_bet_per_line> and </max_bet_per_line>  -->
+	<big_prize_effect>5000</big_prize_effect> <!-- show big prize effect when got equal or more 5000 credit, if you want to override it, just type the number between <big_prize_effect> and </big_prize_effect>  -->
+	<!-- ||| END GENERAL CONFIG ||| -->
+	
+	<!-- ||| START PAY TABLE ||| -->
+	<three_pumpkin>5</three_pumpkin> <!-- prize of three pumpkin  -->
+	<four_pumpkin>20</four_pumpkin> <!-- prize of four pumpkin  -->
+	<five_pumpkin>100</five_pumpkin> <!-- prize of five pumpkin  -->
+	<three_hand>7</three_hand> <!-- prize of three hand  -->
+	<four_hand>25</four_hand> <!-- prize of four hand  -->
+	<five_hand>150</five_hand> <!-- prize of five hand  -->
+	<!-- make similar with these below  -->
+	<three_potion>10</three_potion>
+	<four_potion>30</four_potion>
+	<five_potion>200</five_potion>
+	<three_hat>15</three_hat>
+	<four_hat>75</four_hat>
+	<five_hat>500</five_hat>
+	<three_jar>50</three_jar>
+	<four_jar>100</four_jar>
+	<five_jar>1000</five_jar>
+	<three_web>100</three_web>
+	<four_web>250</four_web>
+	<five_web>2500</five_web>
+	<three_ghost>150</three_ghost>
+	<four_ghost>500</four_ghost>
+	<five_ghost>5000</five_ghost>
+	<three_bat>3</three_bat>
+	<four_bat>10</four_bat>
+	<five_bat>100</five_bat>
+	<!-- ||| END PAY TABLE ||| -->
+</config>
+
+	<!-- ||| congratulations, completed your config |||-->

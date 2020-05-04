@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Soccer Snakes</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1 maximum-scale=1 user-scalable=no minimal-ui" />
+
+    <style>
+        body {
+            margin: 0px 0px 1px 0px;
+            background: #000000;
+        }
+
+        #content {
+            margin: 0 auto;
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+
+        @font-face {
+            font-family: "Chewy";
+            font-style: bold;
+            src: url("assets/fonts/Chewy.ttf");
+        }
+
+    </style>
+
+        <script>
+        
+        window.addEventListener("keydown", function(e) {
+            // space and arrow keys
+            if([32, 37, 38, 39, 40].indexOf(e.keyCode) > -1) {
+                e.preventDefault();
+            }
+        }, false);
+
+    </script>
+
+    <script src="js/phaser.min.js"></script>
+    <!-- <script src="js/phaser-inspector.min.js"></script> -->
+    <script src="js/spriter.min.js"></script>
+    <script src="js/soccer-snake.min.js?v=1.0"></script>
+  
+</head>
+<body>
+<div id="content"></div>
+</body>
+</html>

@@ -1,0 +1,640 @@
+{
+  "ID": "cea7c99f-661f-4ccf-ba8a-c2ae45050e62",
+  "Version": "3.10.0.0",
+  "Name": "parachuteawardlayer",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Children": [
+          {
+            "FileData": {
+              "Type": "MarkedSubImage",
+              "Path": "publicimg/scalesprite1.png",
+              "Plist": "imglist/scaleplist.plist"
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 54,
+            "Scale9OriginY": 56,
+            "Scale9Width": 58,
+            "Scale9Height": 59,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 320.0,
+              "Y": 628.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.5528
+            },
+            "PreSize": {
+              "X": 0.9937,
+              "Y": 0.5018
+            },
+            "LeftMargin": 2.0,
+            "RightMargin": 2.0,
+            "TopMargin": 223.0,
+            "BottomMargin": 343.0,
+            "Tag": 36,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "gameplaylayer/title.png",
+                  "Plist": "imglist/gameplaylayer1.plist"
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 318.4549,
+                  "Y": 498.9372
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5007,
+                  "Y": 0.8753
+                },
+                "PreSize": {
+                  "X": 0.9748,
+                  "Y": 0.1649
+                },
+                "LeftMargin": 8.4549,
+                "RightMargin": 7.5451,
+                "TopMargin": 24.0628,
+                "BottomMargin": 451.9372,
+                "Tag": 12,
+                "ActionTag": -634718060,
+                "Size": {
+                  "X": 620.0,
+                  "Y": 94.0
+                },
+                "Name": "sbg2_3",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "facebook_ad/SURPRISE.png",
+                  "Plist": "imglist/csi2.plist"
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 319.8465,
+                  "Y": 506.2726
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5029,
+                  "Y": 0.8882
+                },
+                "PreSize": {
+                  "X": 0.4953,
+                  "Y": 0.1228
+                },
+                "LeftMargin": 162.3465,
+                "RightMargin": 158.6535,
+                "TopMargin": 28.7274,
+                "BottomMargin": 471.2726,
+                "Tag": 58,
+                "ActionTag": -1160260627,
+                "Size": {
+                  "X": 315.0,
+                  "Y": 70.0
+                },
+                "Name": "SURPRISE_1",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "gameplaylayer/closebtn.png",
+                  "Plist": "imglist/gameplaylayer2.plist"
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 572.3239,
+                  "Y": 554.2441
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.8999,
+                  "Y": 0.9724
+                },
+                "PreSize": {
+                  "X": 0.1667,
+                  "Y": 0.2088
+                },
+                "LeftMargin": 519.3239,
+                "RightMargin": 10.6761,
+                "TopMargin": -43.7441,
+                "BottomMargin": 494.7441,
+                "Tag": 106,
+                "ActionTag": -73013698,
+                "Size": {
+                  "X": 106.0,
+                  "Y": 119.0
+                },
+                "Name": "closebtn",
+                "ctype": "SpriteObjectData"
+              }
+            ],
+            "ActionTag": 1325269098,
+            "Size": {
+              "X": 636.0,
+              "Y": 570.0
+            },
+            "Name": "uiInfo",
+            "ctype": "ImageViewObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "MarkedSubImage",
+              "Path": "facebook_ad/flash_light_bg.png",
+              "Plist": "imglist/csi1.plist"
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 324.3733,
+              "Y": 635.7791
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5068,
+              "Y": 0.5597
+            },
+            "PreSize": {
+              "X": 0.8031,
+              "Y": 0.3486
+            },
+            "LeftMargin": 67.3733,
+            "RightMargin": 58.6267,
+            "TopMargin": 302.2209,
+            "BottomMargin": 437.7791,
+            "Tag": 607,
+            "ActionTag": -531565633,
+            "Size": {
+              "X": 514.0,
+              "Y": 396.0
+            },
+            "Name": "flash_light_bg_1",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "MarkedSubImage",
+              "Path": "publicimg/buybtn.png",
+              "Plist": "imglist/gameplayeffect3.plist"
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 324.8361,
+              "Y": 424.4478
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5076,
+              "Y": 0.3736
+            },
+            "PreSize": {
+              "X": 0.3781,
+              "Y": 0.103
+            },
+            "LeftMargin": 203.8361,
+            "RightMargin": 194.1639,
+            "TopMargin": 653.0522,
+            "BottomMargin": 365.9478,
+            "Tag": 612,
+            "ActionTag": 395184450,
+            "Size": {
+              "X": 242.0,
+              "Y": 117.0
+            },
+            "Name": "btn_ad",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "MarkedSubImage",
+              "Path": "achievement/step5.png",
+              "Plist": "imglist/csi1.plist"
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 321.0,
+              "Y": 663.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5016,
+              "Y": 0.5836
+            },
+            "PreSize": {
+              "X": 0.1781,
+              "Y": 0.0933
+            },
+            "LeftMargin": 264.0,
+            "RightMargin": 262.0,
+            "TopMargin": 420.0,
+            "BottomMargin": 610.0,
+            "Tag": 28,
+            "ActionTag": 2006975060,
+            "Size": {
+              "X": 114.0,
+              "Y": 106.0
+            },
+            "Name": "itemicon",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "MarkedSubImage",
+              "Path": "publicimg/6.png",
+              "Plist": "imglist/publicimg1.plist"
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 80.1362,
+              "Y": 848.9996
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.1252,
+              "Y": 0.7474
+            },
+            "PreSize": {
+              "X": 0.1391,
+              "Y": 0.0273
+            },
+            "LeftMargin": 35.6362,
+            "RightMargin": 515.3638,
+            "TopMargin": 271.5004,
+            "BottomMargin": 833.4996,
+            "Tag": 39,
+            "ActionTag": -685125120,
+            "Size": {
+              "X": 89.0,
+              "Y": 31.0
+            },
+            "Name": "Sprite_10",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "MarkedSubImage",
+              "Path": "publicimg/6.png",
+              "Plist": "imglist/publicimg1.plist"
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 563.8655,
+              "Y": 848.9996
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.881,
+              "Y": 0.7474
+            },
+            "PreSize": {
+              "X": 0.1391,
+              "Y": 0.0273
+            },
+            "LeftMargin": 519.3655,
+            "RightMargin": 31.6345,
+            "TopMargin": 271.5004,
+            "BottomMargin": 833.4996,
+            "Tag": 40,
+            "ActionTag": -657229245,
+            "Size": {
+              "X": 89.0,
+              "Y": 31.0
+            },
+            "Name": "Sprite_10_0",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "MarkedSubImage",
+              "Path": "facebook_ad/watch.png",
+              "Plist": "imglist/csi2.plist"
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 268.7073,
+              "Y": 427.4544
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.4199,
+              "Y": 0.3763
+            },
+            "PreSize": {
+              "X": 0.1047,
+              "Y": 0.0599
+            },
+            "LeftMargin": 235.2073,
+            "RightMargin": 337.7927,
+            "TopMargin": 674.5456,
+            "BottomMargin": 393.4544,
+            "Tag": 608,
+            "ActionTag": 72388902,
+            "Size": {
+              "X": 67.0,
+              "Y": 68.0
+            },
+            "Name": "watch_2",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "MarkedSubImage",
+              "Path": "achievement/gg.png",
+              "Plist": "imglist/gameplaylayer1.plist"
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 326.0944,
+              "Y": 510.3675
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 0.38
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5095,
+              "Y": 0.4493
+            },
+            "PreSize": {
+              "X": 0.7219,
+              "Y": 0.0915
+            },
+            "LeftMargin": 95.0944,
+            "RightMargin": 82.9056,
+            "TopMargin": 573.6325,
+            "BottomMargin": 458.3675,
+            "Tag": 609,
+            "ActionTag": -1740120998,
+            "Size": {
+              "X": 462.0,
+              "Y": 104.0
+            },
+            "Name": "gg_3",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FontSize": 30,
+            "LabelText": "Watch a video get if for free",
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 322.9922,
+              "Y": 509.5099
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {
+              "R": 106,
+              "G": 43,
+              "B": 42
+            },
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5047,
+              "Y": 0.4485
+            },
+            "PreSize": {
+              "X": 0.6797,
+              "Y": 0.0264
+            },
+            "LeftMargin": 105.4922,
+            "RightMargin": 99.5078,
+            "TopMargin": 611.4901,
+            "BottomMargin": 494.5099,
+            "Tag": 613,
+            "ActionTag": 1204633301,
+            "Size": {
+              "X": 435.0,
+              "Y": 30.0
+            },
+            "Name": "Text_1",
+            "ctype": "TextObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "MarkedSubImage",
+              "Path": "facebook_ad/free.png",
+              "Plist": "imglist/csi2.plist"
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 361.3818,
+              "Y": 429.091
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5647,
+              "Y": 0.3777
+            },
+            "PreSize": {
+              "X": 0.1625,
+              "Y": 0.0387
+            },
+            "LeftMargin": 309.3818,
+            "RightMargin": 226.6182,
+            "TopMargin": 684.909,
+            "BottomMargin": 407.091,
+            "Tag": 694,
+            "ActionTag": -1462843835,
+            "Size": {
+              "X": 104.0,
+              "Y": 44.0
+            },
+            "Name": "free_12",
+            "ctype": "SpriteObjectData"
+          }
+        ],
+        "Size": {
+          "X": 640.0,
+          "Y": 1136.0
+        },
+        "Name": "Layer",
+        "ctype": "LayerObjectData"
+      },
+      "UsedResources": [
+        "imglist/csi1.plist",
+        "imglist/csi1.png",
+        "imglist/csi2.plist",
+        "imglist/csi2.png",
+        "imglist/gameplayeffect3.plist",
+        "imglist/gameplayeffect3.png",
+        "imglist/gameplaylayer1.plist",
+        "imglist/gameplaylayer1.png",
+        "imglist/gameplaylayer2.plist",
+        "imglist/gameplaylayer2.png",
+        "imglist/publicimg1.plist",
+        "imglist/publicimg1.png",
+        "imglist/scaleplist.plist",
+        "imglist/scaleplist.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Layer"
+}

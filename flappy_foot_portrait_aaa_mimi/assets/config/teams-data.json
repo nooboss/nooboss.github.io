@@ -1,0 +1,260 @@
+[
+  {
+    "id": 1,
+    "name": "ALGERIA",
+    "tournaments": "AFRICA CUP"
+  },
+  {
+    "id": 2,
+    "name": "ARGENTINA",
+    "tournaments": [
+      "AMERICA CUP",
+      "WORLD CUP"
+    ]
+  },
+  {
+    "id": 3,
+    "name": "AUSTRALIA",
+    "tournaments": "ASIA CUP"
+  },
+  {
+    "id": 4,
+    "name": "BELGIUM",
+    "tournaments": "WORLD CUP"
+  },
+  {
+    "id": 5,
+    "name": "BOLIVIA",
+    "tournaments": "AMERICA CUP"
+  },
+  {
+    "id": 6,
+    "name": "BRAZIL",
+    "tournaments": [
+      "AMERICA CUP",
+      "WORLD CUP"
+    ]
+  },
+  {
+    "id": 7,
+    "name": "CANADA",
+    "tournaments": "GOLD CUP"
+  },
+  {
+    "id": 8,
+    "name": "CHILE",
+    "tournaments": "AMERICA CUP"
+  },
+  {
+    "id": 9,
+    "name": "CHINA",
+    "tournaments": "ASIA CUP"
+  },
+  {
+    "id": 10,
+    "name": "COLOMBIA",
+    "tournaments": [
+      "AMERICA CUP",
+      "WORLD CUP"
+    ]
+  },
+  {
+    "id": 11,
+    "name": "COSTA RICA",
+    "tournaments": "GOLD CUP"
+  },
+  {
+    "id": 12,
+    "name": "CROATIA",
+    "tournaments": "WORLD CUP"
+  },
+  {
+    "id": 13,
+    "name": "DENMARK",
+    "tournaments": "WORLD CUP"
+  },
+  {
+    "id": 14,
+    "name": "ENGLAND",
+    "tournaments": [
+      "EURO CUP",
+      "WORLD CUP"
+    ]
+  },
+  {
+    "id": 15,
+    "name": "FIJI",
+    "tournaments": "OCEANIA CUP"
+  },
+  {
+    "id": 16,
+    "name": "FRANCE",
+    "tournaments": [
+      "EURO CUP",
+      "WORLD CUP"
+    ]
+  },
+  {
+    "id": 17,
+    "name": "GERMANY",
+    "tournaments": "EURO CUP"
+  },
+  {
+    "id": 18,
+    "name": "GHANA",
+    "tournaments": "AFRICA CUP"
+  },
+  {
+    "id": 19,
+    "name": "HONDURAS",
+    "tournaments": "GOLD CUP"
+  },
+  {
+    "id": 20,
+    "name": "INDIA",
+    "tournaments": "ASIA CUP"
+  },
+  {
+    "id": 21,
+    "name": "IRAN",
+    "tournaments": "ASIA CUP"
+  },
+  {
+    "id": 22,
+    "name": "ITALY",
+    "tournaments": "EURO CUP"
+  },
+  {
+    "id": 23,
+    "name": "IVORY COAST",
+    "tournaments": "AFRICA CUP"
+  },
+  {
+    "id": 24,
+    "name": "JAMAICA",
+    "tournaments": "GOLD CUP"
+  },
+  {
+    "id": 25,
+    "name": "JAPAN",
+    "tournaments": "ASIA CUP"
+  },
+  {
+    "id": 26,
+    "name": "KENYA",
+    "tournaments": "AFRICA CUP"
+  },
+  {
+    "id": 27,
+    "name": "MEXICO",
+    "tournaments": "GOLD CUP"
+  },
+  {
+    "id": 28,
+    "name": "MOROCCO",
+    "tournaments": "AFRICA CUP"
+  },
+  {
+    "id": 29,
+    "name": "NAMIBIA",
+    "tournaments": "AFRICA CUP"
+  },
+  {
+    "id": 30,
+    "name": "NETHERLANDS",
+    "tournaments": "EURO CUP"
+  },
+  {
+    "id": 31,
+    "name": "NEW ZEALAND",
+    "tournaments": "OCEANIA CUP"
+  },
+  {
+    "id": 32,
+    "name": "PANAMA",
+    "tournaments": "GOLD CUP"
+  },
+  {
+    "id": 33,
+    "name": "PAPUA NEW GUINEA",
+    "tournaments": "AFRICA CUP"
+  },
+  {
+    "id": 34,
+    "name": "PERU",
+    "tournaments": "AMERICA CUP"
+  },
+  {
+    "id": 35,
+    "name": "PORTUGAL",
+    "tournaments": "EURO CUP"
+  },
+  {
+    "id": 36,
+    "name": "RUSSIA",
+    "tournaments": [
+      "EURO CUP",
+      "WORLD CUP"
+    ]
+  },
+  {
+    "id": 37,
+    "name": "SAMOA",
+    "tournaments": "OCEANIA CUP"
+  },
+  {
+    "id": 38,
+    "name": "SAUDI ARABIA",
+    "tournaments": "ASIA CUP"
+  },
+  {
+    "id": 39,
+    "name": "SOLOMON ISLANDS",
+    "tournaments": "OCEANIA CUP"
+  },
+  {
+    "id": 40,
+    "name": "SOUTH KOREA",
+    "tournaments": "ASIA CUP"
+  },
+  {
+    "id": 41,
+    "name": "SPAIN",
+    "tournaments": "EURO CUP"
+  },
+  {
+    "id": 42,
+    "name": "SWEDEN",
+    "tournaments": "WORLD CUP"
+  },
+  {
+    "id": 43,
+    "name": "TAHITI",
+    "tournaments": "OCEANIA CUP"
+  },
+  {
+    "id": 44,
+    "name": "TUNISIA",
+    "tournaments": "AFRICA CUP"
+  },
+  {
+    "id": 45,
+    "name": "U.S.A.",
+    "tournaments": "GOLD CUP"
+  },
+  {
+    "id": 46,
+    "name": "URUGUAY",
+    "tournaments": "WORLD CUP"
+  },
+  {
+    "id": 47,
+    "name": "VANUATU",
+    "tournaments": "OCEANIA CUP"
+  },
+  {
+    "id": 48,
+    "name": "VENEZUELA",
+    "tournaments": "AMERICA CUP"
+  }
+]

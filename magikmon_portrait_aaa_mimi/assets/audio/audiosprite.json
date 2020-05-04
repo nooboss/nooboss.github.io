@@ -1,0 +1,233 @@
+{
+  "resources": [
+    "../assets/audio/audiosprite.mp3",
+    "../assets/audio/audiosprite.ogg"
+  ],
+  "spritemap": {
+    "attack_electric": {
+      "start": 0,
+      "end": 0.5008163265306123,
+      "loop": false
+    },
+    "attack_generic": {
+      "start": 2,
+      "end": 2.619705215419501,
+      "loop": false
+    },
+    "attack_spectre": {
+      "start": 4,
+      "end": 6.030725623582766,
+      "loop": false
+    },
+    "attack_tech": {
+      "start": 8,
+      "end": 9,
+      "loop": false
+    },
+    "beam tech": {
+      "start": 10,
+      "end": 11.303560090702948,
+      "loop": false
+    },
+    "beam_tech": {
+      "start": 13,
+      "end": 14.303560090702948,
+      "loop": false
+    },
+    "checking_hack_status": {
+      "start": 16,
+      "end": 16.389387755102042,
+      "loop": false
+    },
+    "click_btn": {
+      "start": 18,
+      "end": 18.221904761904764,
+      "loop": false
+    },
+    "dazzle_generic": {
+      "start": 20,
+      "end": 21.49707482993197,
+      "loop": false
+    },
+    "effect_classic": {
+      "start": 23,
+      "end": 25.21480725623583,
+      "loop": false
+    },
+    "finished_healing": {
+      "start": 27,
+      "end": 28.83984126984127,
+      "loop": false
+    },
+    "flame_heal_01": {
+      "start": 30,
+      "end": 32.004285714285714,
+      "loop": false
+    },
+    "flame_heal_02": {
+      "start": 34,
+      "end": 36.039478458049885,
+      "loop": false
+    },
+    "flash_generic": {
+      "start": 38,
+      "end": 39.07555555555555,
+      "loop": false
+    },
+    "fx_attack_tocho": {
+      "start": 41,
+      "end": 45.10231292517007,
+      "loop": false
+    },
+    "fx_buy_item": {
+      "start": 47,
+      "end": 47.7581179138322,
+      "loop": false
+    },
+    "fx_capture_fail": {
+      "start": 49,
+      "end": 49.85197278911565,
+      "loop": false
+    },
+    "fx_capture_success": {
+      "start": 51,
+      "end": 51.75693877551021,
+      "loop": false
+    },
+    "fx_capture": {
+      "start": 53,
+      "end": 54.29657596371882,
+      "loop": false
+    },
+    "fx_hacked_01": {
+      "start": 56,
+      "end": 56.818231292517005,
+      "loop": false
+    },
+    "fx_hacked_02": {
+      "start": 58,
+      "end": 58.729297052154195,
+      "loop": false
+    },
+    "fx_hacked_03": {
+      "start": 60,
+      "end": 60.307482993197276,
+      "loop": false
+    },
+    "fx_hacked_04": {
+      "start": 62,
+      "end": 62.28988662131519,
+      "loop": false
+    },
+    "fx_item_used": {
+      "start": 64,
+      "end": 66.07918367346939,
+      "loop": false
+    },
+    "fx_poisoned": {
+      "start": 68,
+      "end": 68.51358276643991,
+      "loop": false
+    },
+    "fx_speak": {
+      "start": 70,
+      "end": 70.16213151927438,
+      "loop": false
+    },
+    "impact_classic": {
+      "start": 72,
+      "end": 73.78281179138322,
+      "loop": false
+    },
+    "impact_spectre": {
+      "start": 75,
+      "end": 77.00902494331066,
+      "loop": false
+    },
+    "impact_tech": {
+      "start": 79,
+      "end": 80.7172335600907,
+      "loop": false
+    },
+    "intro_combate": {
+      "start": 82,
+      "end": 82.82544217687075,
+      "loop": false
+    },
+    "missed_attack": {
+      "start": 84,
+      "end": 84.44671201814059,
+      "loop": false
+    },
+    "music_dialogue": {
+      "start": 86,
+      "end": 102.00544217687074,
+      "loop": false
+    },
+    "music_fight": {
+      "start": 104,
+      "end": 320.8163265306123,
+      "loop": true
+    },
+    "music_map": {
+      "start": 322,
+      "end": 398.93619047619046,
+      "loop": true
+    },
+    "musica_defeat": {
+      "start": 400,
+      "end": 403.4448526077098,
+      "loop": true
+    },
+    "musica_victory": {
+      "start": 405,
+      "end": 409.41732426303855,
+      "loop": false
+    },
+    "new_attack_classic": {
+      "start": 411,
+      "end": 414.70938775510206,
+      "loop": false
+    },
+    "new_attack_generic": {
+      "start": 416,
+      "end": 423.0791836734694,
+      "loop": false
+    },
+    "new_attack_spectre": {
+      "start": 425,
+      "end": 430.1461224489796,
+      "loop": false
+    },
+    "new_attack_tech": {
+      "start": 432,
+      "end": 435.9183673469388,
+      "loop": false
+    },
+    "poison_spectre": {
+      "start": 437,
+      "end": 438.51514739229026,
+      "loop": false
+    },
+    "smoke_generic": {
+      "start": 440,
+      "end": 441.54079365079366,
+      "loop": false
+    },
+    "splat_generic": {
+      "start": 443,
+      "end": 443.8290476190476,
+      "loop": false
+    },
+    "step": {
+      "start": 445,
+      "end": 445.1206349206349,
+      "loop": false
+    },
+    "wrong_destination": {
+      "start": 447,
+      "end": 447.1729931972789,
+      "loop": false
+    }
+  }
+}

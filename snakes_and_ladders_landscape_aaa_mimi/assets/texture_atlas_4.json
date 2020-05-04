@@ -1,0 +1,83 @@
+{
+	"textures": [
+		{
+			"image": "texture_atlas_4.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 2048,
+				"h": 2048
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "board",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 770,
+						"h": 698
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 770,
+						"h": 698
+					},
+					"frame": {
+						"x": 1,
+						"y": 1,
+						"w": 770,
+						"h": 698
+					}
+				},
+				{
+					"filename": "ladders_back",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 749,
+						"h": 698
+					},
+					"spriteSourceSize": {
+						"x": 90,
+						"y": 79,
+						"w": 518,
+						"h": 557
+					},
+					"frame": {
+						"x": 773,
+						"y": 1,
+						"w": 518,
+						"h": 557
+					}
+				},
+				{
+					"filename": "ladders_front",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 749,
+						"h": 698
+					},
+					"spriteSourceSize": {
+						"x": 92,
+						"y": 191,
+						"w": 449,
+						"h": 386
+					},
+					"frame": {
+						"x": 1293,
+						"y": 1,
+						"w": 449,
+						"h": 386
+					}
+				}
+			]
+		}
+	],
+	"meta": {
+		"app": "https://www.codeandweb.com/texturepacker",
+		"version": "3.0",
+		"smartupdate": "$TexturePacker:SmartUpdate:1d2973c7fed1df56f0927631258e5d95:b747081332a5993b0cdfad5567ea6509:da96745a4979f34ffd84fb8b5d66e27c$"
+	}
+}

@@ -1,0 +1,44 @@
+{"frames": [
+
+{
+	"filename": "gradient_sea.png",
+	"frame": {"x":1,"y":353,"w":192,"h":290},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":192,"h":290},
+	"sourceSize": {"w":192,"h":290}
+},
+{
+	"filename": "grid_quarter.png",
+	"frame": {"x":1541,"y":1,"w":372,"h":372},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":372,"h":372},
+	"sourceSize": {"w":373,"h":373}
+},
+{
+	"filename": "player_north_coast.png",
+	"frame": {"x":1,"y":1,"w":768,"h":350},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":768,"h":350},
+	"sourceSize": {"w":768,"h":350}
+},
+{
+	"filename": "rival_north_coast.png",
+	"frame": {"x":771,"y":1,"w":768,"h":350},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":768,"h":350},
+	"sourceSize": {"w":768,"h":350}
+}],
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "texture_atlas_3.png",
+	"format": "RGBA8888",
+	"size": {"w":2048,"h":2048},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:465db4e265639e9e1829335cc3fb562a:d85f019ac208c9f0c3229f7ba3d2629b:b87986fdd92f2882d179b98624ef4e28$"
+}
+}

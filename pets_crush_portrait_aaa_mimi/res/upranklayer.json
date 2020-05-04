@@ -1,0 +1,812 @@
+{
+  "ID": "e59cca18-0394-4485-87eb-64e1a621eefa",
+  "Version": "3.10.0.0",
+  "Name": "upranklayer",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 27,
+        "Children": [
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "gamelevelscene/bg_half.jpg",
+              "Plist": ""
+            },
+            "Scale9OriginX": 105,
+            "Scale9OriginY": 187,
+            "Scale9Width": 110,
+            "Scale9Height": 194,
+            "AnchorPoint": {},
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 1.0,
+              "Y": 1.0
+            },
+            "Tag": 545,
+            "ActionTag": -1922534785,
+            "Size": {
+              "X": 640.0,
+              "Y": 1136.0
+            },
+            "Name": "Image_6",
+            "ctype": "ImageViewObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "MarkedSubImage",
+              "Path": "facebook_ad/flash_light_bg.png",
+              "Plist": "imglist/csi1.plist"
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 321.3961,
+              "Y": 784.1477
+            },
+            "Scale": {
+              "ScaleX": 1.5,
+              "ScaleY": 1.5
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5022,
+              "Y": 0.6903
+            },
+            "PreSize": {
+              "X": 0.8031,
+              "Y": 0.3486
+            },
+            "LeftMargin": 64.3961,
+            "RightMargin": 61.6039,
+            "TopMargin": 153.8523,
+            "BottomMargin": 586.1477,
+            "Tag": 581,
+            "ActionTag": 1000780117,
+            "Size": {
+              "X": 514.0,
+              "Y": 396.0
+            },
+            "Name": "flash_light",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "MarkedSubImage",
+              "Path": "publicimg/btntype2.png",
+              "Plist": "imglist/publicimg1.plist"
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 470.8989,
+              "Y": 123.5125
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.7358,
+              "Y": 0.1087
+            },
+            "PreSize": {
+              "X": 0.4688,
+              "Y": 0.1241
+            },
+            "LeftMargin": 320.8989,
+            "RightMargin": 19.1011,
+            "TopMargin": 941.9875,
+            "BottomMargin": 53.0125,
+            "Tag": 33,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "gamelevelscene/SHARE.png",
+                  "Plist": "imglist/csi2.plist"
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 151.3704,
+                  "Y": 78.0082
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5046,
+                  "Y": 0.5532
+                },
+                "PreSize": {
+                  "X": 0.6367,
+                  "Y": 0.4184
+                },
+                "LeftMargin": 55.8704,
+                "RightMargin": 53.1296,
+                "TopMargin": 33.4918,
+                "BottomMargin": 48.5082,
+                "Tag": 579,
+                "ActionTag": 930206313,
+                "Size": {
+                  "X": 191.0,
+                  "Y": 59.0
+                },
+                "Name": "SHARE_46",
+                "ctype": "SpriteObjectData"
+              }
+            ],
+            "ActionTag": -82896278,
+            "Size": {
+              "X": 300.0,
+              "Y": 141.0
+            },
+            "Name": "shareBtn",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "MarkedSubImage",
+              "Path": "publicimg/btntype1.png",
+              "Plist": "imglist/publicimg1.plist"
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 167.3353,
+              "Y": 126.5035
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.2615,
+              "Y": 0.1114
+            },
+            "PreSize": {
+              "X": 0.4688,
+              "Y": 0.1241
+            },
+            "LeftMargin": 17.3353,
+            "RightMargin": 322.6647,
+            "TopMargin": 938.9965,
+            "BottomMargin": 56.0035,
+            "Tag": 444,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "gamelevelscene/CONTINUE.png",
+                  "Plist": "imglist/csi2.plist"
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 147.088,
+                  "Y": 76.5814
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.4903,
+                  "Y": 0.5431
+                },
+                "PreSize": {
+                  "X": 0.8233,
+                  "Y": 0.3901
+                },
+                "LeftMargin": 23.588,
+                "RightMargin": 29.412,
+                "TopMargin": 36.9186,
+                "BottomMargin": 49.0814,
+                "Tag": 580,
+                "ActionTag": 1773457082,
+                "Size": {
+                  "X": 247.0,
+                  "Y": 55.0
+                },
+                "Name": "CONTINUE_47",
+                "ctype": "SpriteObjectData"
+              }
+            ],
+            "ActionTag": 655244078,
+            "Size": {
+              "X": 300.0,
+              "Y": 141.0
+            },
+            "Name": "continuebtn",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "MarkedSubImage",
+              "Path": "gamelevelscene/ban_Violet_516x218.png",
+              "Plist": "imglist/scaleplist.plist"
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 55,
+            "Scale9OriginY": 49,
+            "Scale9Width": 58,
+            "Scale9Height": 51,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 276.96,
+              "Y": 830.9427
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.4327,
+              "Y": 0.7315
+            },
+            "PreSize": {
+              "X": 0.8062,
+              "Y": 0.1893
+            },
+            "LeftMargin": 18.96,
+            "RightMargin": 105.04,
+            "TopMargin": 197.5573,
+            "BottomMargin": 723.4427,
+            "Tag": 518,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "gamelevelscene/242x80.png",
+                  "Plist": "imglist/scaleplist.plist"
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 29,
+                "Scale9OriginY": 29,
+                "Scale9Width": 32,
+                "Scale9Height": 32,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 355.8004,
+                  "Y": 144.8947
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.6895,
+                  "Y": 0.6739
+                },
+                "PreSize": {
+                  "X": 0.4457,
+                  "Y": 0.3256
+                },
+                "LeftMargin": 240.8004,
+                "RightMargin": 45.1996,
+                "TopMargin": 35.1053,
+                "BottomMargin": 109.8947,
+                "Tag": 519,
+                "ActionTag": -1246472723,
+                "Size": {
+                  "X": 230.0,
+                  "Y": 70.0
+                },
+                "Name": "Image_2",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "gameselectlayer/star.png",
+                  "Plist": "imglist/gameplaylayer2.plist"
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 301.2536,
+                  "Y": 144.3229
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5838,
+                  "Y": 0.6713
+                },
+                "PreSize": {
+                  "X": 0.0891,
+                  "Y": 0.214
+                },
+                "LeftMargin": 278.2536,
+                "RightMargin": 191.7464,
+                "TopMargin": 47.6771,
+                "BottomMargin": 121.3229,
+                "Tag": 583,
+                "ActionTag": -1934064715,
+                "Size": {
+                  "X": 59.0,
+                  "Y": 59.0
+                },
+                "Name": "petstart_49_0",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "gamelevelscene/xiajiang.png",
+                  "Plist": "imglist/csi2.plist"
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 271.2097,
+                  "Y": -37.4534
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5256,
+                  "Y": -0.1742
+                },
+                "PreSize": {
+                  "X": 0.1589,
+                  "Y": 0.414
+                },
+                "LeftMargin": 230.2097,
+                "RightMargin": 203.7903,
+                "TopMargin": 207.9534,
+                "BottomMargin": -81.9534,
+                "Tag": 522,
+                "ActionTag": 572101242,
+                "Size": {
+                  "X": 82.0,
+                  "Y": 89.0
+                },
+                "Name": "xiajiang_2",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "rank/headRect.png",
+                  "Plist": "imglist/csi2.plist"
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 130.0,
+                  "Y": 142.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.2519,
+                  "Y": 0.6605
+                },
+                "PreSize": {
+                  "X": 0.1434,
+                  "Y": 0.3628
+                },
+                "LeftMargin": 93.0,
+                "RightMargin": 349.0,
+                "TopMargin": 34.0,
+                "BottomMargin": 103.0,
+                "Tag": 32,
+                "ActionTag": -996531318,
+                "Size": {
+                  "X": 74.0,
+                  "Y": 78.0
+                },
+                "Name": "headRect_2",
+                "ctype": "SpriteObjectData"
+              }
+            ],
+            "ActionTag": -1829560425,
+            "Size": {
+              "X": 516.0,
+              "Y": 215.0
+            },
+            "Name": "other_node",
+            "ctype": "ImageViewObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "MarkedSubImage",
+              "Path": "gamelevelscene/ban_red_516x218.png",
+              "Plist": "imglist/scaleplist.plist"
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 55,
+            "Scale9OriginY": 49,
+            "Scale9Width": 58,
+            "Scale9Height": 51,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 375.7297,
+              "Y": 500.9897
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5871,
+              "Y": 0.441
+            },
+            "PreSize": {
+              "X": 0.8062,
+              "Y": 0.1893
+            },
+            "LeftMargin": 117.7297,
+            "RightMargin": 6.2703,
+            "TopMargin": 527.5103,
+            "BottomMargin": 393.4897,
+            "Tag": 520,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "gamelevelscene/shangsheng.png",
+                  "Plist": "imglist/csi2.plist"
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 276.3587,
+                  "Y": 252.5095
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5356,
+                  "Y": 1.1745
+                },
+                "PreSize": {
+                  "X": 0.1589,
+                  "Y": 0.4186
+                },
+                "LeftMargin": 235.3587,
+                "RightMargin": 198.6413,
+                "TopMargin": -82.5095,
+                "BottomMargin": 207.5095,
+                "Tag": 523,
+                "ActionTag": -1669955954,
+                "Size": {
+                  "X": 82.0,
+                  "Y": 90.0
+                },
+                "Name": "shangsheng_3",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "gamelevelscene/242x80.png",
+                  "Plist": "imglist/scaleplist.plist"
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 29,
+                "Scale9OriginY": 29,
+                "Scale9Width": 32,
+                "Scale9Height": 32,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 355.8004,
+                  "Y": 144.8947
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.6895,
+                  "Y": 0.6739
+                },
+                "PreSize": {
+                  "X": 0.4457,
+                  "Y": 0.3256
+                },
+                "LeftMargin": 240.8004,
+                "RightMargin": 45.1996,
+                "TopMargin": 35.1053,
+                "BottomMargin": 109.8947,
+                "Tag": 521,
+                "ActionTag": -572776684,
+                "Size": {
+                  "X": 230.0,
+                  "Y": 70.0
+                },
+                "Name": "Image_2",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "gameselectlayer/star.png",
+                  "Plist": "imglist/gameplaylayer2.plist"
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 301.1425,
+                  "Y": 143.2205
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5836,
+                  "Y": 0.6661
+                },
+                "PreSize": {
+                  "X": 0.0891,
+                  "Y": 0.214
+                },
+                "LeftMargin": 278.1425,
+                "RightMargin": 191.8575,
+                "TopMargin": 48.7795,
+                "BottomMargin": 120.2205,
+                "Tag": 582,
+                "ActionTag": 1038247594,
+                "Size": {
+                  "X": 59.0,
+                  "Y": 59.0
+                },
+                "Name": "petstart_49",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "rank/headRect.png",
+                  "Plist": "imglist/csi2.plist"
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 130.0,
+                  "Y": 142.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.2519,
+                  "Y": 0.6605
+                },
+                "PreSize": {
+                  "X": 0.1434,
+                  "Y": 0.3628
+                },
+                "LeftMargin": 93.0,
+                "RightMargin": 349.0,
+                "TopMargin": 34.0,
+                "BottomMargin": 103.0,
+                "Tag": 31,
+                "ActionTag": 2023757105,
+                "Size": {
+                  "X": 74.0,
+                  "Y": 78.0
+                },
+                "Name": "headRect_1",
+                "ctype": "SpriteObjectData"
+              }
+            ],
+            "ActionTag": 567443981,
+            "Size": {
+              "X": 516.0,
+              "Y": 215.0
+            },
+            "Name": "self_node",
+            "ctype": "ImageViewObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "MarkedSubImage",
+              "Path": "gamelevelscene/RANK-UP.png",
+              "Plist": "imglist/csi2.plist"
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 297.2839,
+              "Y": 666.3377
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.4645,
+              "Y": 0.5866
+            },
+            "PreSize": {
+              "X": 0.5063,
+              "Y": 0.0739
+            },
+            "LeftMargin": 135.2839,
+            "RightMargin": 180.7161,
+            "TopMargin": 427.6623,
+            "BottomMargin": 624.3377,
+            "Tag": 524,
+            "ActionTag": -1912723633,
+            "Size": {
+              "X": 324.0,
+              "Y": 84.0
+            },
+            "Name": "Sprite_4",
+            "ctype": "SpriteObjectData"
+          }
+        ],
+        "Size": {
+          "X": 640.0,
+          "Y": 1136.0
+        },
+        "Name": "Layer",
+        "ctype": "LayerObjectData"
+      },
+      "UsedResources": [
+        "gamelevelscene/bg_half.jpg",
+        "imglist/csi1.plist",
+        "imglist/csi1.png",
+        "imglist/csi2.plist",
+        "imglist/csi2.png",
+        "imglist/gameplaylayer2.plist",
+        "imglist/gameplaylayer2.png",
+        "imglist/publicimg1.plist",
+        "imglist/publicimg1.png",
+        "imglist/scaleplist.plist",
+        "imglist/scaleplist.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Layer"
+}

@@ -1,2 +1,0 @@
-version="1";
-libs=["../../../../../https@cdn.jsdelivr.net/npm/_40orange-games/phaser-ads_402.2/build/phaser-ads.min.js","../../../../../https@cdn.jsdelivr.net/npm/_40orange-games/phaser-cachebuster_402.0/build/phaser-cachebuster.min.js","../../../../../https@cdn.jsdelivr.net/npm/_40orange-games/phaser-spine_403.0/build/phaser-spine.min.js","../../../../../https@cdn.jsdelivr.net/npm/_40orange-games/phaser-super-storage_401.0/build/phaser-super-storage.min.js","../../../../../https@cdn.jsdelivr.net/npm/_40orange-games/splash_403.5/build/splash.min.js"];

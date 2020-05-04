@@ -1,1 +1,0 @@
-#for /D %%f in (D:\xampp\htdocs\apps\_DONE\mine\New\*) do rename "%%f" "%%~nxf_mimi"

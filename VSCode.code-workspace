@@ -3,5 +3,8 @@
 		{
 			"path": "D:\\xampp\\htdocs"
 		}
-	]
+	],
+	"settings": {
+		"git.ignoreLimitWarning": true
+	}
 }

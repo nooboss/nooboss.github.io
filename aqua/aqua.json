@@ -20,7 +20,7 @@
   "isOnAdsRewardedMainMenu": true,
   "isOnAnalytics": true,
   "isOnCrossPromo": false,
-  "isOnShareReward": false,
+  "isOnShareReward": true,
   "isOnCrossPromoReward": true,
   "frequencyCrossPromoWin": 2,
   "frequencyCrossPromoLoss": 1,

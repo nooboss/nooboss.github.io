@@ -3,5 +3,6 @@
   "version": 0,
   "ios_app_id": "6477532180",
   "android_app_id": "com.holova.aquachaos",
-  "image_url": "https://wallpapercave.com/wp/wp2245761.jpg"
+  "image_url": "https://wallpapercave.com/wp/wp2245761.jpg",
+  "sw_app_sign": false,
 }

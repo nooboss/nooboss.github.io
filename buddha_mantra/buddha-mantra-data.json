@@ -4,14 +4,14 @@
 	    "name": "Name Kinh 1",
 	    "author": "Name Tác Giả",
 	    "audio-local": "assets/audio/twinkle.mp3",
-	    "audio-online": "https://r2.holova.net/buddha-mantra/test/twinkle.mp3",
+	    "audio-online": "https://holova.qzz.io/buddha-mantra/test/twinkle.mp3",
 	    "content": "This is content of kinh 1. This is content of kinh 1. This is content of kinh 1. This is content of kinh 1. This is content of kinh 1. "
 	  },
 	  "id-en2": {
 	    "name": "Name Kinh 2",
 	    "author": "Name Tác Giả",
 	    "audio-local": "assets/audio/jingle.mp3",
-	    "audio-online": "https://r2.holova.net/buddha-mantra/test/jingle.mp3",
+	    "audio-online": "https://holova.qzz.io/buddha-mantra/test/jingle.mp3",
 	    "content": "This is content of kinh 2."
 	  }
 	},
@@ -20,14 +20,14 @@
 	    "name": "Tên Kinh 1",
 	    "author": "Tên Tác Giả",
 	    "audio-local": "assets/audio/twinkle.mp3",
-	    "audio-online": "https://r2.holova.net/buddha-mantra/test/twinkle.mp3",
+	    "audio-online": "https://holova.qzz.io/buddha-mantra/test/twinkle.mp3",
 	    "content": "Đây là nội dung bài kinh 1. Đây là nội dung bài kinh 1. Đây là nội dung bài kinh 1. Đây là nội dung bài kinh 1. Đây là nội dung bài kinh 1. Đây là nội dung bài kinh 1. Đây là nội dung bài kinh 1. Đây là nội dung bài kinh 1. Đây là nội dung bài kinh 1. Đây là nội dung bài kinh 1. Đây là nội dung bài kinh 1. Đây là nội dung bài kinh 1. Đây là nội dung bài kinh 1. Đây là nội dung bài kinh 1. Đây là nội dung bài kinh 1. Đây là nội dung bài kinh 1. Đây là nội dung bài kinh 1. Đây là nội dung bài kinh 1. Đây là nội dung bài kinh 1. Đây là nội dung bài kinh 1. Đây là nội dung bài kinh 1."
 	  },
 	  "id-vi2": {
 	    "name": "Tên Kinh 2",
 	    "author": "Tên Tác Giả",
 	    "audio-local": "assets/audio/jingle.mp3",
-	    "audio-online": "https://r2.holova.net/buddha-mantra/test/jingle.mp3",
+	    "audio-online": "https://holova.qzz.io/buddha-mantra/test/jingle.mp3",
 	    "content": "Đây là nội dung bài kinh 2."
 	  }
 	}

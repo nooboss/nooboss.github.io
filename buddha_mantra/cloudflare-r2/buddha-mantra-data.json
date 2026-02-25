@@ -122,6 +122,41 @@
       "url-info": "",
       "audio-online": "https://holova.qzz.io/buddha-mantra/test/jingle.mp3",
       "content": "https://holova.qzz.io/buddha-mantra/mantra/en/RedTaraBuddhaMantra.html"
+    },
+    "id-mtr-en13": {
+      "name": "The Name of Amitabha Buddha",
+      "author": "",
+      "url-info": "",
+      "audio-online": "https://holova.qzz.io/buddha-mantra/test/jingle.mp3",
+      "content": "https://holova.qzz.io/buddha-mantra/mantra/en/TheNameAmitabhaBuddha.html"
+    },
+    "id-mtr-en14": {
+      "name": "The Name of Shakyamuni Buddha",
+      "author": "",
+      "url-info": "",
+      "audio-online": "https://holova.qzz.io/buddha-mantra/test/jingle.mp3",
+      "content": "https://holova.qzz.io/buddha-mantra/mantra/en/TheNameShakyamuniBuddha.html"
+    },
+    "id-mtr-en15": {
+      "name": "The Name of the Medicine Buddha",
+      "author": "",
+      "url-info": "",
+      "audio-online": "https://holova.qzz.io/buddha-mantra/test/jingle.mp3",
+      "content": "https://holova.qzz.io/buddha-mantra/mantra/en/TheNameMedicineBuddha.html"
+    },
+    "id-mtr-en16": {
+      "name": "The Name of Avalokitesvara Bodhisattva",
+      "author": "",
+      "url-info": "",
+      "audio-online": "https://holova.qzz.io/buddha-mantra/test/jingle.mp3",
+      "content": "https://holova.qzz.io/buddha-mantra/mantra/en/TheNameAvalokitesvaraBodhisattva.html"
+    },
+    "id-mtr-en17": {
+      "name": "The Name of Ksitigarbha Bodhisattva",
+      "author": "",
+      "url-info": "",
+      "audio-online": "https://holova.qzz.io/buddha-mantra/test/jingle.mp3",
+      "content": "https://holova.qzz.io/buddha-mantra/mantra/en/TheNameKsitigarbhaBodhisattva.html"
     }
   },
   "mantras-vi": {
@@ -208,6 +243,41 @@
       "url-info": "",
       "audio-online": "https://holova.qzz.io/buddha-mantra/test/jingle.mp3",
       "content": "https://holova.qzz.io/buddha-mantra/mantra/vi/ChuPhatTaraDo.html"
+    },
+    "id-mtr-vi13": {
+      "name": "Danh Hiệu Phật A Di Đà",
+      "author": "",
+      "url-info": "",
+      "audio-online": "https://holova.qzz.io/buddha-mantra/test/jingle.mp3",
+      "content": "https://holova.qzz.io/buddha-mantra/mantra/vi/DanhHieuPhatADiDa.html"
+    },
+    "id-mtr-vi14": {
+      "name": "Danh Hiệu Phật Thích Ca Mâu Ni",
+      "author": "",
+      "url-info": "",
+      "audio-online": "https://holova.qzz.io/buddha-mantra/test/jingle.mp3",
+      "content": "https://holova.qzz.io/buddha-mantra/mantra/vi/DanhHieuPhatThichCa.html"
+    },
+    "id-mtr-vi15": {
+      "name": "Danh Hiệu Phật Dược Sư",
+      "author": "",
+      "url-info": "",
+      "audio-online": "https://holova.qzz.io/buddha-mantra/test/jingle.mp3",
+      "content": "https://holova.qzz.io/buddha-mantra/mantra/vi/DanhHieuPhatDuocSu.html"
+    },
+    "id-mtr-vi16": {
+      "name": "Danh Hiệu Quán Thế Âm Bồ Tát",
+      "author": "",
+      "url-info": "",
+      "audio-online": "https://holova.qzz.io/buddha-mantra/test/jingle.mp3",
+      "content": "https://holova.qzz.io/buddha-mantra/mantra/vi/DanhHieuQuanTheAmBoTat.html"
+    },
+    "id-mtr-vi17": {
+      "name": "Danh Hiệu Địa Tạng Vương Bồ Tát",
+      "author": "",
+      "url-info": "",
+      "audio-online": "https://holova.qzz.io/buddha-mantra/test/jingle.mp3",
+      "content": "https://holova.qzz.io/buddha-mantra/mantra/vi/DanhHieuDiaTangVuongBoTat.html"
     }
   }
 }

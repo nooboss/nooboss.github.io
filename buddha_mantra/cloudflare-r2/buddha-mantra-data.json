@@ -1,22 +1,22 @@
 {
   "sutra-en": {
     "id-str-en1": {
-      "name": "Name Kinh 1",
-      "author": "Name Tác Giả",
-      "url-info": "https://gamek.vn/",
+      "name": "",
+      "author": "",
+      "url-info": "",
       "audio-online": "https://holova.qzz.io/buddha-mantra/test/twinkle.mp3",
       "content": "https://holova.qzz.io/buddha-mantra/sutra/test1.html"
     },
     "id-str-en2": {
       "name": "Name Kinh 2",
-      "author": "Name Tác Giả",
+      "author": "",
       "url-info": "",
       "audio-online": "https://holova.qzz.io/buddha-mantra/test/jingle.mp3",
       "content": "https://holova.qzz.io/buddha-mantra/sutra/test2.html"
     },
     "id-str-en3": {
       "name": "Name Kinh 3",
-      "author": "Name Tác Giả",
+      "author": "",
       "url-info": "",
       "audio-online": "",
       "content": "https://holova.qzz.io/buddha-mantra/sutra/test3.html"
@@ -26,7 +26,7 @@
     "id-str-vi1": {
       "name": "Tên Kinh 1",
       "author": "Tên Tác Giả",
-      "url-info": "https://gamek.vn/",
+      "url-info": "",
       "audio-online": "https://holova.qzz.io/buddha-mantra/test/twinkle.mp3",
       "content": "https://holova.qzz.io/buddha-mantra/sutra/test4.html"
     },
@@ -40,34 +40,174 @@
   },
   "mantras-en": {
     "id-mtr-en1": {
-      "name": "Name Mantra 1",
-      "author": "Name Tác Giả",
-      "url-info": "https://gamek.vn/",
+      "name": "Six Syllable Mantra",
+      "author": "",
+      "url-info": "",
       "audio-online": "https://holova.qzz.io/buddha-mantra/test/twinkle.mp3",
-      "content": "https://holova.qzz.io/buddha-mantra/mantra/test1.html"
+      "content": "https://holova.qzz.io/buddha-mantra/mantra/en/SixSyllableMantra.html"
     },
     "id-mtr-en2": {
-      "name": "Name Mantra 2",
-      "author": "Name Tác Giả",
+      "name": "Medicine Buddha Mantra",
+      "author": "",
       "url-info": "",
       "audio-online": "https://holova.qzz.io/buddha-mantra/test/jingle.mp3",
-      "content": "https://holova.qzz.io/buddha-mantra/mantra/test2.html"
+      "content": "https://holova.qzz.io/buddha-mantra/mantra/en/MedicineBuddhaMantra.html"
+    },
+    "id-mtr-en3": {
+      "name": "Prajna Paramita Mantra",
+      "author": "",
+      "url-info": "",
+      "audio-online": "https://holova.qzz.io/buddha-mantra/test/jingle.mp3",
+      "content": "https://holova.qzz.io/buddha-mantra/mantra/en/PrajnaParamitaMantra.html"
+    },
+    "id-mtr-en4": {
+      "name": "Shakyamuni Buddha Mantra",
+      "author": "",
+      "url-info": "",
+      "audio-online": "https://holova.qzz.io/buddha-mantra/test/jingle.mp3",
+      "content": "https://holova.qzz.io/buddha-mantra/mantra/en/ShakyamuniBuddhaMantra.html"
+    },
+    "id-mtr-en5": {
+      "name": "Amitabha Buddha Mantra",
+      "author": "",
+      "url-info": "",
+      "audio-online": "https://holova.qzz.io/buddha-mantra/test/jingle.mp3",
+      "content": "https://holova.qzz.io/buddha-mantra/mantra/en/AmitabhaBuddhaMantra.html"
+    },
+    "id-mtr-en6": {
+      "name": "Ksiti Garbha Mantra",
+      "author": "",
+      "url-info": "",
+      "audio-online": "https://holova.qzz.io/buddha-mantra/test/jingle.mp3",
+      "content": "https://holova.qzz.io/buddha-mantra/mantra/en/KsitiGarbhaMantra.html"
+    },
+    "id-mtr-en7": {
+      "name": "Yellow Zambala Mantra",
+      "author": "",
+      "url-info": "",
+      "audio-online": "https://holova.qzz.io/buddha-mantra/test/jingle.mp3",
+      "content": "https://holova.qzz.io/buddha-mantra/mantra/en/YellowZambalaMantra.html"
+    },
+    "id-mtr-en8": {
+      "name": "Shurangama Mantra",
+      "author": "",
+      "url-info": "",
+      "audio-online": "https://holova.qzz.io/buddha-mantra/test/jingle.mp3",
+      "content": "https://holova.qzz.io/buddha-mantra/mantra/en/ShurangamaMantra.html"
+    },
+    "id-mtr-en9": {
+      "name": "Cundi Buddha Mother Mantra",
+      "author": "",
+      "url-info": "",
+      "audio-online": "https://holova.qzz.io/buddha-mantra/test/jingle.mp3",
+      "content": "https://holova.qzz.io/buddha-mantra/mantra/en/CundiBuddhaMotherMantra.html"
+    },
+    "id-mtr-en10": {
+      "name": "Manjushri Mantra",
+      "author": "",
+      "url-info": "",
+      "audio-online": "https://holova.qzz.io/buddha-mantra/test/jingle.mp3",
+      "content": "https://holova.qzz.io/buddha-mantra/mantra/en/ManjushriMantra.html"
+    },
+    "id-mtr-en11": {
+      "name": "Green Tara Buddha Mantra",
+      "author": "",
+      "url-info": "",
+      "audio-online": "https://holova.qzz.io/buddha-mantra/test/jingle.mp3",
+      "content": "https://holova.qzz.io/buddha-mantra/mantra/en/GreenTaraBuddhaMantra.html"
+    },
+    "id-mtr-en12": {
+      "name": "Red Tara Buddha Mantra",
+      "author": "",
+      "url-info": "",
+      "audio-online": "https://holova.qzz.io/buddha-mantra/test/jingle.mp3",
+      "content": "https://holova.qzz.io/buddha-mantra/mantra/en/RedTaraBuddhaMantra.html"
     }
   },
   "mantras-vi": {
     "id-mtr-vi1": {
-      "name": "Tên Mantra 1",
-      "author": "Tên Tác Giả",
-      "url-info": "https://gamek.vn/",
+      "name": "Lục Tự Đại Minh Chân Ngôn",
+      "author": "",
+      "url-info": "",
       "audio-online": "https://holova.qzz.io/buddha-mantra/test/twinkle.mp3",
-      "content": "https://holova.qzz.io/buddha-mantra/mantra/test3.html"
+      "content": "https://holova.qzz.io/buddha-mantra/mantra/vi/LucTuDaiMinhChanNgon.html"
     },
     "id-mtr-vi2": {
-      "name": "Tên Mantra 2",
-      "author": "Tên Tác Giả",
+      "name": "Chú Phật Dược Sư",
+      "author": "",
       "url-info": "",
       "audio-online": "https://holova.qzz.io/buddha-mantra/test/jingle.mp3",
-      "content": "https://holova.qzz.io/buddha-mantra/mantra/test4.html"
+      "content": "https://holova.qzz.io/buddha-mantra/mantra/vi/ChuPhatDuocSu.html"
+    },
+    "id-mtr-vi3": {
+      "name": "Chú Bát Nhã Tâm Kinh",
+      "author": "",
+      "url-info": "",
+      "audio-online": "https://holova.qzz.io/buddha-mantra/test/jingle.mp3",
+      "content": "https://holova.qzz.io/buddha-mantra/mantra/vi/ChuBatNhaTamKinh.html"
+    },
+    "id-mtr-vi4": {
+      "name": "Chú Phật Thích Ca Mâu Ni",
+      "author": "",
+      "url-info": "",
+      "audio-online": "https://holova.qzz.io/buddha-mantra/test/jingle.mp3",
+      "content": "https://holova.qzz.io/buddha-mantra/mantra/vi/ChuPhatThichCaMauNi.html"
+    },
+    "id-mtr-vi5": {
+      "name": "Chú Phật A Di Đà",
+      "author": "",
+      "url-info": "",
+      "audio-online": "https://holova.qzz.io/buddha-mantra/test/jingle.mp3",
+      "content": "https://holova.qzz.io/buddha-mantra/mantra/vi/ChuPhatADiDa.html"
+    },
+    "id-mtr-vi6": {
+      "name": "Chú Địa Tạng Vương Bồ Tát",
+      "author": "",
+      "url-info": "",
+      "audio-online": "https://holova.qzz.io/buddha-mantra/test/jingle.mp3",
+      "content": "https://holova.qzz.io/buddha-mantra/mantra/vi/ChuDiaTangVuongBoTat.html"
+    },
+    "id-mtr-vi7": {
+      "name": "Chú Hoàng Thần Tài",
+      "author": "",
+      "url-info": "",
+      "audio-online": "https://holova.qzz.io/buddha-mantra/test/jingle.mp3",
+      "content": "https://holova.qzz.io/buddha-mantra/mantra/vi/ChuHoangThanTai.html"
+    },
+    "id-mtr-vi8": {
+      "name": "Chú Lăng Nghiêm",
+      "author": "",
+      "url-info": "",
+      "audio-online": "https://holova.qzz.io/buddha-mantra/test/jingle.mp3",
+      "content": "https://holova.qzz.io/buddha-mantra/mantra/vi/ChuLangNghiem.html"
+    },
+    "id-mtr-vi9": {
+      "name": "Chú Chuẩn Đề Phật Mẫu",
+      "author": "",
+      "url-info": "",
+      "audio-online": "https://holova.qzz.io/buddha-mantra/test/jingle.mp3",
+      "content": "https://holova.qzz.io/buddha-mantra/mantra/vi/ChuChuanDePhatMau.html"
+    },
+    "id-mtr-vi10": {
+      "name": "Chú Văn Thù Sư Lợi Bồ Tát",
+      "author": "",
+      "url-info": "",
+      "audio-online": "https://holova.qzz.io/buddha-mantra/test/jingle.mp3",
+      "content": "https://holova.qzz.io/buddha-mantra/mantra/vi/ChuVanThuSuLoiBoTat.html"
+    },
+    "id-mtr-vi11": {
+      "name": "Chú Phật Tara Xanh",
+      "author": "",
+      "url-info": "",
+      "audio-online": "https://holova.qzz.io/buddha-mantra/test/jingle.mp3",
+      "content": "https://holova.qzz.io/buddha-mantra/mantra/vi/ChuPhatTaraXanh.html"
+    },
+    "id-mtr-vi12": {
+      "name": "Chú Phật Tara Đỏ",
+      "author": "",
+      "url-info": "",
+      "audio-online": "https://holova.qzz.io/buddha-mantra/test/jingle.mp3",
+      "content": "https://holova.qzz.io/buddha-mantra/mantra/vi/ChuPhatTaraDo.html"
     }
   }
 }

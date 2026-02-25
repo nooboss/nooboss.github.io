@@ -46,6 +46,20 @@
       "audio-online": "https://holova.qzz.io/buddha-mantra/test/twinkle.mp3",
       "content": "https://holova.qzz.io/buddha-mantra/mantra/en/SixSyllableMantra.html"
     },
+    "id-mtr-en1-1": {
+      "name": "Great Compassion Mantra",
+      "author": "",
+      "url-info": "",
+      "audio-online": "https://holova.qzz.io/buddha-mantra/test/twinkle.mp3",
+      "content": "https://holova.qzz.io/buddha-mantra/mantra/en/GreatCompassionMantra.html"
+    },
+    "id-mtr-en1-2": {
+      "name": "Great Compassion Mantra - Sanskrit",
+      "author": "",
+      "url-info": "",
+      "audio-online": "https://holova.qzz.io/buddha-mantra/test/twinkle.mp3",
+      "content": "https://holova.qzz.io/buddha-mantra/mantra/en/GreatCompassionMantra_Sanskrit.html"
+    },
     "id-mtr-en2": {
       "name": "Medicine Buddha Mantra",
       "author": "",
@@ -166,6 +180,27 @@
       "url-info": "",
       "audio-online": "https://holova.qzz.io/buddha-mantra/test/twinkle.mp3",
       "content": "https://holova.qzz.io/buddha-mantra/mantra/vi/LucTuDaiMinhChanNgon.html"
+    },
+    "id-mtr-vi1-1": {
+      "name": "Chú Đại Bi",
+      "author": "",
+      "url-info": "",
+      "audio-online": "https://holova.qzz.io/buddha-mantra/test/twinkle.mp3",
+      "content": "https://holova.qzz.io/buddha-mantra/mantra/vi/ChuDaiBi.html"
+    },
+    "id-mtr-vi1-2": {
+      "name": "Chú Đại Bi - Tiếng Anh",
+      "author": "",
+      "url-info": "",
+      "audio-online": "https://holova.qzz.io/buddha-mantra/test/twinkle.mp3",
+      "content": "https://holova.qzz.io/buddha-mantra/mantra/vi/ChuDaiBi_TiengAnh.html"
+    },
+    "id-mtr-vi1-3": {
+      "name": "Chú Đại Bi - Tiếng Phạn",
+      "author": "",
+      "url-info": "",
+      "audio-online": "https://holova.qzz.io/buddha-mantra/test/twinkle.mp3",
+      "content": "https://holova.qzz.io/buddha-mantra/mantra/vi/ChuDaiBi_TiengPhan.html"
     },
     "id-mtr-vi2": {
       "name": "Chú Phật Dược Sư",

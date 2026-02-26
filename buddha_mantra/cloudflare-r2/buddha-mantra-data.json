@@ -1,41 +1,118 @@
 {
   "sutra-en": {
     "id-str-en1": {
-      "name": "",
+      "name": "Amitabha Buddha Sutra",
       "author": "",
       "url-info": "",
       "audio-online": "https://holova.qzz.io/buddha-mantra/test/twinkle.mp3",
-      "content": "https://holova.qzz.io/buddha-mantra/sutra/test1.html"
+      "content": "https://holova.qzz.io/buddha-mantra/sutra/en/AmitabhaBuddhaSutra.html"
     },
     "id-str-en2": {
-      "name": "Name Kinh 2",
+      "name": "Amitabha Buddha Sutra - With Ritual",
       "author": "",
       "url-info": "",
       "audio-online": "https://holova.qzz.io/buddha-mantra/test/jingle.mp3",
-      "content": "https://holova.qzz.io/buddha-mantra/sutra/test2.html"
+      "content": "https://holova.qzz.io/buddha-mantra/sutra/en/AmitabhaBuddhaSutra_WithRitual.html"
     },
     "id-str-en3": {
-      "name": "Name Kinh 3",
+      "name": "Great Compassion Dharani Sutra",
       "author": "",
       "url-info": "",
       "audio-online": "",
-      "content": "https://holova.qzz.io/buddha-mantra/sutra/test3.html"
+      "content": "https://holova.qzz.io/buddha-mantra/sutra/en/GreatCompassionDharaniSutra.html"
+    },
+    "id-str-en4": {
+      "name": "aaaaaa",
+      "author": "",
+      "url-info": "",
+      "audio-online": "",
+      "content": "https://holova.qzz.io/buddha-mantra/sutra/en/test3.html"
+    },
+    "id-str-en5": {
+      "name": "aaaaaa",
+      "author": "",
+      "url-info": "",
+      "audio-online": "",
+      "content": "https://holova.qzz.io/buddha-mantra/sutra/en/test3.html"
+    },
+    "id-str-en6": {
+      "name": "aaaaaa",
+      "author": "",
+      "url-info": "",
+      "audio-online": "",
+      "content": "https://holova.qzz.io/buddha-mantra/sutra/en/test3.html"
+    },
+    "id-str-en7": {
+      "name": "aaaaaa",
+      "author": "",
+      "url-info": "",
+      "audio-online": "",
+      "content": "https://holova.qzz.io/buddha-mantra/sutra/en/test3.html"
+    },
+    "id-str-en8": {
+      "name": "aaaaaa",
+      "author": "",
+      "url-info": "",
+      "audio-online": "",
+      "content": "https://holova.qzz.io/buddha-mantra/sutra/en/test3.html"
     }
   },
   "sutra-vi": {
     "id-str-vi1": {
-      "name": "Tên Kinh 1",
-      "author": "Tên Tác Giả",
+      "name": "Kinh A Di Đà",
+      "author": "",
       "url-info": "",
       "audio-online": "https://holova.qzz.io/buddha-mantra/test/twinkle.mp3",
-      "content": "https://holova.qzz.io/buddha-mantra/sutra/test4.html"
+      "content": "https://holova.qzz.io/buddha-mantra/sutra/vi/KinhADiDa.html"
     },
     "id-str-vi2": {
-      "name": "Tên Kinh 2",
-      "author": "Tên Tác Giả",
+      "name": "Kinh A Di Đà - Có Nghi Lễ",
+      "author": "",
       "url-info": "",
       "audio-online": "https://holova.qzz.io/buddha-mantra/test/jingle.mp3",
-      "content": "https://holova.qzz.io/buddha-mantra/sutra/test5.html"
+      "content": "https://holova.qzz.io/buddha-mantra/sutra/vi/KinhADiDa_CoNghiLe.html"
+    },
+    "id-str-vi3": {
+      "name": "Kinh Đại Bi Tâm Đà La Ni",
+      "author": "",
+      "url-info": "",
+      "audio-online": "https://holova.qzz.io/buddha-mantra/test/jingle.mp3",
+      "content": "https://holova.qzz.io/buddha-mantra/sutra/vi/KinhDaiBi.html"
+    },
+    "id-str-vi4": {
+      "name": "aaaaa",
+      "author": "",
+      "url-info": "",
+      "audio-online": "https://holova.qzz.io/buddha-mantra/test/jingle.mp3",
+      "content": "https://holova.qzz.io/buddha-mantra/sutra/vi/KinhDaiBi.html"
+    },
+    "id-str-vi5": {
+      "name": "aaaaa",
+      "author": "",
+      "url-info": "",
+      "audio-online": "https://holova.qzz.io/buddha-mantra/test/jingle.mp3",
+      "content": "https://holova.qzz.io/buddha-mantra/sutra/vi/KinhDaiBi.html"
+    },
+    "id-str-vi6": {
+      "name": "aaaaa",
+      "author": "",
+      "url-info": "",
+      "audio-online": "https://holova.qzz.io/buddha-mantra/test/jingle.mp3",
+      "content": "https://holova.qzz.io/buddha-mantra/sutra/vi/KinhDaiBi.html"
+    },
+    "id-str-vi7": {
+      "name": "aaaaa",
+      "author": "",
+      "url-info": "",
+      "audio-online": "https://holova.qzz.io/buddha-mantra/test/jingle.mp3",
+      "content": "https://holova.qzz.io/buddha-mantra/sutra/vi/KinhDaiBi.html"
+    },
+    "id-str-vi8": {
+      "name": "aaaaa",
+      "author": "",
+      "url-info": "",
+      "audio-online": "https://holova.qzz.io/buddha-mantra/test/jingle.mp3",
+      "content": "https://holova.qzz.io/buddha-mantra/sutra/vi/KinhDaiBi.html"
     }
   },
   "mantras-en": {
@@ -60,6 +137,13 @@
       "audio-online": "https://holova.qzz.io/buddha-mantra/test/twinkle.mp3",
       "content": "https://holova.qzz.io/buddha-mantra/mantra/en/GreatCompassionMantra_Sanskrit.html"
     },
+    "id-mtr-en1-3": {
+      "name": "Eleven-Faced Avalokiteśvara Heart Dharani",
+      "author": "",
+      "url-info": "",
+      "audio-online": "https://holova.qzz.io/buddha-mantra/test/twinkle.mp3",
+      "content": "https://holova.qzz.io/buddha-mantra/mantra/en/ElevenFacedAvalokitesvaraHeartMantra.html"
+    },
     "id-mtr-en2": {
       "name": "Medicine Buddha Mantra",
       "author": "",
@@ -68,7 +152,7 @@
       "content": "https://holova.qzz.io/buddha-mantra/mantra/en/MedicineBuddhaMantra.html"
     },
     "id-mtr-en3": {
-      "name": "Prajna Paramita Mantra",
+      "name": "Heart Mantra",
       "author": "",
       "url-info": "",
       "audio-online": "https://holova.qzz.io/buddha-mantra/test/jingle.mp3",

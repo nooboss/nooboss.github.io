@@ -22,39 +22,74 @@
       "content": "https://holova.qzz.io/buddha-mantra/sutra/en/GreatCompassionDharaniSutra.html"
     },
     "id-str-en4": {
-      "name": "aaaaaa",
+      "name": "Earth Store Bodhisattva Sutra - Part 1",
       "author": "",
       "url-info": "",
       "audio-online": "",
-      "content": "https://holova.qzz.io/buddha-mantra/sutra/en/test3.html"
+      "content": "https://holova.qzz.io/buddha-mantra/sutra/en/EarthStoreBodhisattvaSutraPart1.html"
     },
     "id-str-en5": {
-      "name": "aaaaaa",
+      "name": "Earth Store Bodhisattva Sutra - Part 2",
       "author": "",
       "url-info": "",
       "audio-online": "",
-      "content": "https://holova.qzz.io/buddha-mantra/sutra/en/test3.html"
+      "content": "https://holova.qzz.io/buddha-mantra/sutra/en/EarthStoreBodhisattvaSutraPart2.html"
     },
     "id-str-en6": {
-      "name": "aaaaaa",
+      "name": "Earth Store Bodhisattva Sutra - Part 3",
       "author": "",
       "url-info": "",
       "audio-online": "",
-      "content": "https://holova.qzz.io/buddha-mantra/sutra/en/test3.html"
+      "content": "https://holova.qzz.io/buddha-mantra/sutra/en/EarthStoreBodhisattvaSutraPart3.html"
     },
     "id-str-en7": {
-      "name": "aaaaaa",
+      "name": "Heart Sutra",
       "author": "",
       "url-info": "",
       "audio-online": "",
-      "content": "https://holova.qzz.io/buddha-mantra/sutra/en/test3.html"
+      "content": "https://holova.qzz.io/buddha-mantra/sutra/en/HeartSutra.html"
     },
     "id-str-en8": {
-      "name": "aaaaaa",
+      "name": "Lotus Sutra - Chapter 25: Universal Gate",
       "author": "",
       "url-info": "",
       "audio-online": "",
-      "content": "https://holova.qzz.io/buddha-mantra/sutra/en/test3.html"
+      "content": "https://holova.qzz.io/buddha-mantra/sutra/en/LotusSutraChapter25UniversalGate.html"
+    },
+    "id-str-en9": {
+      "name": "Medicine Buddha Sutra",
+      "author": "",
+      "url-info": "",
+      "audio-online": "",
+      "content": "https://holova.qzz.io/buddha-mantra/sutra/en/MedicineBuddhaSutra.html"
+    },
+    "id-str-en10": {
+      "name": "Path of Truth Sutra",
+      "author": "",
+      "url-info": "",
+      "audio-online": "",
+      "content": "https://holova.qzz.io/buddha-mantra/sutra/en/PathOfTruthSutra.html"
+    },
+    "id-str-en11": {
+      "name": "Repentance Sutra",
+      "author": "",
+      "url-info": "",
+      "audio-online": "",
+      "content": "https://holova.qzz.io/buddha-mantra/sutra/en/RepentanceSutra.html"
+    },
+    "id-str-en12": {
+      "name": "Ullambana Sutra",
+      "author": "",
+      "url-info": "",
+      "audio-online": "",
+      "content": "https://holova.qzz.io/buddha-mantra/sutra/en/UllambanaSutra.html"
+    },
+    "id-str-en13": {
+      "name": "Ullambana Sutra - With Ritual",
+      "author": "",
+      "url-info": "",
+      "audio-online": "",
+      "content": "https://holova.qzz.io/buddha-mantra/sutra/en/UllambanaSutra_WithRitual.html"
     }
   },
   "sutra-vi": {
@@ -80,39 +115,102 @@
       "content": "https://holova.qzz.io/buddha-mantra/sutra/vi/KinhDaiBi.html"
     },
     "id-str-vi4": {
-      "name": "aaaaa",
+      "name": "Kinh Bát Nhã",
       "author": "",
       "url-info": "",
       "audio-online": "https://holova.qzz.io/buddha-mantra/test/jingle.mp3",
-      "content": "https://holova.qzz.io/buddha-mantra/sutra/vi/KinhDaiBi.html"
+      "content": "https://holova.qzz.io/buddha-mantra/sutra/vi/KinhBatNha.html"
     },
     "id-str-vi5": {
-      "name": "aaaaa",
+      "name": "Kinh Địa Tạng - Phần 1 - Có Nghi Lễ",
       "author": "",
       "url-info": "",
       "audio-online": "https://holova.qzz.io/buddha-mantra/test/jingle.mp3",
-      "content": "https://holova.qzz.io/buddha-mantra/sutra/vi/KinhDaiBi.html"
+      "content": "https://holova.qzz.io/buddha-mantra/sutra/vi/KinhDiaTangPhan1_CoNghiLe.html"
     },
     "id-str-vi6": {
-      "name": "aaaaa",
+      "name": "Kinh Địa Tạng - Phần 1",
       "author": "",
       "url-info": "",
       "audio-online": "https://holova.qzz.io/buddha-mantra/test/jingle.mp3",
-      "content": "https://holova.qzz.io/buddha-mantra/sutra/vi/KinhDaiBi.html"
+      "content": "https://holova.qzz.io/buddha-mantra/sutra/vi/KinhDiaTangPhan1.html"
     },
     "id-str-vi7": {
-      "name": "aaaaa",
+      "name": "Kinh Địa Tạng - Phần 2",
       "author": "",
       "url-info": "",
       "audio-online": "https://holova.qzz.io/buddha-mantra/test/jingle.mp3",
-      "content": "https://holova.qzz.io/buddha-mantra/sutra/vi/KinhDaiBi.html"
+      "content": "https://holova.qzz.io/buddha-mantra/sutra/vi/KinhDiaTangPhan2.html"
     },
     "id-str-vi8": {
-      "name": "aaaaa",
+      "name": "Kinh Địa Tạng - Phần 3",
       "author": "",
       "url-info": "",
       "audio-online": "https://holova.qzz.io/buddha-mantra/test/jingle.mp3",
-      "content": "https://holova.qzz.io/buddha-mantra/sutra/vi/KinhDaiBi.html"
+      "content": "https://holova.qzz.io/buddha-mantra/sutra/vi/KinhDiaTangPhan3.html"
+    },
+    "id-str-vi9": {
+      "name": "Kinh Diệu Pháp Liên Hoa - Phẩm Phổ Môn",
+      "author": "",
+      "url-info": "",
+      "audio-online": "https://holova.qzz.io/buddha-mantra/test/jingle.mp3",
+      "content": "https://holova.qzz.io/buddha-mantra/sutra/vi/KinhDieuPhapLienHoaPhamPhoMon.html"
+    },
+    "id-str-vi10": {
+      "name": "Kinh Diệu Pháp Liên Hoa - Phẩm Phổ Môn - Có Nghi Lễ",
+      "author": "",
+      "url-info": "",
+      "audio-online": "https://holova.qzz.io/buddha-mantra/test/jingle.mp3",
+      "content": "https://holova.qzz.io/buddha-mantra/sutra/vi/KinhDieuPhapLienHoaPhamPhoMon_CoNghiLe.html"
+    },
+    "id-str-vi11": {
+      "name": "Kinh Dược Sư",
+      "author": "",
+      "url-info": "",
+      "audio-online": "https://holova.qzz.io/buddha-mantra/test/jingle.mp3",
+      "content": "https://holova.qzz.io/buddha-mantra/sutra/vi/KinhDuocSu.html"
+    },
+    "id-str-vi12": {
+      "name": "Kinh Dược Sư - Có Nghi Lễ",
+      "author": "",
+      "url-info": "",
+      "audio-online": "https://holova.qzz.io/buddha-mantra/test/jingle.mp3",
+      "content": "https://holova.qzz.io/buddha-mantra/sutra/vi/KinhDuocSu_CoNghiLe.html"
+    },
+    "id-str-vi13": {
+      "name": "Kinh Pháp Cú",
+      "author": "",
+      "url-info": "",
+      "audio-online": "https://holova.qzz.io/buddha-mantra/test/jingle.mp3",
+      "content": "https://holova.qzz.io/buddha-mantra/sutra/vi/KinhPhapCu.html"
+    },
+    "id-str-vi14": {
+      "name": "Kinh Sám Hối",
+      "author": "",
+      "url-info": "",
+      "audio-online": "https://holova.qzz.io/buddha-mantra/test/jingle.mp3",
+      "content": "https://holova.qzz.io/buddha-mantra/sutra/vi/KinhSamHoi.html"
+    },
+    "id-str-vi15": {
+      "name": "Kinh Sám Hối 6 Căn",
+      "author": "",
+      "url-info": "",
+      "audio-online": "https://holova.qzz.io/buddha-mantra/test/jingle.mp3",
+      "content": "https://holova.qzz.io/buddha-mantra/sutra/vi/KinhSamHoi6Can.html"
+    },
+    "id-str-vi16": {
+      "name": "Kinh Vu Lan",
+      "author": "",
+      "url-info": "",
+      "audio-online": "https://holova.qzz.io/buddha-mantra/test/jingle.mp3",
+      "content": "https://holova.qzz.io/buddha-mantra/sutra/vi/KinhVuLan.html"
+    },
+    "id-str-vi17": {
+      "name": "Kinh Vu Lan - Có Nghi Lễ",
+      "author": "",
+      "url-info": "",
+      "audio-online": "https://holova.qzz.io/buddha-mantra/test/jingle.mp3",
+      "content": "https://holova.qzz.io/buddha-mantra/sutra/vi/KinhVuLan_CoNghiLe.html"
     }
   },
   "mantras-en": {

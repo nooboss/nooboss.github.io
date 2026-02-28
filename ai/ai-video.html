@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" data-theme="dark" data-lang="en">
+<html lang="vi" data-theme="dark" data-lang="vi">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -252,7 +252,25 @@
     font-size: 0.875rem;
     color: var(--text2);
     line-height: 1.55;
+    margin-bottom: 14px;
   }
+  .btn-tutorial {
+    display: inline-flex; align-items: center; gap: 6px;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-weight: 600; font-size: 0.78rem;
+    padding: 6px 13px; border-radius: 8px;
+    background: #ff000015;
+    color: #ff3a3a;
+    border: 1px solid #ff000025;
+    text-decoration: none;
+    transition: background 0.2s, border-color 0.2s, transform 0.15s;
+  }
+  .btn-tutorial:hover {
+    background: #ff000028;
+    border-color: #ff000055;
+    transform: translateY(-1px);
+  }
+  .btn-tutorial svg { width: 14px; height: 14px; flex-shrink: 0; }
 
   /* Color themes per category */
   .cat1 .tool-card::before { background: linear-gradient(90deg, #ff4f1f, #ff8c42); }
@@ -298,9 +316,9 @@
 <body>
 
 <header>
-  <div class="logo">🎬 AIVideoTools</div>
+  <div class="logo">🎬 AI Video Tools - KimTeam</div>
   <div class="controls">
-    <button class="btn-lang" id="langBtn" onclick="toggleLang()">🇻🇳 Tiếng Việt</button>
+    <button class="btn-lang" id="langBtn" onclick="toggleLang()">🇬🇧 English</button>
     <button class="btn-dark" id="darkBtn" onclick="toggleDark()" title="Toggle dark mode"></button>
   </div>
 </header>
@@ -504,7 +522,7 @@ const data = {
   ]
 };
 
-let currentLang = 'en';
+let currentLang = 'vi';
 let currentTheme = 'dark';
 
 function renderTools() {
@@ -559,6 +577,11 @@ function renderCard(tool, catId) {
   const priceClass = catId.replace('cat','price-cat');
   const logoEl = `<img class="tool-logo" src="${tool.logo}" alt="${tool.name} logo" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
   <div class="tool-logo-fallback" style="background:${tool.color};display:none">${tool.fallback}</div>`;
+  const ytQuery = currentLang === 'en'
+    ? encodeURIComponent(`${tool.name} tutorials`)
+    : encodeURIComponent(`hướng dẫn ${tool.name}`);
+  const ytLabel = currentLang === 'en' ? 'Tutorials' : 'Hướng dẫn';
+  const ytIcon = `<svg viewBox="0 0 24 24" fill="currentColor"><path d="M23.5 6.2a3 3 0 0 0-2.1-2.1C19.5 3.5 12 3.5 12 3.5s-7.5 0-9.4.6A3 3 0 0 0 .5 6.2 31 31 0 0 0 0 12a31 31 0 0 0 .5 5.8 3 3 0 0 0 2.1 2.1c1.9.6 9.4.6 9.4.6s7.5 0 9.4-.6a3 3 0 0 0 2.1-2.1A31 31 0 0 0 24 12a31 31 0 0 0-.5-5.8zM9.75 15.5v-7l6.5 3.5-6.5 3.5z"/></svg>`;
   return `
     <div class="tool-card">
       <div class="card-top">
@@ -573,6 +596,9 @@ function renderCard(tool, catId) {
         <span class="price-badge ${priceClass}">${tool.price}</span>
       </div>
       <div class="tool-desc">${desc}</div>
+      <a class="btn-tutorial" href="https://www.youtube.com/results?search_query=${ytQuery}" target="_blank" rel="noopener">
+        ${ytIcon} ${ytLabel}
+      </a>
     </div>
   `;
 }

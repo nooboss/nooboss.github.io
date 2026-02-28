@@ -1,0 +1,595 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark" data-lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AI Video Tools Directory</title>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #f5f2ee;
+    --bg2: #eceae5;
+    --surface: #ffffff;
+    --surface2: #f9f7f4;
+    --text: #1a1714;
+    --text2: #5a5550;
+    --text3: #9a9390;
+    --border: rgba(0,0,0,0.08);
+    --shadow: 0 2px 20px rgba(0,0,0,0.06);
+    --shadow-lg: 0 8px 40px rgba(0,0,0,0.10);
+    --accent1: #ff4f1f;
+    --accent2: #7c3aed;
+    --accent3: #0ea5e9;
+    --accent4: #10b981;
+    --cat1: #ff4f1f;
+    --cat2: #7c3aed;
+    --cat3: #0ea5e9;
+    --cat4: #f59e0b;
+  }
+  [data-theme="dark"] {
+    --bg: #0f0d0b;
+    --bg2: #1a1714;
+    --surface: #211e1a;
+    --surface2: #2a2621;
+    --text: #f0ede8;
+    --text2: #a09890;
+    --text3: #605850;
+    --border: rgba(255,255,255,0.07);
+    --shadow: 0 2px 20px rgba(0,0,0,0.3);
+    --shadow-lg: 0 8px 40px rgba(0,0,0,0.4);
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: 'DM Sans', sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    min-height: 100vh;
+    transition: background 0.3s, color 0.3s;
+    overflow-x: hidden;
+  }
+
+  /* HEADER */
+  header {
+    position: sticky; top: 0; z-index: 100;
+    background: var(--surface);
+    border-bottom: 1px solid var(--border);
+    backdrop-filter: blur(12px);
+    padding: 0 clamp(16px, 5vw, 60px);
+    display: flex; align-items: center; justify-content: space-between;
+    height: 64px;
+    box-shadow: var(--shadow);
+  }
+  .logo {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-weight: 800; font-size: 1.15rem;
+    letter-spacing: -0.5px;
+    background: linear-gradient(135deg, var(--accent1), var(--accent2));
+    -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+  }
+  .controls { display: flex; gap: 10px; align-items: center; }
+  .btn-lang {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-weight: 700; font-size: 0.78rem;
+    letter-spacing: 0.3px;
+    padding: 6px 14px; border-radius: 100px;
+    border: 1.5px solid var(--border);
+    background: var(--surface2);
+    color: var(--text); cursor: pointer;
+    transition: all 0.2s;
+  }
+  .btn-lang:hover { border-color: var(--accent1); color: var(--accent1); }
+  .btn-dark {
+    width: 44px; height: 26px; border-radius: 100px;
+    background: var(--bg2); border: 1.5px solid var(--border);
+    position: relative; cursor: pointer; transition: background 0.3s;
+    flex-shrink: 0;
+  }
+  .btn-dark::after {
+    content: ''; position: absolute;
+    top: 3px; left: 3px;
+    width: 18px; height: 18px; border-radius: 50%;
+    background: var(--text3);
+    transition: transform 0.3s, background 0.3s;
+  }
+  [data-theme="dark"] .btn-dark { background: var(--accent2); }
+  [data-theme="dark"] .btn-dark::after { transform: translateX(18px); background: #fff; }
+
+  /* HERO */
+  .hero {
+    padding: clamp(40px, 8vw, 90px) clamp(16px, 5vw, 60px) clamp(20px, 4vw, 40px);
+    max-width: 900px;
+  }
+  .hero h1 {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-weight: 800;
+    font-size: clamp(2rem, 5vw, 3.4rem);
+    line-height: 1.1;
+    letter-spacing: -1.5px;
+    margin-bottom: 14px;
+  }
+  .hero h1 span {
+    background: linear-gradient(135deg, var(--accent1) 0%, var(--accent2) 60%, var(--accent3) 100%);
+    -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+  }
+  .hero p { font-size: 1.05rem; color: var(--text2); line-height: 1.6; max-width: 560px; }
+
+  /* CATEGORY NAV */
+  .cat-nav {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 0 clamp(16px, 5vw, 60px) 32px;
+  }
+  .cat-nav-btn {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-weight: 600; font-size: 0.82rem;
+    padding: 7px 16px; border-radius: 100px;
+    border: 1.5px solid var(--border);
+    background: var(--surface);
+    color: var(--text2); cursor: pointer;
+    transition: all 0.2s;
+    display: flex; align-items: center; gap: 7px;
+    text-decoration: none;
+    white-space: nowrap;
+  }
+  .cat-nav-btn:hover { transform: translateY(-1px); box-shadow: var(--shadow); }
+  .cat-nav-btn .nav-dot {
+    width: 8px; height: 8px; border-radius: 50%; flex-shrink: 0;
+  }
+  .cat-nav-btn.nav-cat1 { border-color: #ff4f1f40; }
+  .cat-nav-btn.nav-cat1:hover { background: #ff4f1f12; border-color: #ff4f1f; color: #ff4f1f; }
+  .cat-nav-btn.nav-cat2 { border-color: #7c3aed40; }
+  .cat-nav-btn.nav-cat2:hover { background: #7c3aed12; border-color: #7c3aed; color: #7c3aed; }
+  .cat-nav-btn.nav-cat3 { border-color: #0ea5e940; }
+  .cat-nav-btn.nav-cat3:hover { background: #0ea5e912; border-color: #0ea5e9; color: #0ea5e9; }
+  .cat-nav-btn.nav-cat4 { border-color: #f59e0b40; }
+  .cat-nav-btn.nav-cat4:hover { background: #f59e0b12; border-color: #f59e0b; color: #d97706; }
+
+  /* CATEGORIES */
+  .main { padding: 0 clamp(16px, 5vw, 60px) 80px; }
+  .category { margin-bottom: 60px; scroll-margin-top: 80px; }
+  .cat-header {
+    display: flex; align-items: center; gap: 14px;
+    margin-bottom: 24px;
+    padding-bottom: 14px;
+    border-bottom: 2px solid var(--border);
+  }
+  .cat-dot {
+    width: 12px; height: 12px; border-radius: 50%; flex-shrink: 0;
+  }
+  .cat-title {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-weight: 800; font-size: 1.05rem;
+    letter-spacing: -0.2px;
+  }
+  .cat-subtitle { font-size: 0.85rem; color: var(--text2); font-style: italic; }
+  .cat-count {
+    margin-left: auto;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 0.75rem; font-weight: 700;
+    color: var(--text3); letter-spacing: 1px;
+  }
+
+  /* GRID */
+  .tools-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+  @media (min-width: 600px) {
+    .tools-grid { grid-template-columns: repeat(2, 1fr); }
+  }
+  @media (min-width: 960px) {
+    .tools-grid { grid-template-columns: repeat(3, 1fr); }
+  }
+  @media (min-width: 1280px) {
+    .tools-grid { grid-template-columns: repeat(4, 1fr); }
+  }
+
+  /* CARD */
+  .tool-card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 16px;
+    padding: 22px;
+    box-shadow: var(--shadow);
+    transition: transform 0.2s, box-shadow 0.2s, border-color 0.2s;
+    position: relative;
+    overflow: hidden;
+  }
+  .tool-card::before {
+    content: '';
+    position: absolute; top: 0; left: 0; right: 0;
+    height: 3px;
+    opacity: 0.8;
+    transition: height 0.2s;
+  }
+  .tool-card:hover { transform: translateY(-3px); box-shadow: var(--shadow-lg); }
+  .tool-card:hover::before { height: 4px; }
+
+  .card-top { display: flex; align-items: flex-start; gap: 14px; margin-bottom: 12px; }
+  .tool-logo {
+    width: 44px; height: 44px; border-radius: 10px;
+    object-fit: contain;
+    background: var(--bg2);
+    border: 1px solid var(--border);
+    flex-shrink: 0;
+    padding: 4px;
+  }
+  .tool-logo-fallback {
+    width: 44px; height: 44px; border-radius: 10px;
+    display: flex; align-items: center; justify-content: center;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-weight: 800; font-size: 1rem;
+    color: #fff; flex-shrink: 0;
+    text-shadow: 0 1px 3px rgba(0,0,0,0.3);
+  }
+  .card-info { flex: 1; min-width: 0; }
+  .tool-name {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-weight: 700; font-size: 1rem;
+    letter-spacing: -0.2px;
+    margin-bottom: 3px;
+  }
+  .tool-link {
+    font-size: 0.75rem; color: var(--text3);
+    text-decoration: none;
+    transition: color 0.15s;
+    display: inline-flex; align-items: center; gap: 3px;
+  }
+  .tool-link:hover { color: var(--accent3); }
+  .tool-link svg { width: 10px; height: 10px; }
+
+  .price-badge {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-weight: 700; font-size: 0.7rem;
+    padding: 3px 9px; border-radius: 100px;
+    white-space: nowrap; flex-shrink: 0;
+    letter-spacing: 0.3px;
+  }
+
+  .tool-desc {
+    font-size: 0.875rem;
+    color: var(--text2);
+    line-height: 1.55;
+  }
+
+  /* Color themes per category */
+  .cat1 .tool-card::before { background: linear-gradient(90deg, #ff4f1f, #ff8c42); }
+  .cat2 .tool-card::before { background: linear-gradient(90deg, #7c3aed, #a855f7); }
+  .cat3 .tool-card::before { background: linear-gradient(90deg, #0ea5e9, #38bdf8); }
+  .cat4 .tool-card::before { background: linear-gradient(90deg, #f59e0b, #fbbf24); }
+
+  .cat1 .cat-dot { background: #ff4f1f; box-shadow: 0 0 8px #ff4f1f80; }
+  .cat2 .cat-dot { background: #7c3aed; box-shadow: 0 0 8px #7c3aed80; }
+  .cat3 .cat-dot { background: #0ea5e9; box-shadow: 0 0 8px #0ea5e980; }
+  .cat4 .cat-dot { background: #f59e0b; box-shadow: 0 0 8px #f59e0b80; }
+
+  .price-cat1 { background: #ff4f1f18; color: #ff4f1f; }
+  .price-cat2 { background: #7c3aed18; color: #7c3aed; }
+  .price-cat3 { background: #0ea5e918; color: #0ea5e9; }
+  .price-cat4 { background: #f59e0b18; color: #d97706; }
+
+  /* FOOTER */
+  footer {
+    text-align: center;
+    padding: 30px;
+    color: var(--text3);
+    font-size: 0.8rem;
+    border-top: 1px solid var(--border);
+  }
+
+  /* Animations */
+  @keyframes fadeUp {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+  .category { animation: fadeUp 0.5s ease both; }
+  .category:nth-child(1) { animation-delay: 0.05s; }
+  .category:nth-child(2) { animation-delay: 0.15s; }
+  .category:nth-child(3) { animation-delay: 0.25s; }
+  .category:nth-child(4) { animation-delay: 0.35s; }
+
+  @media (max-width: 600px) {
+    .tools-grid { grid-template-columns: 1fr; }
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="logo">🎬 AIVideoTools</div>
+  <div class="controls">
+    <button class="btn-lang" id="langBtn" onclick="toggleLang()">🇻🇳 Tiếng Việt</button>
+    <button class="btn-dark" id="darkBtn" onclick="toggleDark()" title="Toggle dark mode"></button>
+  </div>
+</header>
+
+<div class="hero">
+  <h1 data-en="The Best <span>AI Video Tools</span> in 2025" data-vi="Các Công Cụ <span>Tạo Video AI</span> Tốt Nhất 2025">The Best <span>AI Video Tools</span> in 2025</h1>
+  <p data-en="A curated directory of the most powerful AI video creation platforms — from text-to-video generators to full editing suites. Sorted by popularity." data-vi="Danh sách tuyển chọn các nền tảng tạo video AI mạnh mẽ nhất — từ trình tạo text-to-video đến bộ chỉnh sửa toàn diện. Sắp xếp theo độ phổ biến.">A curated directory of the most powerful AI video creation platforms — from text-to-video generators to full editing suites. Sorted by popularity.</p>
+</div>
+
+<div class="cat-nav" id="catNav"></div>
+
+<div class="main" id="toolsMain"></div>
+
+<footer>
+  <span data-en="Prices are estimates and may change. Always check the official website for current pricing." data-vi="Giá chỉ mang tính ước tính và có thể thay đổi. Luôn kiểm tra trang web chính thức để biết giá hiện tại.">Prices are estimates and may change. Always check the official website for current pricing.</span>
+</footer>
+
+<script>
+const data = {
+  categories: [
+    {
+      id: 'cat1',
+      en_title: '🎥 AI Video Generators (Text-to-Video)',
+      vi_title: '🎥 Tạo Video AI từ Văn Bản (Text-to-Video)',
+      en_sub: 'High-fidelity, realistic, or artistic footage',
+      vi_sub: 'Video chất lượng cao, thực tế hoặc nghệ thuật',
+      tools: [
+        {
+          name: 'Runway',
+          url: 'https://runwayml.com',
+          logo: 'https://logo.clearbit.com/runwayml.com',
+          fallback: 'RW', color: '#2463eb',
+          price: '$15–$95/mo',
+          en_desc: 'Best for creative control. Offers "Motion Brushes" and advanced camera tools (pan, tilt, zoom) giving granular power over AI motion. Industry standard for professional video creators.',
+          vi_desc: 'Tốt nhất cho kiểm soát sáng tạo. Cung cấp "Motion Brushes" và công cụ camera nâng cao (pan, tilt, zoom), mang lại quyền kiểm soát chi tiết chuyển động AI. Tiêu chuẩn ngành cho các nhà tạo video chuyên nghiệp.'
+        },
+        {
+          name: 'Kling AI',
+          url: 'https://klingai.com',
+          logo: 'https://logo.clearbit.com/klingai.com',
+          fallback: 'KL', color: '#6d28d9',
+          price: 'Free–$66/mo',
+          en_desc: 'Current leader in multi-shot sequences. Unlike most AI that makes 5-second clips, Kling generates 15-second sequences maintaining the same characters across different camera angles.',
+          vi_desc: 'Dẫn đầu trong chuỗi nhiều cảnh quay. Không như AI thông thường chỉ tạo clip 5 giây, Kling tạo chuỗi 15 giây duy trì nhân vật nhất quán qua các góc máy khác nhau.'
+        },
+        {
+          name: 'OpenAI Sora',
+          url: 'https://sora.com',
+          logo: 'https://logo.clearbit.com/openai.com',
+          fallback: 'SR', color: '#10a37f',
+          price: '$20–$200/mo',
+          en_desc: 'Known as the "Prompt King." Excels at narrative intelligence — understanding complex stories and keeping characters consistent across a scene. Has stricter usage quotas.',
+          vi_desc: 'Được biết đến là "Vua Prompt." Xuất sắc về trí thông minh tường thuật — hiểu câu chuyện phức tạp và giữ nhân vật nhất quán trong một cảnh. Có hạn chế sử dụng nghiêm ngặt hơn.'
+        },
+        {
+          name: 'Google Veo',
+          url: 'https://deepmind.google/technologies/veo/',
+          logo: 'https://logo.clearbit.com/google.com',
+          fallback: 'GV', color: '#4285f4',
+          price: 'Via Vertex AI / $20+',
+          en_desc: 'Currently the gold standard for physical realism and integrated audio. Supports 4K output and is highly favored by filmmakers for its extraordinary lighting accuracy.',
+          vi_desc: 'Hiện là tiêu chuẩn vàng về tính thực tế vật lý và âm thanh tích hợp. Hỗ trợ đầu ra 4K, được các nhà làm phim ưa chuộng vì độ chính xác ánh sáng vượt trội.'
+        },
+        {
+          name: 'Higgsfield AI',
+          url: 'https://higgsfield.ai',
+          logo: 'https://logo.clearbit.com/higgsfield.ai',
+          fallback: 'HF', color: '#e11d48',
+          price: 'Free–$48/mo',
+          en_desc: 'All-in-one studio well-liked for cinematic style videos and social media clips. Combines powerful generation with an accessible interface for creators of all levels.',
+          vi_desc: 'Studio tất-cả-trong-một được yêu thích cho video phong cách điện ảnh và clip mạng xã hội. Kết hợp tạo sinh mạnh mẽ với giao diện thân thiện cho mọi cấp độ người dùng.'
+        },
+        {
+          name: 'PixVerse',
+          url: 'https://pixverse.ai',
+          logo: 'https://logo.clearbit.com/pixverse.ai',
+          fallback: 'PV', color: '#0891b2',
+          price: 'Free–$36/mo',
+          en_desc: 'Great for rapid clips with built-in audio and creative tools. Fast generation speed makes it ideal for content creators who need quick turnaround.',
+          vi_desc: 'Xuất sắc cho clip nhanh với âm thanh tích hợp và công cụ sáng tạo. Tốc độ tạo nhanh lý tưởng cho creators cần hoàn thành nhanh chóng.'
+        },
+        {
+          name: 'Wan / Seedance',
+          url: 'https://wan.video',
+          logo: 'https://logo.clearbit.com/wan.video',
+          fallback: 'WS', color: '#7c3aed',
+          price: 'Free–$20/mo',
+          en_desc: 'Solid budget-friendly and speedy options for short clips and storytelling experiments. Great entry point for creators exploring AI video generation.',
+          vi_desc: 'Lựa chọn tiết kiệm và nhanh chóng cho clip ngắn và thử nghiệm kể chuyện. Điểm khởi đầu tuyệt vời cho creators khám phá tạo video AI.'
+        }
+      ]
+    },
+    {
+      id: 'cat2',
+      en_title: '🎭 AI Avatar & Presenter Tools',
+      vi_title: '🎭 Công Cụ Avatar AI & Presenter',
+      en_sub: 'Digital presenters, lip-sync & video translation',
+      vi_sub: 'Người dẫn chương trình kỹ thuật số, đồng bộ môi & dịch video',
+      tools: [
+        {
+          name: 'Synthesia',
+          url: 'https://synthesia.io',
+          logo: 'https://logo.clearbit.com/synthesia.io',
+          fallback: 'SY', color: '#1d4ed8',
+          price: '$22–$89/mo',
+          en_desc: 'Top choice for AI Avatars. If you need a digital presenter for training or corporate videos, its lip-syncing and 140+ language support are the most polished in the industry.',
+          vi_desc: 'Lựa chọn hàng đầu cho AI Avatar. Nếu cần người dẫn kỹ thuật số cho video đào tạo hay doanh nghiệp, khả năng lip-sync và hỗ trợ 140+ ngôn ngữ là đỉnh cao trong ngành.'
+        },
+        {
+          name: 'HeyGen',
+          url: 'https://heygen.com',
+          logo: 'https://logo.clearbit.com/heygen.com',
+          fallback: 'HG', color: '#7c3aed',
+          price: 'Free–$89/mo',
+          en_desc: 'Famous for video translation. Record a video in English, and HeyGen translates it into another language while perfectly adjusting your lip movements to match the new audio.',
+          vi_desc: 'Nổi tiếng với dịch video. Quay video tiếng Anh, HeyGen sẽ dịch sang ngôn ngữ khác trong khi điều chỉnh hoàn hảo chuyển động môi khớp với âm thanh mới.'
+        }
+      ]
+    },
+    {
+      id: 'cat3',
+      en_title: '✂️ Content Creation & Editing Suites',
+      vi_title: '✂️ Bộ Tạo Nội Dung & Chỉnh Sửa Video',
+      en_sub: 'All-in-one platforms for script, visuals, and voiceovers',
+      vi_sub: 'Nền tảng tất-cả-trong-một cho kịch bản, hình ảnh và lồng tiếng',
+      tools: [
+        {
+          name: 'CapCut',
+          url: 'https://capcut.com',
+          logo: 'https://logo.clearbit.com/capcut.com',
+          fallback: 'CC', color: '#000000',
+          price: 'Free–$10/mo',
+          en_desc: 'Free and versatile, combining AI video generation with full editing controls. Great for social media content and TikTok creators. Most popular mobile video editor globally.',
+          vi_desc: 'Miễn phí và linh hoạt, kết hợp tạo video AI với toàn bộ điều khiển chỉnh sửa. Lý tưởng cho nội dung mạng xã hội và creators TikTok. Ứng dụng chỉnh sửa video di động phổ biến nhất toàn cầu.'
+        },
+        {
+          name: 'InVideo AI',
+          url: 'https://invideo.io',
+          logo: 'https://logo.clearbit.com/invideo.io',
+          fallback: 'IV', color: '#6d28d9',
+          price: 'Free–$48/mo',
+          en_desc: 'Best for social media speed. Give it a prompt like "Make a 60-second TikTok about coffee" and it automatically finds stock footage, writes the script, and adds a voiceover.',
+          vi_desc: 'Tốt nhất cho tốc độ mạng xã hội. Chỉ cần nhập prompt như "Tạo TikTok 60 giây về cà phê" và nó tự động tìm cảnh quay, viết kịch bản, và thêm lồng tiếng.'
+        },
+        {
+          name: 'Canva (Magic Media)',
+          url: 'https://canva.com',
+          logo: 'https://logo.clearbit.com/canva.com',
+          fallback: 'CA', color: '#00c4cc',
+          price: 'Free–$15/mo',
+          en_desc: 'Easy integrated AI video generation in a design platform with templates and brand tools. Perfect for marketers and non-technical users who want polished results fast.',
+          vi_desc: 'Tạo video AI tích hợp dễ dàng trong nền tảng thiết kế với template và công cụ thương hiệu. Lý tưởng cho marketer và người không chuyên kỹ thuật muốn kết quả chuyên nghiệp nhanh.'
+        },
+        {
+          name: 'VEED',
+          url: 'https://veed.io',
+          logo: 'https://logo.clearbit.com/veed.io',
+          fallback: 'VD', color: '#ff4c00',
+          price: 'Free–$24/mo',
+          en_desc: 'AI-assisted editing features, especially strong for quick social clips and auto-captioning. Browser-based with a clean interface ideal for teams and individual creators.',
+          vi_desc: 'Tính năng chỉnh sửa hỗ trợ AI, đặc biệt mạnh cho clip mạng xã hội nhanh và phụ đề tự động. Hoạt động trên trình duyệt với giao diện sạch lý tưởng cho nhóm và cá nhân.'
+        }
+      ]
+    },
+    {
+      id: 'cat4',
+      en_title: '🛠️ Professional Editing Workflows',
+      vi_title: '🛠️ Quy Trình Chỉnh Sửa Chuyên Nghiệp',
+      en_sub: 'For teams, professional editors, and collaborative workflows',
+      vi_sub: 'Dành cho nhóm, biên tập viên chuyên nghiệp và quy trình cộng tác',
+      tools: [
+        {
+          name: 'Adobe Firefly',
+          url: 'https://firefly.adobe.com',
+          logo: 'https://logo.clearbit.com/adobe.com',
+          fallback: 'AF', color: '#ff0000',
+          price: '$9.99–$54.99/mo',
+          en_desc: 'Generates first edit drafts or helps arrange clips with AI — a big boost for professional editors. Deeply integrated into Premiere Pro and After Effects workflows.',
+          vi_desc: 'Tạo bản nháp chỉnh sửa đầu tiên hoặc hỗ trợ sắp xếp clip bằng AI — cú hích lớn cho biên tập viên chuyên nghiệp. Tích hợp sâu vào workflow Premiere Pro và After Effects.'
+        },
+        {
+          name: 'Kapwing',
+          url: 'https://kapwing.com',
+          logo: 'https://logo.clearbit.com/kapwing.com',
+          fallback: 'KP', color: '#6366f1',
+          price: 'Free–$24/mo',
+          en_desc: 'Collaborative browser editor with AI tools, captions, and export features. Good for creators on teams who need to collaborate in real-time on video projects.',
+          vi_desc: 'Trình chỉnh sửa trình duyệt cộng tác với công cụ AI, phụ đề và tính năng xuất. Phù hợp cho creators trong nhóm cần cộng tác theo thời gian thực trên dự án video.'
+        },
+        {
+          name: 'Descript',
+          url: 'https://descript.com',
+          logo: 'https://logo.clearbit.com/descript.com',
+          fallback: 'DS', color: '#1d9bf0',
+          price: 'Free–$24/mo',
+          en_desc: 'Edit video by editing text transcripts. Unique AI overdub voice cloning and automatic filler word removal. Loved by podcasters and documentary filmmakers.',
+          vi_desc: 'Chỉnh sửa video bằng cách chỉnh sửa bản ghi âm. AI cloning giọng nói độc đáo và tự động loại bỏ từ đệm. Được podcaster và nhà làm phim tài liệu yêu thích.'
+        }
+      ]
+    }
+  ]
+};
+
+let currentLang = 'en';
+let currentTheme = 'dark';
+
+function renderTools() {
+  const main = document.getElementById('toolsMain');
+  const nav = document.getElementById('catNav');
+  main.innerHTML = '';
+  nav.innerHTML = '';
+
+  data.categories.forEach((cat, ci) => {
+    // Nav button
+    const dotColor = ['#ff4f1f','#7c3aed','#0ea5e9','#f59e0b'][ci];
+    const shortTitle = currentLang === 'en'
+      ? cat.en_title.replace(/^[^ ]+ /, '')
+      : cat.vi_title.replace(/^[^ ]+ /, '');
+    const emoji = cat.en_title.split(' ')[0];
+    const navBtn = document.createElement('a');
+    navBtn.className = `cat-nav-btn nav-${cat.id}`;
+    navBtn.href = `#section-${cat.id}`;
+    navBtn.innerHTML = `<span class="nav-dot" style="background:${dotColor}"></span>${emoji} ${shortTitle}`;
+    nav.appendChild(navBtn);
+
+    // Category section
+    const catEl = document.createElement('div');
+    catEl.className = `category ${cat.id}`;
+    catEl.id = `section-${cat.id}`;
+    const title = currentLang === 'en' ? cat.en_title : cat.vi_title;
+    const sub = currentLang === 'en' ? cat.en_sub : cat.vi_sub;
+    const countLabel = currentLang === 'en' ? `${cat.tools.length} TOOLS` : `${cat.tools.length} CÔNG CỤ`;
+    catEl.innerHTML = `
+      <div class="cat-header">
+        <div class="cat-dot"></div>
+        <div>
+          <div class="cat-title">${title}</div>
+          <div class="cat-subtitle">${sub}</div>
+        </div>
+        <div class="cat-count">${countLabel}</div>
+      </div>
+      <div class="tools-grid">
+        ${cat.tools.map(tool => renderCard(tool, cat.id)).join('')}
+      </div>
+    `;
+    main.appendChild(catEl);
+  });
+  // Update translatable elements
+  document.querySelectorAll('[data-en]').forEach(el => {
+    el.innerHTML = el.getAttribute(`data-${currentLang}`);
+  });
+}
+
+function renderCard(tool, catId) {
+  const desc = currentLang === 'en' ? tool.en_desc : tool.vi_desc;
+  const priceClass = catId.replace('cat','price-cat');
+  const logoEl = `<img class="tool-logo" src="${tool.logo}" alt="${tool.name} logo" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+  <div class="tool-logo-fallback" style="background:${tool.color};display:none">${tool.fallback}</div>`;
+  return `
+    <div class="tool-card">
+      <div class="card-top">
+        ${logoEl}
+        <div class="card-info">
+          <div class="tool-name">${tool.name}</div>
+          <a class="tool-link" href="${tool.url}" target="_blank" rel="noopener">
+            ${tool.url.replace('https://','').replace(/\/$/,'')}
+            <svg viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M2 10L10 2M5 2h5v5"/></svg>
+          </a>
+        </div>
+        <span class="price-badge ${priceClass}">${tool.price}</span>
+      </div>
+      <div class="tool-desc">${desc}</div>
+    </div>
+  `;
+}
+
+function toggleLang() {
+  currentLang = currentLang === 'en' ? 'vi' : 'en';
+  const btn = document.getElementById('langBtn');
+  btn.textContent = currentLang === 'en' ? '🇻🇳 Tiếng Việt' : '🇬🇧 English';
+  renderTools();
+}
+
+function toggleDark() {
+  currentTheme = currentTheme === 'light' ? 'dark' : 'light';
+  document.documentElement.setAttribute('data-theme', currentTheme);
+}
+
+renderTools();
+</script>
+</body>
+</html>

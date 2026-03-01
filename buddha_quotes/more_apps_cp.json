@@ -3,24 +3,24 @@
     "name": "App \nName 1",
     "ios_app_id": "6477532180",
     "android_app_id": "com.holova.aquachaos",
-    "icon_url": "https://nooboss.github.io/app-icons/CP1.png",
+    "icon_url": "https://nooboss.github.io/app-icons/CP1.png"
   },
   "app-id-2": {
     "name": "App Name 2",
     "ios_app_id": "6477532180",
     "android_app_id": "com.holova.aquachaos",
-    "icon_url": "https://nooboss.github.io/app-icons/CP2.png",
+    "icon_url": "https://nooboss.github.io/app-icons/CP2.png"
   },
   "app-id-3": {
     "name": "App Name 3",
     "ios_app_id": "6477532180",
     "android_app_id": "com.holova.aquachaos",
-    "icon_url": "https://nooboss.github.io/app-icons/CP3.png",
+    "icon_url": "https://nooboss.github.io/app-icons/CP3.png"
   },
   "app-id-4": {
     "name": "App Name 4",
     "ios_app_id": "6477532180",
     "android_app_id": "com.holova.aquachaos",
-    "icon_url": "https://nooboss.github.io/app-icons/CP1.png",
+    "icon_url": "https://nooboss.github.io/app-icons/CP1.png"
   }
 }

@@ -1,0 +1,29 @@
+{
+  "on": true,
+  "version": 0,
+  "ios_app_id": "6477532180",
+  "android_app_id": "com.holova.aquachaos",
+  "image_url": "https://wallpapercave.com/wp/wp2245761.jpg",
+  "sw_app_sign": false,
+  "type_online_users": 0,
+  "more_apps": {
+    "app-id-1": {
+    "name": "Mala\nCounter",
+    "ios_app_id": "6754509322",
+    "android_app_id": "com.holova.mala",
+    "icon_url": "https://nooboss.github.io/app-icons/mala_counter.png"
+    },
+    "app-id-2": {
+      "name": "Merge\nFruit",
+      "ios_app_id": "1492559747",
+      "android_app_id": "com.holova.fruit.blast",
+      "icon_url": "https://nooboss.github.io/app-icons/merge_fruits.png"
+    },
+    "app-id-3": {
+      "name": "Bubble\nShooter",
+      "ios_app_id": "6479892151",
+      "android_app_id": "com.holova.bubble.shooter.bunny",
+      "icon_url": "https://nooboss.github.io/app-icons/bubble_shooter.png"
+    }
+  }
+}

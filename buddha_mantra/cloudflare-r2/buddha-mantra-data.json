@@ -4,92 +4,110 @@
       "name": "Amitabha Buddha Sutra",
       "author": "",
       "url-info": "",
-      "audio-online": "https://holova.qzz.io/buddha-mantra/test/twinkle.mp3",
-      "content": "https://holova.qzz.io/buddha-mantra/sutra/en/AmitabhaBuddhaSutra.html"
+      "audio": {
+        "id-aud-str-abs-1": "https://mymay.uk/buddha-mantra/music/sutra/en/AmitabhaBuddhaSutra.mp3"
+      },
+      "content": "https://mymay.uk/buddha-mantra/sutra/en/AmitabhaBuddhaSutra.html"
     },
     "id-str-en2": {
       "name": "Amitabha Buddha Sutra - With Ritual",
       "author": "",
       "url-info": "",
-      "audio-online": "https://holova.qzz.io/buddha-mantra/test/jingle.mp3",
-      "content": "https://holova.qzz.io/buddha-mantra/sutra/en/AmitabhaBuddhaSutra_WithRitual.html"
+      "audio": {
+        "id-aud-str-abs-1": "https://mymay.uk/buddha-mantra/music/sutra/en/AmitabhaBuddhaSutra.mp3"
+      },
+      "content": "https://mymay.uk/buddha-mantra/sutra/en/AmitabhaBuddhaSutra_WithRitual.html"
     },
     "id-str-en3": {
       "name": "Great Compassion Dharani Sutra",
       "author": "",
       "url-info": "",
-      "audio-online": "",
-      "content": "https://holova.qzz.io/buddha-mantra/sutra/en/GreatCompassionDharaniSutra.html"
+      "audio": {},
+      "content": "https://mymay.uk/buddha-mantra/sutra/en/GreatCompassionDharaniSutra.html"
     },
     "id-str-en4": {
       "name": "Earth Store Bodhisattva Sutra - Part 1",
       "author": "",
       "url-info": "",
-      "audio-online": "",
-      "content": "https://holova.qzz.io/buddha-mantra/sutra/en/EarthStoreBodhisattvaSutraPart1.html"
+      "audio": {},
+      "content": "https://mymay.uk/buddha-mantra/sutra/en/EarthStoreBodhisattvaSutraPart1.html"
     },
     "id-str-en5": {
       "name": "Earth Store Bodhisattva Sutra - Part 2",
       "author": "",
       "url-info": "",
-      "audio-online": "",
-      "content": "https://holova.qzz.io/buddha-mantra/sutra/en/EarthStoreBodhisattvaSutraPart2.html"
+      "audio": {},
+      "content": "https://mymay.uk/buddha-mantra/sutra/en/EarthStoreBodhisattvaSutraPart2.html"
     },
     "id-str-en6": {
       "name": "Earth Store Bodhisattva Sutra - Part 3",
       "author": "",
       "url-info": "",
-      "audio-online": "",
-      "content": "https://holova.qzz.io/buddha-mantra/sutra/en/EarthStoreBodhisattvaSutraPart3.html"
+      "audio": {},
+      "content": "https://mymay.uk/buddha-mantra/sutra/en/EarthStoreBodhisattvaSutraPart3.html"
     },
     "id-str-en7": {
       "name": "Heart Sutra",
       "author": "",
       "url-info": "",
-      "audio-online": "",
-      "content": "https://holova.qzz.io/buddha-mantra/sutra/en/HeartSutra.html"
+      "audio": {
+        "id-aud-str-hs-1": "https://mymay.uk/buddha-mantra/music/sutra/en/HeartSutra.mp3"
+      },
+      "content": "https://mymay.uk/buddha-mantra/sutra/en/HeartSutra.html"
     },
     "id-str-en8": {
       "name": "Lotus Sutra - Chapter 25: Universal Gate",
       "author": "",
       "url-info": "",
-      "audio-online": "",
-      "content": "https://holova.qzz.io/buddha-mantra/sutra/en/LotusSutraChapter25UniversalGate.html"
+      "audio": {
+        "id-aud-str-ls-1": "https://mymay.uk/buddha-mantra/music/sutra/en/LotusSutraChapter25UniversalGate.mp3"
+      },
+      "content": "https://mymay.uk/buddha-mantra/sutra/en/LotusSutraChapter25UniversalGate.html"
     },
     "id-str-en9": {
       "name": "Medicine Buddha Sutra",
       "author": "",
       "url-info": "",
-      "audio-online": "",
-      "content": "https://holova.qzz.io/buddha-mantra/sutra/en/MedicineBuddhaSutra.html"
+      "audio": {
+        "id-aud-str-mbs-1": "https://mymay.uk/buddha-mantra/music/sutra/en/MedicineBuddhaSutra.mp3"
+      },
+      "content": "https://mymay.uk/buddha-mantra/sutra/en/MedicineBuddhaSutra.html"
     },
     "id-str-en10": {
       "name": "Path of Truth Sutra",
       "author": "",
       "url-info": "",
-      "audio-online": "",
-      "content": "https://holova.qzz.io/buddha-mantra/sutra/en/PathOfTruthSutra.html"
+      "audio": {
+        "id-aud-str-pts-1": "https://mymay.uk/buddha-mantra/music/sutra/en/PathOfTruthSutra.mp3"
+      },
+      "content": "https://mymay.uk/buddha-mantra/sutra/en/PathOfTruthSutra.html"
     },
     "id-str-en11": {
       "name": "Repentance Sutra",
       "author": "",
       "url-info": "",
-      "audio-online": "",
-      "content": "https://holova.qzz.io/buddha-mantra/sutra/en/RepentanceSutra.html"
+      "audio": {
+        "id-aud-str-rs-1": "https://mymay.uk/buddha-mantra/music/sutra/en/RepentanceSutra.mp3"
+      },
+      "content": "https://mymay.uk/buddha-mantra/sutra/en/RepentanceSutra.html"
     },
     "id-str-en12": {
       "name": "Ullambana Sutra",
       "author": "",
       "url-info": "",
-      "audio-online": "",
-      "content": "https://holova.qzz.io/buddha-mantra/sutra/en/UllambanaSutra.html"
+      "audio": {
+        "id-aud-str-us-1": "https://mymay.uk/buddha-mantra/music/sutra/en/UllambanaSutra.mp3"
+      },
+      "content": "https://mymay.uk/buddha-mantra/sutra/en/UllambanaSutra.html"
     },
     "id-str-en13": {
       "name": "Ullambana Sutra - With Ritual",
       "author": "",
       "url-info": "",
-      "audio-online": "",
-      "content": "https://holova.qzz.io/buddha-mantra/sutra/en/UllambanaSutra_WithRitual.html"
+      "audio": {
+        "id-aud-str-us-1": "https://mymay.uk/buddha-mantra/music/sutra/en/UllambanaSutra.mp3"
+      },
+      "content": "https://mymay.uk/buddha-mantra/sutra/en/UllambanaSutra_WithRitual.html"
     }
   },
   "sutra-vi": {
@@ -97,404 +115,529 @@
       "name": "Kinh A Di Đà",
       "author": "",
       "url-info": "",
-      "audio-online": "https://holova.qzz.io/buddha-mantra/test/twinkle.mp3",
-      "content": "https://holova.qzz.io/buddha-mantra/sutra/vi/KinhADiDa.html"
+      "audio": {
+        "id-aud-str-add-1": "https://mymay.uk/buddha-mantra/music/sutra/vi/KinhAdiDa.mp3"
+      },
+      "content": "https://mymay.uk/buddha-mantra/sutra/vi/KinhADiDa.html"
     },
     "id-str-vi2": {
       "name": "Kinh A Di Đà - Có Nghi Lễ",
       "author": "",
       "url-info": "",
-      "audio-online": "https://holova.qzz.io/buddha-mantra/test/jingle.mp3",
-      "content": "https://holova.qzz.io/buddha-mantra/sutra/vi/KinhADiDa_CoNghiLe.html"
+      "audio": {
+        "id-aud-str-add-1": "https://mymay.uk/buddha-mantra/music/sutra/vi/KinhAdiDa.mp3"
+      },
+      "content": "https://mymay.uk/buddha-mantra/sutra/vi/KinhADiDa_CoNghiLe.html"
     },
     "id-str-vi3": {
       "name": "Kinh Đại Bi Tâm Đà La Ni",
       "author": "",
       "url-info": "",
-      "audio-online": "https://holova.qzz.io/buddha-mantra/test/jingle.mp3",
-      "content": "https://holova.qzz.io/buddha-mantra/sutra/vi/KinhDaiBi.html"
+      "audio": {
+        "id-aud-str-db-1": "https://mymay.uk/buddha-mantra/music/sutra/vi/KinhDaiBi.mp3"
+      },
+      "content": "https://mymay.uk/buddha-mantra/sutra/vi/KinhDaiBi.html"
     },
     "id-str-vi4": {
       "name": "Kinh Bát Nhã",
       "author": "",
       "url-info": "",
-      "audio-online": "https://holova.qzz.io/buddha-mantra/test/jingle.mp3",
-      "content": "https://holova.qzz.io/buddha-mantra/sutra/vi/KinhBatNha.html"
+      "audio": {
+        "id-aud-str-bn-1": "https://mymay.uk/buddha-mantra/music/sutra/vi/KinhBatNha.mp3"
+      },
+      "content": "https://mymay.uk/buddha-mantra/sutra/vi/KinhBatNha.html"
     },
     "id-str-vi5": {
       "name": "Kinh Địa Tạng - Phần 1 - Có Nghi Lễ",
       "author": "",
       "url-info": "",
-      "audio-online": "https://holova.qzz.io/buddha-mantra/test/jingle.mp3",
-      "content": "https://holova.qzz.io/buddha-mantra/sutra/vi/KinhDiaTangPhan1_CoNghiLe.html"
+      "audio": {
+        "id-aud-str-dt1-1": "https://mymay.uk/buddha-mantra/music/sutra/vi/KinhDiaTangPhan1.mp3"
+      },
+      "content": "https://mymay.uk/buddha-mantra/sutra/vi/KinhDiaTangPhan1_CoNghiLe.html"
     },
     "id-str-vi6": {
       "name": "Kinh Địa Tạng - Phần 1",
       "author": "",
       "url-info": "",
-      "audio-online": "https://holova.qzz.io/buddha-mantra/test/jingle.mp3",
-      "content": "https://holova.qzz.io/buddha-mantra/sutra/vi/KinhDiaTangPhan1.html"
+      "audio": {
+        "id-aud-str-dt1-1": "https://mymay.uk/buddha-mantra/music/sutra/vi/KinhDiaTangPhan1.mp3"
+      },
+      "content": "https://mymay.uk/buddha-mantra/sutra/vi/KinhDiaTangPhan1.html"
     },
     "id-str-vi7": {
       "name": "Kinh Địa Tạng - Phần 2",
       "author": "",
       "url-info": "",
-      "audio-online": "https://holova.qzz.io/buddha-mantra/test/jingle.mp3",
-      "content": "https://holova.qzz.io/buddha-mantra/sutra/vi/KinhDiaTangPhan2.html"
+      "audio": {
+        "id-aud-str-dt2-1": "https://mymay.uk/buddha-mantra/music/sutra/vi/KinhDiaTangPhan2.mp3"
+      },
+      "content": "https://mymay.uk/buddha-mantra/sutra/vi/KinhDiaTangPhan2.html"
     },
     "id-str-vi8": {
       "name": "Kinh Địa Tạng - Phần 3",
       "author": "",
       "url-info": "",
-      "audio-online": "https://holova.qzz.io/buddha-mantra/test/jingle.mp3",
-      "content": "https://holova.qzz.io/buddha-mantra/sutra/vi/KinhDiaTangPhan3.html"
+      "audio": {
+        "id-aud-str-dt3-1": "https://mymay.uk/buddha-mantra/music/sutra/vi/KinhDiaTangPhan3.mp3"
+      },
+      "content": "https://mymay.uk/buddha-mantra/sutra/vi/KinhDiaTangPhan3.html"
     },
     "id-str-vi9": {
       "name": "Kinh Diệu Pháp Liên Hoa - Phẩm Phổ Môn",
       "author": "",
       "url-info": "",
-      "audio-online": "https://holova.qzz.io/buddha-mantra/test/jingle.mp3",
-      "content": "https://holova.qzz.io/buddha-mantra/sutra/vi/KinhDieuPhapLienHoaPhamPhoMon.html"
+      "audio": {
+        "id-aud-str-dplh-1": "https://mymay.uk/buddha-mantra/music/sutra/vi/KinhDieuPhapLienHoaPhamPhoMon.mp3"
+      },
+      "content": "https://mymay.uk/buddha-mantra/sutra/vi/KinhDieuPhapLienHoaPhamPhoMon.html"
     },
     "id-str-vi10": {
       "name": "Kinh Diệu Pháp Liên Hoa - Phẩm Phổ Môn - Có Nghi Lễ",
       "author": "",
       "url-info": "",
-      "audio-online": "https://holova.qzz.io/buddha-mantra/test/jingle.mp3",
-      "content": "https://holova.qzz.io/buddha-mantra/sutra/vi/KinhDieuPhapLienHoaPhamPhoMon_CoNghiLe.html"
+      "audio": {
+        "id-aud-str-dplh-1": "https://mymay.uk/buddha-mantra/music/sutra/vi/KinhDieuPhapLienHoaPhamPhoMon.mp3"
+      },
+      "content": "https://mymay.uk/buddha-mantra/sutra/vi/KinhDieuPhapLienHoaPhamPhoMon_CoNghiLe.html"
     },
     "id-str-vi11": {
       "name": "Kinh Dược Sư",
       "author": "",
       "url-info": "",
-      "audio-online": "https://holova.qzz.io/buddha-mantra/test/jingle.mp3",
-      "content": "https://holova.qzz.io/buddha-mantra/sutra/vi/KinhDuocSu.html"
+      "audio": {
+        "id-aud-str-ds-1": "https://mymay.uk/buddha-mantra/music/sutra/vi/KinhDuocSu.mp3"
+      },
+      "content": "https://mymay.uk/buddha-mantra/sutra/vi/KinhDuocSu.html"
     },
     "id-str-vi12": {
       "name": "Kinh Dược Sư - Có Nghi Lễ",
       "author": "",
       "url-info": "",
-      "audio-online": "https://holova.qzz.io/buddha-mantra/test/jingle.mp3",
-      "content": "https://holova.qzz.io/buddha-mantra/sutra/vi/KinhDuocSu_CoNghiLe.html"
+      "audio": {
+        "id-aud-str-ds-1": "https://mymay.uk/buddha-mantra/music/sutra/vi/KinhDuocSu.mp3"
+      },
+      "content": "https://mymay.uk/buddha-mantra/sutra/vi/KinhDuocSu_CoNghiLe.html"
     },
     "id-str-vi13": {
       "name": "Kinh Pháp Cú",
       "author": "",
       "url-info": "",
-      "audio-online": "https://holova.qzz.io/buddha-mantra/test/jingle.mp3",
-      "content": "https://holova.qzz.io/buddha-mantra/sutra/vi/KinhPhapCu.html"
+      "audio": {
+        "id-aud-str-pc-1": "https://mymay.uk/buddha-mantra/music/sutra/vi/KinhPhapCu.mp3"
+      },
+      "content": "https://mymay.uk/buddha-mantra/sutra/vi/KinhPhapCu.html"
     },
     "id-str-vi14": {
       "name": "Kinh Sám Hối",
       "author": "",
       "url-info": "",
-      "audio-online": "https://holova.qzz.io/buddha-mantra/test/jingle.mp3",
-      "content": "https://holova.qzz.io/buddha-mantra/sutra/vi/KinhSamHoi.html"
+      "audio": {
+        "id-aud-str-sh-1": "https://mymay.uk/buddha-mantra/music/sutra/vi/KinhSamHoi.mp3"
+      },
+      "content": "https://mymay.uk/buddha-mantra/sutra/vi/KinhSamHoi.html"
     },
     "id-str-vi15": {
       "name": "Kinh Sám Hối 6 Căn",
       "author": "",
       "url-info": "",
-      "audio-online": "https://holova.qzz.io/buddha-mantra/test/jingle.mp3",
-      "content": "https://holova.qzz.io/buddha-mantra/sutra/vi/KinhSamHoi6Can.html"
+      "audio": {
+        "id-aud-str-sh6c-1": "https://mymay.uk/buddha-mantra/music/sutra/vi/KinhSamHoi6Can.mp3"
+      },
+      "content": "https://mymay.uk/buddha-mantra/sutra/vi/KinhSamHoi6Can.html"
     },
     "id-str-vi16": {
       "name": "Kinh Vu Lan",
       "author": "",
       "url-info": "",
-      "audio-online": "https://holova.qzz.io/buddha-mantra/test/jingle.mp3",
-      "content": "https://holova.qzz.io/buddha-mantra/sutra/vi/KinhVuLan.html"
+      "audio": {
+        "id-aud-str-vl-1": "https://mymay.uk/buddha-mantra/music/sutra/vi/KinhVuLan.mp3"
+      },
+      "content": "https://mymay.uk/buddha-mantra/sutra/vi/KinhVuLan.html"
     },
     "id-str-vi17": {
       "name": "Kinh Vu Lan - Có Nghi Lễ",
       "author": "",
       "url-info": "",
-      "audio-online": "https://holova.qzz.io/buddha-mantra/test/jingle.mp3",
-      "content": "https://holova.qzz.io/buddha-mantra/sutra/vi/KinhVuLan_CoNghiLe.html"
+      "audio": {
+        "id-aud-str-vl-1": "https://mymay.uk/buddha-mantra/music/sutra/vi/KinhVuLan.mp3"
+      },
+      "content": "https://mymay.uk/buddha-mantra/sutra/vi/KinhVuLan_CoNghiLe.html"
     }
   },
   "mantras-en": {
     "id-mtr-en1": {
-      "name": "Six Syllable Mantra",
+      "name": "Om Mani Padme Hum",
       "author": "",
       "url-info": "",
-      "audio-online": "https://holova.qzz.io/buddha-mantra/test/twinkle.mp3",
-      "content": "https://holova.qzz.io/buddha-mantra/mantra/en/SixSyllableMantra.html"
+      "audio": {
+        "id-aud-mtr-ssm-1": "https://mymay.uk/buddha-mantra/music/mantra/en/SixSyllableMantra.mp3"
+      },
+      "content": "https://mymay.uk/buddha-mantra/mantra/en/SixSyllableMantra.html"
     },
     "id-mtr-en1-1": {
       "name": "Great Compassion Mantra",
       "author": "",
       "url-info": "",
-      "audio-online": "https://holova.qzz.io/buddha-mantra/test/twinkle.mp3",
-      "content": "https://holova.qzz.io/buddha-mantra/mantra/en/GreatCompassionMantra.html"
+      "audio": {
+        "id-aud-mtr-gcm-1": "https://mymay.uk/buddha-mantra/music/mantra/en/GreatCompassionMantra.mp3"
+      },
+      "content": "https://mymay.uk/buddha-mantra/mantra/en/GreatCompassionMantra.html"
     },
     "id-mtr-en1-2": {
       "name": "Great Compassion Mantra - Sanskrit",
       "author": "",
       "url-info": "",
-      "audio-online": "https://holova.qzz.io/buddha-mantra/test/twinkle.mp3",
-      "content": "https://holova.qzz.io/buddha-mantra/mantra/en/GreatCompassionMantra_Sanskrit.html"
+      "audio": {
+        "id-aud-mtr-gcm-1": "https://mymay.uk/buddha-mantra/music/mantra/en/GreatCompassionMantra.mp3"
+      },
+      "content": "https://mymay.uk/buddha-mantra/mantra/en/GreatCompassionMantra_Sanskrit.html"
     },
     "id-mtr-en1-3": {
       "name": "Eleven-Faced Avalokiteśvara Heart Dharani",
       "author": "",
       "url-info": "",
-      "audio-online": "https://holova.qzz.io/buddha-mantra/test/twinkle.mp3",
-      "content": "https://holova.qzz.io/buddha-mantra/mantra/en/ElevenFacedAvalokitesvaraHeartMantra.html"
+      "audio": {
+        "id-aud-mtr-efa-1": "https://mymay.uk/buddha-mantra/music/mantra/en/ElevenFacedAvalokitesvaraHeartMantra.mp3",
+        "id-aud-mtr-efa-2": "https://mymay.uk/buddha-mantra/music/mantra/en/ElevenFacedAvalokitesvaraHeartMantra-2.mp3"
+      },
+      "content": "https://mymay.uk/buddha-mantra/mantra/en/ElevenFacedAvalokitesvaraHeartMantra.html"
     },
     "id-mtr-en2": {
       "name": "Medicine Buddha Mantra",
       "author": "",
       "url-info": "",
-      "audio-online": "https://holova.qzz.io/buddha-mantra/test/jingle.mp3",
-      "content": "https://holova.qzz.io/buddha-mantra/mantra/en/MedicineBuddhaMantra.html"
+      "audio": {
+        "id-aud-mtr-mbm-1": "https://mymay.uk/buddha-mantra/music/mantra/en/MedicineBuddhaMantra.mp3",
+        "id-aud-mtr-mbm-2": "https://mymay.uk/buddha-mantra/music/mantra/en/MedicineBuddhaMantra-2.mp3"
+      },
+      "content": "https://mymay.uk/buddha-mantra/mantra/en/MedicineBuddhaMantra.html"
     },
     "id-mtr-en3": {
       "name": "Heart Mantra",
       "author": "",
       "url-info": "",
-      "audio-online": "https://holova.qzz.io/buddha-mantra/test/jingle.mp3",
-      "content": "https://holova.qzz.io/buddha-mantra/mantra/en/PrajnaParamitaMantra.html"
+      "audio": {
+        "id-aud-mtr-hm-1": "https://mymay.uk/buddha-mantra/music/mantra/en/HeartSutra.mp3"
+      },
+      "content": "https://mymay.uk/buddha-mantra/mantra/en/PrajnaParamitaMantra.html"
     },
     "id-mtr-en4": {
       "name": "Shakyamuni Buddha Mantra",
       "author": "",
       "url-info": "",
-      "audio-online": "https://holova.qzz.io/buddha-mantra/test/jingle.mp3",
-      "content": "https://holova.qzz.io/buddha-mantra/mantra/en/ShakyamuniBuddhaMantra.html"
+      "audio": {
+        "id-aud-mtr-sbm-1": "https://mymay.uk/buddha-mantra/music/mantra/en/ShakyamuniBuddhaMantra.mp3"
+      },
+      "content": "https://mymay.uk/buddha-mantra/mantra/en/ShakyamuniBuddhaMantra.html"
     },
     "id-mtr-en5": {
       "name": "Amitabha Buddha Mantra",
       "author": "",
       "url-info": "",
-      "audio-online": "https://holova.qzz.io/buddha-mantra/test/jingle.mp3",
-      "content": "https://holova.qzz.io/buddha-mantra/mantra/en/AmitabhaBuddhaMantra.html"
+      "audio": {
+        "id-aud-mtr-abm-1": "https://mymay.uk/buddha-mantra/music/mantra/en/AmitabhaBuddhaMantra.mp3"
+      },
+      "content": "https://mymay.uk/buddha-mantra/mantra/en/AmitabhaBuddhaMantra.html"
     },
     "id-mtr-en6": {
       "name": "Earth Store Bodhisattva Mantra",
       "author": "",
       "url-info": "",
-      "audio-online": "https://holova.qzz.io/buddha-mantra/test/jingle.mp3",
-      "content": "https://holova.qzz.io/buddha-mantra/mantra/en/EarthStoreBodhisattvaMantra.html"
+      "audio": {
+        "id-aud-mtr-esbm-1": "https://mymay.uk/buddha-mantra/music/mantra/en/EarthStoreBodhisattvaMantra.mp3"
+      },
+      "content": "https://mymay.uk/buddha-mantra/mantra/en/EarthStoreBodhisattvaMantra.html"
     },
     "id-mtr-en7": {
       "name": "Yellow Zambala Mantra",
       "author": "",
       "url-info": "",
-      "audio-online": "https://holova.qzz.io/buddha-mantra/test/jingle.mp3",
-      "content": "https://holova.qzz.io/buddha-mantra/mantra/en/YellowZambalaMantra.html"
+      "audio": {
+        "id-aud-mtr-yzm-1": "https://mymay.uk/buddha-mantra/music/mantra/en/YellowZambalaMantra.mp3"
+      },
+      "content": "https://mymay.uk/buddha-mantra/mantra/en/YellowZambalaMantra.html"
     },
     "id-mtr-en8": {
       "name": "Shurangama Mantra",
       "author": "",
       "url-info": "",
-      "audio-online": "https://holova.qzz.io/buddha-mantra/test/jingle.mp3",
-      "content": "https://holova.qzz.io/buddha-mantra/mantra/en/ShurangamaMantra.html"
+      "audio": {
+        "id-aud-mtr-shm-1": "https://mymay.uk/buddha-mantra/music/mantra/en/ShurangamaMantra.mp3"
+      },
+      "content": "https://mymay.uk/buddha-mantra/mantra/en/ShurangamaMantra.html"
     },
     "id-mtr-en9": {
       "name": "Cundi Buddha Mother Mantra",
       "author": "",
       "url-info": "",
-      "audio-online": "https://holova.qzz.io/buddha-mantra/test/jingle.mp3",
-      "content": "https://holova.qzz.io/buddha-mantra/mantra/en/CundiBuddhaMotherMantra.html"
+      "audio": {
+        "id-aud-mtr-cbmm-1": "https://mymay.uk/buddha-mantra/music/mantra/en/CundiBuddhaMotherMantra.mp3"
+      },
+      "content": "https://mymay.uk/buddha-mantra/mantra/en/CundiBuddhaMotherMantra.html"
     },
     "id-mtr-en10": {
       "name": "Manjushri Mantra",
       "author": "",
       "url-info": "",
-      "audio-online": "https://holova.qzz.io/buddha-mantra/test/jingle.mp3",
-      "content": "https://holova.qzz.io/buddha-mantra/mantra/en/ManjushriMantra.html"
+      "audio": {
+        "id-aud-mtr-mam-1": "https://mymay.uk/buddha-mantra/music/mantra/en/ManjushriMantra.mp3"
+      },
+      "content": "https://mymay.uk/buddha-mantra/mantra/en/ManjushriMantra.html"
     },
     "id-mtr-en11": {
       "name": "Green Tara Buddha Mantra",
       "author": "",
       "url-info": "",
-      "audio-online": "https://holova.qzz.io/buddha-mantra/test/jingle.mp3",
-      "content": "https://holova.qzz.io/buddha-mantra/mantra/en/GreenTaraBuddhaMantra.html"
+      "audio": {
+        "id-aud-mtr-gtbm-1": "https://mymay.uk/buddha-mantra/music/mantra/en/GreenTaraBuddhaMantra.mp3"
+      },
+      "content": "https://mymay.uk/buddha-mantra/mantra/en/GreenTaraBuddhaMantra.html"
     },
     "id-mtr-en12": {
       "name": "Red Tara Buddha Mantra",
       "author": "",
       "url-info": "",
-      "audio-online": "https://holova.qzz.io/buddha-mantra/test/jingle.mp3",
-      "content": "https://holova.qzz.io/buddha-mantra/mantra/en/RedTaraBuddhaMantra.html"
+      "audio": {
+        "id-aud-mtr-rtbm-1": "https://mymay.uk/buddha-mantra/music/mantra/en/RedTaraBuddhaMantra.mp3"
+      },
+      "content": "https://mymay.uk/buddha-mantra/mantra/en/RedTaraBuddhaMantra.html"
     },
     "id-mtr-en13": {
       "name": "The Name of Amitabha Buddha",
       "author": "",
       "url-info": "",
-      "audio-online": "https://holova.qzz.io/buddha-mantra/test/jingle.mp3",
-      "content": "https://holova.qzz.io/buddha-mantra/mantra/en/TheNameAmitabhaBuddha.html"
+      "audio": {
+        "id-aud-mtr-nab-1": "https://mymay.uk/buddha-mantra/music/mantra/en/TheNameAmitabhaBuddha.mp3"
+      },
+      "content": "https://mymay.uk/buddha-mantra/mantra/en/TheNameAmitabhaBuddha.html"
     },
     "id-mtr-en14": {
       "name": "The Name of Shakyamuni Buddha",
       "author": "",
       "url-info": "",
-      "audio-online": "https://holova.qzz.io/buddha-mantra/test/jingle.mp3",
-      "content": "https://holova.qzz.io/buddha-mantra/mantra/en/TheNameShakyamuniBuddha.html"
+      "audio": {
+        "id-aud-mtr-nsb-1": "https://mymay.uk/buddha-mantra/music/mantra/en/TheNameShakyamuniBuddha.mp3"
+      },
+      "content": "https://mymay.uk/buddha-mantra/mantra/en/TheNameShakyamuniBuddha.html"
     },
     "id-mtr-en15": {
       "name": "The Name of the Medicine Buddha",
       "author": "",
       "url-info": "",
-      "audio-online": "https://holova.qzz.io/buddha-mantra/test/jingle.mp3",
-      "content": "https://holova.qzz.io/buddha-mantra/mantra/en/TheNameMedicineBuddha.html"
+      "audio": {
+        "id-aud-mtr-nmb-1": "https://mymay.uk/buddha-mantra/music/mantra/en/TheNameMedicineBuddha.mp3"
+      },
+      "content": "https://mymay.uk/buddha-mantra/mantra/en/TheNameMedicineBuddha.html"
     },
     "id-mtr-en16": {
       "name": "The Name of Avalokitesvara Bodhisattva",
       "author": "",
       "url-info": "",
-      "audio-online": "https://holova.qzz.io/buddha-mantra/test/jingle.mp3",
-      "content": "https://holova.qzz.io/buddha-mantra/mantra/en/TheNameAvalokitesvaraBodhisattva.html"
+      "audio": {
+        "id-aud-mtr-navb-1": "https://mymay.uk/buddha-mantra/music/mantra/en/TheNameAvalokitesvaraBodhisattva.mp3"
+      },
+      "content": "https://mymay.uk/buddha-mantra/mantra/en/TheNameAvalokitesvaraBodhisattva.html"
     },
     "id-mtr-en17": {
       "name": "The Name of Ksitigarbha Bodhisattva",
       "author": "",
       "url-info": "",
-      "audio-online": "https://holova.qzz.io/buddha-mantra/test/jingle.mp3",
-      "content": "https://holova.qzz.io/buddha-mantra/mantra/en/TheNameKsitigarbhaBodhisattva.html"
+      "audio": {
+        "id-aud-mtr-nkb-1": "https://mymay.uk/buddha-mantra/music/mantra/en/TheNameKsitigarbhaBodhisattva.mp3",
+        "id-aud-mtr-nkb-2": "https://mymay.uk/buddha-mantra/music/mantra/en/TheNameKsitigarbhaBodhisattva-2.mp3"
+      },
+      "content": "https://mymay.uk/buddha-mantra/mantra/en/TheNameKsitigarbhaBodhisattva.html"
     }
   },
   "mantras-vi": {
     "id-mtr-vi1": {
-      "name": "Lục Tự Đại Minh Chân Ngôn",
+      "name": "Om Mani Padme Hum",
       "author": "",
       "url-info": "",
-      "audio-online": "https://holova.qzz.io/buddha-mantra/test/twinkle.mp3",
-      "content": "https://holova.qzz.io/buddha-mantra/mantra/vi/LucTuDaiMinhChanNgon.html"
+      "audio": {
+        "id-aud-mtr-ssm-1": "https://mymay.uk/buddha-mantra/music/mantra/en/SixSyllableMantra.mp3"
+      },
+      "content": "https://mymay.uk/buddha-mantra/mantra/vi/LucTuDaiMinhChanNgon.html"
     },
     "id-mtr-vi1-1": {
       "name": "Chú Đại Bi",
       "author": "",
       "url-info": "",
-      "audio-online": "https://holova.qzz.io/buddha-mantra/test/twinkle.mp3",
-      "content": "https://holova.qzz.io/buddha-mantra/mantra/vi/ChuDaiBi.html"
+      "audio": {
+        "id-aud-mtr-cdb-1": "https://mymay.uk/buddha-mantra/music/mantra/vi/ChuDaiBi.mp3",
+        "id-aud-mtr-cdb-2": "https://mymay.uk/buddha-mantra/music/mantra/vi/ChuDaiBi-2.mp3",
+        "id-aud-mtr-cdb-3": "https://mymay.uk/buddha-mantra/music/mantra/vi/ChuDaiBi-3.mp3"
+      },
+      "content": "https://mymay.uk/buddha-mantra/mantra/vi/ChuDaiBi.html"
     },
     "id-mtr-vi1-2": {
       "name": "Chú Đại Bi - Tiếng Anh",
       "author": "",
       "url-info": "",
-      "audio-online": "https://holova.qzz.io/buddha-mantra/test/twinkle.mp3",
-      "content": "https://holova.qzz.io/buddha-mantra/mantra/vi/ChuDaiBi_TiengAnh.html"
+      "audio": {
+        "id-aud-mtr-gcm-1": "https://mymay.uk/buddha-mantra/music/mantra/en/GreatCompassionMantra.mp3"
+      },
+      "content": "https://mymay.uk/buddha-mantra/mantra/vi/ChuDaiBi_TiengAnh.html"
     },
     "id-mtr-vi1-3": {
       "name": "Chú Đại Bi - Tiếng Phạn",
       "author": "",
       "url-info": "",
-      "audio-online": "https://holova.qzz.io/buddha-mantra/test/twinkle.mp3",
-      "content": "https://holova.qzz.io/buddha-mantra/mantra/vi/ChuDaiBi_TiengPhan.html"
+      "audio": {
+        "id-aud-mtr-gcm-1": "https://mymay.uk/buddha-mantra/music/mantra/en/GreatCompassionMantra.mp3"
+      },
+      "content": "https://mymay.uk/buddha-mantra/mantra/vi/ChuDaiBi_TiengPhan.html"
     },
     "id-mtr-vi2": {
       "name": "Chú Phật Dược Sư",
       "author": "",
       "url-info": "",
-      "audio-online": "https://holova.qzz.io/buddha-mantra/test/jingle.mp3",
-      "content": "https://holova.qzz.io/buddha-mantra/mantra/vi/ChuPhatDuocSu.html"
+      "audio": {
+        "id-aud-mtr-mbm-1": "https://mymay.uk/buddha-mantra/music/mantra/en/MedicineBuddhaMantra.mp3",
+        "id-aud-mtr-mbm-2": "https://mymay.uk/buddha-mantra/music/mantra/en/MedicineBuddhaMantra-2.mp3"
+      },
+      "content": "https://mymay.uk/buddha-mantra/mantra/vi/ChuPhatDuocSu.html"
     },
     "id-mtr-vi3": {
       "name": "Chú Bát Nhã Tâm Kinh",
       "author": "",
       "url-info": "",
-      "audio-online": "https://holova.qzz.io/buddha-mantra/test/jingle.mp3",
-      "content": "https://holova.qzz.io/buddha-mantra/mantra/vi/ChuBatNhaTamKinh.html"
+      "audio": {
+        "id-aud-mtr-hm-1": "https://mymay.uk/buddha-mantra/music/mantra/en/HeartSutra.mp3"
+      },
+      "content": "https://mymay.uk/buddha-mantra/mantra/vi/ChuBatNhaTamKinh.html"
     },
     "id-mtr-vi4": {
       "name": "Chú Phật Thích Ca Mâu Ni",
       "author": "",
       "url-info": "",
-      "audio-online": "https://holova.qzz.io/buddha-mantra/test/jingle.mp3",
-      "content": "https://holova.qzz.io/buddha-mantra/mantra/vi/ChuPhatThichCaMauNi.html"
+      "audio": {
+        "id-aud-mtr-sbm-1": "https://mymay.uk/buddha-mantra/music/mantra/en/ShakyamuniBuddhaMantra.mp3"
+      },
+      "content": "https://mymay.uk/buddha-mantra/mantra/vi/ChuPhatThichCaMauNi.html"
     },
     "id-mtr-vi5": {
       "name": "Chú Phật A Di Đà",
       "author": "",
       "url-info": "",
-      "audio-online": "https://holova.qzz.io/buddha-mantra/test/jingle.mp3",
-      "content": "https://holova.qzz.io/buddha-mantra/mantra/vi/ChuPhatADiDa.html"
+      "audio": {
+        "id-aud-mtr-abm-1": "https://mymay.uk/buddha-mantra/music/mantra/en/AmitabhaBuddhaMantra.mp3"
+      },
+      "content": "https://mymay.uk/buddha-mantra/mantra/vi/ChuPhatADiDa.html"
     },
     "id-mtr-vi6": {
       "name": "Chú Địa Tạng Vương Bồ Tát",
       "author": "",
       "url-info": "",
-      "audio-online": "https://holova.qzz.io/buddha-mantra/test/jingle.mp3",
-      "content": "https://holova.qzz.io/buddha-mantra/mantra/vi/ChuDiaTangVuongBoTat.html"
+      "audio": {
+        "id-aud-mtr-esbm-1": "https://mymay.uk/buddha-mantra/music/mantra/en/EarthStoreBodhisattvaMantra.mp3"
+      },
+      "content": "https://mymay.uk/buddha-mantra/mantra/vi/ChuDiaTangVuongBoTat.html"
     },
     "id-mtr-vi7": {
       "name": "Chú Hoàng Thần Tài",
       "author": "",
       "url-info": "",
-      "audio-online": "https://holova.qzz.io/buddha-mantra/test/jingle.mp3",
-      "content": "https://holova.qzz.io/buddha-mantra/mantra/vi/ChuHoangThanTai.html"
+      "audio": {
+        "id-aud-mtr-yzm-1": "https://mymay.uk/buddha-mantra/music/mantra/en/YellowZambalaMantra.mp3"
+      },
+      "content": "https://mymay.uk/buddha-mantra/mantra/vi/ChuHoangThanTai.html"
     },
     "id-mtr-vi8": {
       "name": "Chú Lăng Nghiêm",
       "author": "",
       "url-info": "",
-      "audio-online": "https://holova.qzz.io/buddha-mantra/test/jingle.mp3",
-      "content": "https://holova.qzz.io/buddha-mantra/mantra/vi/ChuLangNghiem.html"
+      "audio": {
+        "id-aud-mtr-shm-1": "https://mymay.uk/buddha-mantra/music/mantra/en/ShurangamaMantra.mp3"
+      },
+      "content": "https://mymay.uk/buddha-mantra/mantra/vi/ChuLangNghiem.html"
     },
     "id-mtr-vi9": {
       "name": "Chú Chuẩn Đề Phật Mẫu",
       "author": "",
       "url-info": "",
-      "audio-online": "https://holova.qzz.io/buddha-mantra/test/jingle.mp3",
-      "content": "https://holova.qzz.io/buddha-mantra/mantra/vi/ChuChuanDePhatMau.html"
+      "audio": {
+        "id-aud-mtr-cbmm-1": "https://mymay.uk/buddha-mantra/music/mantra/en/CundiBuddhaMotherMantra.mp3"
+      },
+      "content": "https://mymay.uk/buddha-mantra/mantra/vi/ChuChuanDePhatMau.html"
     },
     "id-mtr-vi10": {
       "name": "Chú Văn Thù Sư Lợi Bồ Tát",
       "author": "",
       "url-info": "",
-      "audio-online": "https://holova.qzz.io/buddha-mantra/test/jingle.mp3",
-      "content": "https://holova.qzz.io/buddha-mantra/mantra/vi/ChuVanThuSuLoiBoTat.html"
+      "audio": {
+        "id-aud-mtr-mam-1": "https://mymay.uk/buddha-mantra/music/mantra/en/ManjushriMantra.mp3"
+      },
+      "content": "https://mymay.uk/buddha-mantra/mantra/vi/ChuVanThuSuLoiBoTat.html"
     },
     "id-mtr-vi11": {
       "name": "Chú Phật Tara Xanh",
       "author": "",
       "url-info": "",
-      "audio-online": "https://holova.qzz.io/buddha-mantra/test/jingle.mp3",
-      "content": "https://holova.qzz.io/buddha-mantra/mantra/vi/ChuPhatTaraXanh.html"
+      "audio": {
+        "id-aud-mtr-gtbm-1": "https://mymay.uk/buddha-mantra/music/mantra/en/GreenTaraBuddhaMantra.mp3"
+      },
+      "content": "https://mymay.uk/buddha-mantra/mantra/vi/ChuPhatTaraXanh.html"
     },
     "id-mtr-vi12": {
       "name": "Chú Phật Tara Đỏ",
       "author": "",
       "url-info": "",
-      "audio-online": "https://holova.qzz.io/buddha-mantra/test/jingle.mp3",
-      "content": "https://holova.qzz.io/buddha-mantra/mantra/vi/ChuPhatTaraDo.html"
+      "audio": {
+        "id-aud-mtr-rtbm-1": "https://mymay.uk/buddha-mantra/music/mantra/en/RedTaraBuddhaMantra.mp3"
+      },
+      "content": "https://mymay.uk/buddha-mantra/mantra/vi/ChuPhatTaraDo.html"
     },
     "id-mtr-vi13": {
       "name": "Danh Hiệu Phật A Di Đà",
       "author": "",
       "url-info": "",
-      "audio-online": "https://holova.qzz.io/buddha-mantra/test/jingle.mp3",
-      "content": "https://holova.qzz.io/buddha-mantra/mantra/vi/DanhHieuPhatADiDa.html"
+      "audio": {
+        "id-aud-mtr-dhadd-1": "https://mymay.uk/buddha-mantra/music/mantra/vi/DanhHieuPhatADiDa.mp3",
+        "id-aud-mtr-dhadd-2": "https://mymay.uk/buddha-mantra/music/mantra/vi/DanhHieuPhatADiDa-2.mp3"
+      },
+      "content": "https://mymay.uk/buddha-mantra/mantra/vi/DanhHieuPhatADiDa.html"
     },
     "id-mtr-vi14": {
       "name": "Danh Hiệu Phật Thích Ca Mâu Ni",
       "author": "",
       "url-info": "",
-      "audio-online": "https://holova.qzz.io/buddha-mantra/test/jingle.mp3",
-      "content": "https://holova.qzz.io/buddha-mantra/mantra/vi/DanhHieuPhatThichCa.html"
+      "audio": {
+        "id-aud-mtr-dhtc-1": "https://mymay.uk/buddha-mantra/music/mantra/vi/DanhHieuPhatThichCa.mp3",
+        "id-aud-mtr-dhtc-2": "https://mymay.uk/buddha-mantra/music/mantra/vi/DanhHieuPhatThichCa-2.mp3"
+      },
+      "content": "https://mymay.uk/buddha-mantra/mantra/vi/DanhHieuPhatThichCa.html"
     },
     "id-mtr-vi15": {
       "name": "Danh Hiệu Phật Dược Sư",
       "author": "",
       "url-info": "",
-      "audio-online": "https://holova.qzz.io/buddha-mantra/test/jingle.mp3",
-      "content": "https://holova.qzz.io/buddha-mantra/mantra/vi/DanhHieuPhatDuocSu.html"
+      "audio": {
+        "id-aud-mtr-dhds-1": "https://mymay.uk/buddha-mantra/music/mantra/vi/DanhHieuPhatDuocSu.mp3",
+        "id-aud-mtr-dhds-2": "https://mymay.uk/buddha-mantra/music/mantra/vi/DanhHieuPhatDuocSu-2.mp3"
+      },
+      "content": "https://mymay.uk/buddha-mantra/mantra/vi/DanhHieuPhatDuocSu.html"
     },
     "id-mtr-vi16": {
       "name": "Danh Hiệu Quán Thế Âm Bồ Tát",
       "author": "",
       "url-info": "",
-      "audio-online": "https://holova.qzz.io/buddha-mantra/test/jingle.mp3",
-      "content": "https://holova.qzz.io/buddha-mantra/mantra/vi/DanhHieuQuanTheAmBoTat.html"
+      "audio": {
+        "id-aud-mtr-dhqta-1": "https://mymay.uk/buddha-mantra/music/mantra/vi/DanhHieuQuanTheAmBoTat.mp3",
+        "id-aud-mtr-dhqta-2": "https://mymay.uk/buddha-mantra/music/mantra/vi/DanhHieuQuanTheAmBoTat-2.mp3"
+      },
+      "content": "https://mymay.uk/buddha-mantra/mantra/vi/DanhHieuQuanTheAmBoTat.html"
     },
     "id-mtr-vi17": {
       "name": "Danh Hiệu Địa Tạng Vương Bồ Tát",
       "author": "",
       "url-info": "",
-      "audio-online": "https://holova.qzz.io/buddha-mantra/test/jingle.mp3",
-      "content": "https://holova.qzz.io/buddha-mantra/mantra/vi/DanhHieuDiaTangVuongBoTat.html"
+      "audio": {
+        "id-aud-mtr-dhdtv-1": "https://mymay.uk/buddha-mantra/music/mantra/vi/DanhHieuDiaTangVuongBoTat.mp3",
+        "id-aud-mtr-dhdtv-2": "https://mymay.uk/buddha-mantra/music/mantra/vi/DanhHieuDiaTangVuongBoTat-2.mp3"
+      },
+      "content": "https://mymay.uk/buddha-mantra/mantra/vi/DanhHieuDiaTangVuongBoTat.html"
     }
   }
 }

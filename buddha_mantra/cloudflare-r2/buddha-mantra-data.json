@@ -271,7 +271,9 @@
       "author": "",
       "url-info": "",
       "audio": {
-        "id-aud-mtr-ssm-1": "https://mymay.uk/buddha-mantra/music/mantra/en/SixSyllableMantra.mp3"
+        "id-aud-mtr-ssm-1": "https://mymay.uk/buddha-mantra/music/mantra/en/SixSyllableMantra.mp3",
+        "id-aud-mtr-ssm-2": "https://mymay.uk/buddha-mantra/music/mantra/en/SixSyllableMantra-2.mp3",
+        "id-aud-mtr-ssm-3": "https://mymay.uk/buddha-mantra/music/mantra/en/SixSyllableMantra-3.mp3",
       },
       "content": "https://mymay.uk/buddha-mantra/mantra/en/SixSyllableMantra.html"
     },

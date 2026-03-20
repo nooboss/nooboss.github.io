@@ -4,8 +4,10 @@
   "ios_app_id": "6477532180",
   "android_app_id": "com.holova.aquachaos",
   "image_url": "https://wallpapercave.com/wp/wp2245761.jpg",
-  "sw_app_sign": false,
+  "ct_app_sign": false,
   "type_online_users": 0,
+  "version_data": 1,
+  "version_cache": 1,
   "more_apps": {
     "app-id-1": {
     "name": "Mala\nCounter",

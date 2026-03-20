@@ -1,0 +1,36 @@
+{
+  "music": [
+    {
+      "category_id": "cat-001",
+      "category_name": "Synthwave",
+      "songs": [
+        {
+          "song_id": "s-101",
+          "song_title": "Neon Skyline",
+          "song_url": "https://mymay.uk/buddha-mantra/music/mantra/en/CundiBuddhaMotherMantra.mp3"
+        },
+        {
+          "song_id": "s-102",
+          "song_title": "Midnight Drive",
+          "song_url": "https://mymay.uk/buddha-mantra/music/mantra/en/HeartSutra.mp3"
+        }
+      ]
+    },
+    {
+      "category_id": "cat-002",
+      "category_name": "Lo-Fi Beats",
+      "songs": [
+        {
+          "song_id": "s-201",
+          "song_title": "Rainy Window",
+          "song_url": "https://mymay.uk/buddha-mantra/music/mantra/en/SixSyllableMantra.mp3"
+        },
+        {
+          "song_id": "s-202",
+          "song_title": "Coffee Shop Study",
+          "song_url": "https://mymay.uk/buddha-mantra/music/mantra/en/SixSyllableMantra-2.mp3"
+        }
+      ]
+    }
+  ]
+}

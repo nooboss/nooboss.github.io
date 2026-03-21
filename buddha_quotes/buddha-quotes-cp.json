@@ -1,12 +1,18 @@
 {
   "on": true,
-  "version": 0,
-  "ios_app_id": "6477532180",
-  "android_app_id": "com.holova.aquachaos",
-  "image_url": "https://wallpapercave.com/wp/wp2245761.jpg",
+  "version": 1,
+  "ios_app_id": "6758530734",
+  "android_app_id": "com.holova.buddha.mantra",
+  "image_url": "https://mymay.uk/buddha-mantra/ads/cp1.jpg",
   "sw_app_sign": false,
   "type_online_users": 2,
   "more_apps": {
+    "app-id-0-1": {
+    "name": "Buddha\nMantra",
+    "ios_app_id": "6758530734",
+    "android_app_id": "com.holova.buddha.mantra",
+    "icon_url": "https://nooboss.github.io/app-icons/buddha_mantra.png"
+    },
     "app-id-1": {
     "name": "Mala\nCounter",
     "ios_app_id": "6754509322",

@@ -249,11 +249,6 @@
           "song_url": "https://mymay.uk/music/relaxing/brahms-lullaby-perfect-solution-music.mp3"
         },
         {
-          "song_id": "song-0074",
-          "song_title": "Bright Days Ahead",
-          "song_url": "https://mymay.uk/music/relaxing/bright-days-ahead.mp3"
-        },
-        {
           "song_id": "song-0075",
           "song_title": "Canon In D",
           "song_url": "https://mymay.uk/music/relaxing/canon-in-d.mp3"
@@ -287,16 +282,6 @@
           "song_id": "song-0079-1",
           "song_title": "Kiss The Earth",
           "song_url": "https://mymay.uk/music/relaxing/kiss-the-earth.mp3"
-        },
-        {
-          "song_id": "song-0080",
-          "song_title": "Rays Of Joy",
-          "song_url": "https://mymay.uk/music/relaxing/rays-of-joy.mp3"
-        },
-        {
-          "song_id": "song-0081",
-          "song_title": "See The Stars",
-          "song_url": "https://mymay.uk/music/relaxing/see-the-stars-david-flavin.mp3"
         },
         {
           "song_id": "song-0082",
@@ -433,8 +418,44 @@
       ]
     },
     {
-      "category_id": "cate-001",
-      "category_name": "8. Classical",
+      "category_id": "cate-010",
+      "category_name": "8. Peaceful",
+      "songs": [
+        {
+          "song_id": "song-0074",
+          "song_title": "Bright Days Ahead",
+          "song_url": "https://mymay.uk/music/peaceful/bright-days-ahead.mp3"
+        },
+        {
+          "song_id": "song-0080",
+          "song_title": "Rays Of Joy",
+          "song_url": "https://mymay.uk/music/peaceful/rays-of-joy.mp3"
+        },
+        {
+          "song_id": "song-0081",
+          "song_title": "See The Stars",
+          "song_url": "https://mymay.uk/music/peaceful/see-the-stars-david-flavin.mp3"
+        },
+        {
+          "song_id": "song-0081-2",
+          "song_title": "Peaceful Day",
+          "song_url": "https://mymay.uk/music/peaceful/piano-and-strings-movie-cinematic-music-154495230.mp3"
+        },
+        {
+          "song_id": "song-0081-3",
+          "song_title": "Timeless",
+          "song_url": "https://mymay.uk/music/peaceful/relaxing-piano-music-meditation-or-music-146851774.mp3"
+        },
+        {
+          "song_id": "song-0081-4",
+          "song_title": "Zen Garden",
+          "song_url": "https://mymay.uk/music/peaceful/zen-garden-calm-zen-soundscape-music-160678948.mp3"
+        },
+      ]
+    },
+    {
+      "category_id": "cate-009",
+      "category_name": "9. Classical",
       "songs": [
         {
           "song_id": "song-0001",

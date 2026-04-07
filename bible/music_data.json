@@ -5,6 +5,11 @@
       "category_name": "1. Hymn",
       "songs": [
         {
+          "song_id": "song-0041",
+          "song_title": "The Prayer",
+          "song_url": "https://mymay.uk/music/hymn/the-prayer.mp3"
+        },
+        {
           "song_id": "song-0029",
           "song_title": "Always With Him",
           "song_url": "https://mymay.uk/music/hymn/always-with-him.mp3"
@@ -53,11 +58,6 @@
           "song_id": "song-0040",
           "song_title": "Sacred Flame 2",
           "song_url": "https://mymay.uk/music/hymn/sacred-flame-2.mp3"
-        },
-        {
-          "song_id": "song-0041",
-          "song_title": "The Prayer",
-          "song_url": "https://mymay.uk/music/hymn/the-prayer.mp3"
         },
         {
           "song_id": "song-0042",
@@ -188,6 +188,21 @@
       "category_name": "4. Epic",
       "songs": [
         {
+          "song_id": "song-0018",
+          "song_title": "Sacred Flame 3",
+          "song_url": "https://mymay.uk/music/epic/sacred-flame-3.mp3"
+        },
+        {
+          "song_id": "song-0013",
+          "song_title": "Lifted 2",
+          "song_url": "https://mymay.uk/music/epic/lifted-2.mp3"
+        },
+        {
+          "song_id": "song-0014",
+          "song_title": "Lifted 3",
+          "song_url": "https://mymay.uk/music/epic/lifted-3.mp3"
+        },
+        {
           "song_id": "song-0010",
           "song_title": "Broken Skill",
           "song_url": "https://mymay.uk/music/epic/broken-skill-epic-cinematic-dramatic-music-101868078.mp3"
@@ -201,16 +216,6 @@
           "song_id": "song-0012",
           "song_title": "Beyond The Sky",
           "song_url": "https://mymay.uk/music/epic/epic-dramatic-emotional-trailer-medium-244992669.mp3"
-        },
-        {
-          "song_id": "song-0013",
-          "song_title": "Lifted 2",
-          "song_url": "https://mymay.uk/music/epic/lifted-2.mp3"
-        },
-        {
-          "song_id": "song-0014",
-          "song_title": "Lifted 3",
-          "song_url": "https://mymay.uk/music/epic/lifted-3.mp3"
         },
         {
           "song_id": "song-0015",
@@ -228,11 +233,6 @@
           "song_url": "https://mymay.uk/music/epic/motivational-epic-powerful-uplifting-inspiring-music-071789743.mp3"
         },
         {
-          "song_id": "song-0018",
-          "song_title": "Sacred Flame 3",
-          "song_url": "https://mymay.uk/music/epic/sacred-flame-3.mp3"
-        },
-        {
           "song_id": "song-0019",
           "song_title": "Until Victory",
           "song_url": "https://mymay.uk/music/epic/until-victory.mp3"
@@ -244,14 +244,14 @@
       "category_name": "5. Relaxing",
       "songs": [
         {
-          "song_id": "song-0073",
-          "song_title": "Brahms Lullaby",
-          "song_url": "https://mymay.uk/music/relaxing/brahms-lullaby-perfect-solution-music.mp3"
-        },
-        {
           "song_id": "song-0075",
           "song_title": "Canon In D",
           "song_url": "https://mymay.uk/music/relaxing/canon-in-d.mp3"
+        },
+        {
+          "song_id": "song-0073",
+          "song_title": "Brahms Lullaby",
+          "song_url": "https://mymay.uk/music/relaxing/brahms-lullaby-perfect-solution-music.mp3"
         },
         {
           "song_id": "song-0076",

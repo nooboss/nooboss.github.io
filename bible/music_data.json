@@ -2,7 +2,7 @@
   "categories": [
     {
       "category_id": "cate-004",
-      "category_name": "1. Hymn",
+      "category_name": "hymn",
       "songs": [
         {
           "song_id": "song-0041",
@@ -68,7 +68,7 @@
     },
     {
       "category_id": "cate-005",
-      "category_name": "2. Hymn (Voice)",
+      "category_name": "hymn-vocal",
       "songs": [
         {
           "song_id": "song-0043",
@@ -129,7 +129,7 @@
     },
     {
       "category_id": "cate-003",
-      "category_name": "3. Happy",
+      "category_name": "happy",
       "songs": [
         {
           "song_id": "song-0020",
@@ -185,7 +185,7 @@
     },
     {
       "category_id": "cate-002",
-      "category_name": "4. Epic",
+      "category_name": "epic",
       "songs": [
         {
           "song_id": "song-0018",
@@ -241,7 +241,7 @@
     },
     {
       "category_id": "cate-008",
-      "category_name": "5. Relaxing",
+      "category_name": "relaxing",
       "songs": [
         {
           "song_id": "song-0075",
@@ -312,7 +312,7 @@
     },
     {
       "category_id": "cate-007",
-      "category_name": "6. Nature",
+      "category_name": "nature",
       "songs": [
         {
           "song_id": "song-0062",
@@ -373,7 +373,7 @@
     },
     {
       "category_id": "cate-006",
-      "category_name": "7. Meditation",
+      "category_name": "meditation",
       "songs": [
         {
           "song_id": "song-0054",
@@ -419,7 +419,7 @@
     },
     {
       "category_id": "cate-010",
-      "category_name": "8. Peaceful",
+      "category_name": "peaceful",
       "songs": [
         {
           "song_id": "song-0074",
@@ -455,7 +455,7 @@
     },
     {
       "category_id": "cate-009",
-      "category_name": "9. Classical",
+      "category_name": "classical",
       "songs": [
         {
           "song_id": "song-0001",

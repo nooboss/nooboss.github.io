@@ -1,0 +1,46 @@
+{
+  "lists": [
+    {
+      "list_id": "list-001",
+      "list_name": "Featured",
+      "wallpapers": [
+        {
+      "id": "wall-00001",
+      "price": 10,
+      "isLive": false,
+      "name": "Wall00001",
+      "thumb": "wall-00001.jpg",
+      "full": "wall-00001.jpg",
+          "category_id": "cate-001",
+          "category_name": "Nature"
+        },
+        {
+      "id": "wall-00002",
+      "price": 10,
+      "isLive": false,
+      "name": "Wall00002",
+      "thumb": "wall-00002.jpg",
+      "full": "wall-00002.jpg",
+          "category_id": "cate-001",
+          "category_name": "Nature"
+        }
+      ]
+    },
+    {
+      "list_id": "list-002",
+      "list_name": "Newest",
+      "wallpapers": [
+        {
+      "id": "wall-00001",
+      "price": 10,
+      "isLive": false,
+      "name": "Wall00001",
+      "thumb": "wall-00001.jpg",
+      "full": "wall-00001.jpg",
+          "category_id": "cate-002",
+          "category_name": "Nature 2"
+        }
+      ]
+    }
+  ]
+}

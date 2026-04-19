@@ -1,0 +1,22 @@
+{
+  "categories": [
+    {
+      "id": "cate-001",
+      "name": "Nature",
+      "isLive": "false",
+      "thumbnail": "wall-00001.jpg"
+    },
+    {
+      "id": "cate-002",
+      "name": "Abstract",
+      "isLive": "false",
+      "thumbnail": "wall-00001.jpg"
+    },
+    {
+      "id": "cate-003",
+      "name": "Abstract",
+      "isLive": "false",
+      "thumbnail": "wall-00003.jpg"
+    }
+  ]
+}

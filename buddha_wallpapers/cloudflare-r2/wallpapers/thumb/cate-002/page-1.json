@@ -1,0 +1,31 @@
+{
+  "category_id": "cate-002",
+  "page": 1,
+  "has_more": false,
+  "wallpapers": [
+    {
+      "id": "wall-00001",
+      "price": 10,
+      "isLive": false,
+      "name": "Wall00001",
+      "thumb": "wall-00001.jpg",
+      "full": "wall-00001.jpg"
+    },
+    {
+      "id": "wall-00002",
+      "price": 10,
+      "isLive": false,
+      "name": "Wall00002",
+      "thumb": "wall-00002.jpg",
+      "full": "wall-00002.jpg"
+    },
+    {
+      "id": "wall-00003",
+      "price": 10,
+      "isLive": false,
+      "name": "Wall00003",
+      "thumb": "wall-00003.jpg",
+      "full": "wall-00003.jpg"
+    }
+  ]
+}

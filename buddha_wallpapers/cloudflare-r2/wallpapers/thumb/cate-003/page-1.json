@@ -1,0 +1,15 @@
+{
+  "category_id": "cate-003",
+  "page": 1,
+  "has_more": false,
+  "wallpapers": [
+    {
+      "id": "wall-00003",
+      "price": 10,
+      "isLive": false,
+      "name": "Wall00003",
+      "thumb": "wall-00003.jpg",
+      "full": "wall-00003.jpg"
+    }
+  ]
+}

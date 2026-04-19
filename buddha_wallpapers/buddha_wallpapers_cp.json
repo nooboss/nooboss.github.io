@@ -22,6 +22,18 @@
       "ios_app_id": "6479892151",
       "android_app_id": "com.holova.bubble.shooter.bunny",
       "icon_url": "https://nooboss.github.io/app-icons/bubble_shooter.png"
+    },
+    "app-id-4": {
+      "name": "Bubble\nShooter",
+      "ios_app_id": "6479892151",
+      "android_app_id": "com.holova.bubble.shooter.bunny",
+      "icon_url": "https://nooboss.github.io/app-icons/bubble_shooter.png"
+    },
+    "app-id-5": {
+      "name": "Bubble\nShooter",
+      "ios_app_id": "6479892151",
+      "android_app_id": "com.holova.bubble.shooter.bunny",
+      "icon_url": "https://nooboss.github.io/app-icons/bubble_shooter.png"
     }
   }
 }

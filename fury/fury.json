@@ -10,7 +10,7 @@
   "shareTextAppLinkAndroid": "https://tinyurl.com/Fury-Android",
   "linkPrivacyPolicy": "https://holova.net/pp",
 
-  "adType": 0,
+  "adType": 1,
   "admobIdInterstitial_iOS": "ca-app-pub-9078181771895162/2580495174",
   "admobIdRewarded_iOS": "ca-app-pub-9078181771895162/6252146876",
   "admobIdInterstitial_Android": "ca-app-pub-9078181771895162/7042484360",

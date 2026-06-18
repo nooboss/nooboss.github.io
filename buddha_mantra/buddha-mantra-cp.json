@@ -1,14 +1,26 @@
 {
   "on": true,
-  "version": 0,
-  "ios_app_id": "6477532180",
-  "android_app_id": "com.holova.aquachaos",
-  "image_url": "https://wallpapercave.com/wp/wp2245761.jpg",
+  "version": 2,
+  "ios_app_id": "6767878972",
+  "android_app_id": "com.holova.buddha.music",
+  "image_url": "https://mymay.uk/buddha-music/ads/cp1.jpg",
   "ct_app_sign": false,
   "type_online_users": 0,
   "version_data": 2,
   "version_cache": 2,
   "more_apps": {
+    "app-id-0-2": {
+    "name": "Buddha\nMusic",
+    "ios_app_id": "6767878972",
+    "android_app_id": "com.holova.buddha.music",
+    "icon_url": "https://nooboss.github.io/app-icons/buddha_music.png"
+    },
+    "app-id-0-1": {
+    "name": "Buddha\nQuotes",
+    "ios_app_id": "770943179",
+    "android_app_id": "com.holova.buddha.quotes",
+    "icon_url": "https://nooboss.github.io/app-icons/buddha_quotes.png"
+    },
     "app-id-1": {
     "name": "Mala\nCounter",
     "ios_app_id": "6754509322",

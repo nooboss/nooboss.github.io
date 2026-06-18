@@ -7,6 +7,12 @@
   "sw_app_sign": false,
   "type_online_users": 2,
   "more_apps": {
+    "app-id-0-2": {
+    "name": "Buddha\nMusic",
+    "ios_app_id": "6767878972",
+    "android_app_id": "com.holova.buddha.music",
+    "icon_url": "https://nooboss.github.io/app-icons/buddha_music.png"
+    },
     "app-id-0-1": {
     "name": "Buddha\nMantra",
     "ios_app_id": "6758530734",

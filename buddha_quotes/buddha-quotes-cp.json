@@ -1,9 +1,9 @@
 {
   "on": true,
-  "version": 1,
-  "ios_app_id": "6758530734",
-  "android_app_id": "com.holova.buddha.mantra",
-  "image_url": "https://mymay.uk/buddha-mantra/ads/cp1.jpg",
+  "version": 2,
+  "ios_app_id": "6767878972",
+  "android_app_id": "com.holova.buddha.music",
+  "image_url": "https://mymay.uk/buddha-music/ads/cp1.jpg",
   "sw_app_sign": false,
   "type_online_users": 2,
   "more_apps": {

@@ -1,5 +1,5 @@
 {
-  "on": true,
+  "on": false,
   "version": 1,
   "ios_app_id": "6477532180",
   "android_app_id": "com.holova.aquachaos",
